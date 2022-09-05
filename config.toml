@@ -14,46 +14,46 @@ weight = 300
 parent = "information"
 name = "Die JUG"
 identifier = "the_jug"
-pageref = "/informationen_zur_jug"
+pageref = "informationen_zur_jug"
 weight = 300
 
 [[menu.navbar]]
 parent = "information"
 name = "Für Referenten"
 identifier = "referenten"
-pageref = "/informationen-fuer-referenten"
+pageref = "informationen-fuer-referenten"
 weight = 300
 
 [[menu.navbar]]
 parent = "information"
 name = "Für Unterstützer"
 identifier = "unterstützer"
-pageref = "/informationen-fuer-unterstuetzer"
+pageref = "informationen-fuer-unterstuetzer"
 weight = 300
 
 [[menu.navbar]]
 name = "Kontakt"
 identifier = "kontakt"
 weight = 400
-pageref = "/kontakt"
+pageref = "kontakt"
 
 [[menu.navbar]]
 name = "Impressum"
 identifier = "impressum"
 weight = 500
-pageref = "/impressum"
+pageref = "impressum"
 
 [[menu.navbar]]
-name = "TBD: Archiv"
+name = "Archiv"
 identifier = "archiv"
 weight = 600
-pageref = "#"
+pageref = "archiv"
 
 [[menu.navbar]]
 name = "Freunde"
 identifier = "freunde"
 weight = 700
-pageref = "/freunde"
+pageref = "freunde"
 
 [permalinks]
 posts = "blog/:year/:title/"

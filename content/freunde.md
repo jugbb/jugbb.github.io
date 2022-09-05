@@ -13,20 +13,20 @@ rund um die JVM und Java zu teilen.
 2017 wurden wir bis jetzt von folgenden Firmen und Organisationen bei
 der Durchführung unserer Veranstaltungen unterstützt:
 
-* https://www.europace.de/[Europace AG]
-* https://www.innoz.de/[InnoZ - Innovationszentrum für Mobilität und gesellschaftlichen Wandel GmbH]
+* [Europace AG](https://www.europace.de/)
+* [InnoZ - Innovationszentrum für Mobilität und gesellschaftlichen Wandel GmbH](https://www.innoz.de/)
 
 ## Freunde 2016
 
 2016 wurden wir von folgenden Firmen und Organisationen bei
 der Durchführung unserer Veranstaltungen unterstützt:
 
-* http://www.epost.de/[Deutsche Post E-Post Development GmbH]
-* http://www.hypoport.ag/[Hypoport AG]
-* http://www.immobilienscout24.de/[Immobilien Scout GmbH]
-* http://www.innoq.com[InnoQ]
-* http://www.interhyp.de/[Interhyp AG]
-* http://www.psi.de/[PSI AG]
+* [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
+* [Hypoport AG](http://www.hypoport.ag/)
+* [Immobilien Scout GmbH](http://www.immobilienscout24.de/)
+* [InnoQ](http://www.innoq.com)
+* [Interhyp AG](http://www.interhyp.de/)
+* [PSI AG](http://www.psi.de/)
 
 ## Freunde 2015
 
@@ -34,38 +34,38 @@ der Durchführung unserer Veranstaltungen unterstützt:
 2015 wurden wir von den folgenden Firmen und Organisationen bei der
 Durchführung unserer Veranstaltungen unterstützt:
 
-* http://www.acrolinx.de/[Acrolinx GmbH]
-* http://www.epost.de/[Deutsche Post E-Post Development GmbH]
-* http://www.diazhilterscheid.de/de/[Díaz & Hilterscheid Unternehmensberatung GmbH]
-* http://www.hypoport.ag/[Hypoport AG]
-* http://www.idealo.de[idealo Internet AG]
-* http://www.thoughtworks.com/locations/berlin[ThoughtWorks Werkstatt Berlin]
-* http://www.votum.de/[Votum GmbH]
+* [Acrolinx GmbH](http://www.acrolinx.de/)
+* [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
+* [Díaz & Hilterscheid Unternehmensberatung GmbH](http://www.diazhilterscheid.de/de/)
+* [Hypoport AG](http://www.hypoport.ag/)
+* [idealo Internet AG](http://www.idealo.de)
+* [ThoughtWorks Werkstatt Berlin](http://www.thoughtworks.com/locations/berlin)
+* [Votum GmbH](http://www.votum.de/)
 
 ## Freunde 2014
 
 2014 wurden wir von den folgenden Firmen und Organisationen bei der
 Durchführung unserer Veranstaltungen unterstützt:
 
-* http://www.acrolinx.de/[Acrolinx GmbH]
-* http://www.akquinet.de/[akquinet tech@spree GmbH]
-* http://www.epost.de/[Deutsche Post E-Post Development GmbH]
-* http://www.hypoport.ag/[Hypoport AG]
-* http://www.ijug.eu/[iJUG]
-* http://www.immobilienscout24.de/[Immobilien Scout GmbH]
-* http://info.thoughtworks.com/berlin[ThoughtWorks Werkstatt Berlin]
-* http://www.votum.de/[Votum GmbH]
+* [Acrolinx GmbH](http://www.acrolinx.de/)
+* [akquinet tech@spree GmbH](http://www.akquinet.de/)
+* [Deutsche Post E-Post Development GmbH](http://www.epost.de/)
+* [Hypoport AG](http://www.hypoport.ag/)
+* [iJUG](http://www.ijug.eu/)
+* [Immobilien Scout GmbH](http://www.immobilienscout24.de/)
+* [ThoughtWorks Werkstatt Berlin](http://info.thoughtworks.com/berlin)
+* [Votum GmbH](http://www.votum.de/)
 
 ## Freunde 2013
 
 2013 wurden wir von den folgenden Firmen und Organisationen bei der
 Durchführung unserer Veranstaltungen unterstützt:
 
-* http://www.acrolinx.de/[Acrolinx GmbH]
-* http://www.doag.org[DOAG Dienstleistungen GmbH]
-* http://www.groupon.de/[Groupon GmbH]
-* http://www.hypoport.ag/[Hypoport AG]
-* http://www.zanox.com/[Zanox AG]
+* [Acrolinx GmbH](http://www.acrolinx.de/)
+* [DOAG Dienstleistungen GmbH](http://www.doag.org)
+* [Groupon GmbH](http://www.groupon.de/)
+* [Hypoport AG](http://www.hypoport.ag/)
+* [Zanox AG](http://www.zanox.com/)
 
 Liste noch nicht vollständig.
 
