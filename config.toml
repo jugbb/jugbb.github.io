@@ -1,0 +1,70 @@
+baseURL = 'http://example.org/'
+languageCode = 'de'
+title = 'JUG Berlin-Brandenburg'
+theme = "hugo-theme-bootstrap4-blog"
+defaultContentLanguage = "de"
+Copyright = "© 2019 | Java Usergroup Berlin-Brandenburg"
+
+[[menu.navbar]]
+name = "Informationen"
+identifier = "information"
+weight = 300
+
+[[menu.navbar]]
+parent = "information"
+name = "Die JUG"
+identifier = "the_jug"
+pageref = "/informationen_zur_jug"
+weight = 300
+
+[[menu.navbar]]
+parent = "information"
+name = "Für Referenten"
+identifier = "referenten"
+pageref = "/informationen-fuer-referenten"
+weight = 300
+
+[[menu.navbar]]
+parent = "information"
+name = "Für Unterstützer"
+identifier = "unterstützer"
+pageref = "/informationen-fuer-unterstuetzer"
+weight = 300
+
+[[menu.navbar]]
+name = "Kontakt"
+identifier = "kontakt"
+weight = 400
+pageref = "/kontakt"
+
+[[menu.navbar]]
+name = "Impressum"
+identifier = "impressum"
+weight = 500
+pageref = "/impressum"
+
+[[menu.navbar]]
+name = "TBD: Archiv"
+identifier = "archiv"
+weight = 600
+pageref = "#"
+
+[[menu.navbar]]
+name = "Freunde"
+identifier = "freunde"
+weight = 700
+pageref = "/freunde"
+
+[permalinks]
+posts = "blog/:year/:title/"
+page = "/:slug/"
+
+[params]
+header_visible = false
+sharingicons = false
+date_format = "02.01.2006"
+
+[params.sidebar]
+# How many posts to show on the sidebar (Default: 5)
+num_recent_posts = 5
+

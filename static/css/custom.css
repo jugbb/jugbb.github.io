@@ -1,0 +1,36 @@
+.container {
+    max-width: 75rem;
+}
+
+.blog-masthead {
+    margin-bottom: 3rem;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.blog-masthead > .container {
+    padding-left: 0;
+}
+
+.navbar-nav .nav-item:first-child > .nav-link {
+ padding-left: 0;
+}
+
+/* Nav links */
+.navbar-dark .navbar-nav .nav-link {
+    position: relative;
+    padding: 0 1rem;
+    font-weight: 500;
+    color: #777;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #333;
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link.active:after {
+    content:none;
+}
