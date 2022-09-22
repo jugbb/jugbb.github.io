@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on JUG Berlin-Brandenburg</title>
-    <link>http://example.org/categories/</link>
+    <link>https://jugbb.github.io/categories/</link>
     <description>Recent content in Categories on JUG Berlin-Brandenburg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <copyright>© 2019 | Java Usergroup Berlin-Brandenburg</copyright><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2019 | Java Usergroup Berlin-Brandenburg</copyright><atom:link href="https://jugbb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

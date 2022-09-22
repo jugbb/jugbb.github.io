@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on JUG Berlin-Brandenburg</title>
-    <link>http://example.org/blog/</link>
+    <link>https://jugbb.github.io/blog/</link>
     <description>Recent content in Blogs on JUG Berlin-Brandenburg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2019 | Java Usergroup Berlin-Brandenburg</copyright>
-    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jugbb.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testcontainers -- Past, Present and Future</title>
-      <link>http://example.org/blog/2020/testcontainers/</link>
+      <link>https://jugbb.github.io/blog/2020/testcontainers/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2020/testcontainers/</guid>
+      <guid>https://jugbb.github.io/blog/2020/testcontainers/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 25. Februar 2020&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.lucanet.com/de/&#34;&gt;LucaNet AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Testcontainers &amp;ndash; Past, Present and Future&lt;/strong&gt; mit &lt;a href=&#34;https://twitter.com/bsideup?lang=de&#34;&gt;Sergei Egorov&lt;/a&gt; ein.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Feature Evolution of Java 14 and Beyond</title>
-      <link>http://example.org/blog/2020/feature-evolution-of-java-14-and-beyond/</link>
+      <link>https://jugbb.github.io/blog/2020/feature-evolution-of-java-14-and-beyond/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2020/feature-evolution-of-java-14-and-beyond/</guid>
+      <guid>https://jugbb.github.io/blog/2020/feature-evolution-of-java-14-and-beyond/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 30. Januar 2020&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum Vortrag &lt;strong&gt;Feature Evolution of Java 14 and Beyond&lt;/strong&gt; mit &lt;a href=&#34;http://www.horstmann.com/&#34;&gt;Cay Horstmann&lt;/a&gt; ein.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Testen von und mit Infrastruktur</title>
-      <link>http://example.org/blog/2020/testing-infrastructure/</link>
+      <link>https://jugbb.github.io/blog/2020/testing-infrastructure/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2020/testing-infrastructure/</guid>
+      <guid>https://jugbb.github.io/blog/2020/testing-infrastructure/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 1. April 2020&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum Vortrag &lt;strong&gt;Testen von und mit Infrastruktur&lt;/strong&gt; mit &lt;a href=&#34;https://www.sandra-parsick.de&#34;&gt;Sandra Parsick&lt;/a&gt; ein.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Think beyond the GUI</title>
-      <link>http://example.org/blog/2020/think-beyond-gui/</link>
+      <link>https://jugbb.github.io/blog/2020/think-beyond-gui/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2020/think-beyond-gui/</guid>
+      <guid>https://jugbb.github.io/blog/2020/think-beyond-gui/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 4. März 2020&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum Vortrag &lt;strong&gt;Think beyond the GUI&lt;/strong&gt; mit &lt;a href=&#34;https://twitter.com/wuschey&#34;&gt;Aminata Sidibe&lt;/a&gt; ein.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im Januar 2020</title>
-      <link>http://example.org/blog/2020/erster-stammtisch-2020/</link>
+      <link>https://jugbb.github.io/blog/2020/erster-stammtisch-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2020/erster-stammtisch-2020/</guid>
+      <guid>https://jugbb.github.io/blog/2020/erster-stammtisch-2020/</guid>
       <description>&lt;p&gt;Der erste Stammtisch in diesem Jahr wird am &lt;em&gt;Dienstag, den 7. Januar 2020&lt;/em&gt;, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im Dezember 2019</title>
-      <link>http://example.org/blog/2019/elfter-stammtisch-2019/</link>
+      <link>https://jugbb.github.io/blog/2019/elfter-stammtisch-2019/</link>
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/elfter-stammtisch-2019/</guid>
+      <guid>https://jugbb.github.io/blog/2019/elfter-stammtisch-2019/</guid>
       <description>&lt;p&gt;Der elfte Stammtisch in diesem Jahr wird am Dienstag, den 3. Dezember 2019, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im November 2019</title>
-      <link>http://example.org/blog/2019/zehnter-stammtisch-2019/</link>
+      <link>https://jugbb.github.io/blog/2019/zehnter-stammtisch-2019/</link>
       <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/zehnter-stammtisch-2019/</guid>
+      <guid>https://jugbb.github.io/blog/2019/zehnter-stammtisch-2019/</guid>
       <description>&lt;p&gt;Der zehnte Stammtisch in diesem Jahr wird am Dienstag, den 5. November 2019, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>20% Ticketrabatt O&#39;Reilly Velocity und O&#39;Reilly Software Architecture</title>
-      <link>http://example.org/blog/2019/rabatt-oreilly-konferenzen/</link>
+      <link>https://jugbb.github.io/blog/2019/rabatt-oreilly-konferenzen/</link>
       <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/rabatt-oreilly-konferenzen/</guid>
+      <guid>https://jugbb.github.io/blog/2019/rabatt-oreilly-konferenzen/</guid>
       <description>&lt;p&gt;Liebe JUGler,&lt;/p&gt;
 &lt;p&gt;O&amp;rsquo;Reilly hat uns als JUG einen Rabatt in Höhe von 20% für die im November in Berlin stattfindenden Konferenzen Velocity und Software Architecture bereitgestellt.&lt;/p&gt;
 &lt;p&gt;Hier der Orginaltext von O&amp;rsquo;Reilly inkl. Code:&lt;/p&gt;</description>
@@ -87,185 +87,185 @@
     
     <item>
       <title>Kubernetes-Native Java with Quarkus</title>
-      <link>http://example.org/blog/2019/kubernetes-native-java-with-quarkus/</link>
+      <link>https://jugbb.github.io/blog/2019/kubernetes-native-java-with-quarkus/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/kubernetes-native-java-with-quarkus/</guid>
+      <guid>https://jugbb.github.io/blog/2019/kubernetes-native-java-with-quarkus/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 7. November 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zum Vortrag &lt;strong&gt;Kubernetes-Native Java with Quarkus&lt;/strong&gt; mit &lt;a href=&#34;https://twitter.com/alexsotob?lang=de&#34;&gt;Alex Soto&lt;/a&gt; ein.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ModuleDiffer – API Brüche im Java Bytecode erkennen</title>
-      <link>http://example.org/blog/2019/modulediffer-api-brueche-im-java-bytecode-erkennen/</link>
+      <link>https://jugbb.github.io/blog/2019/modulediffer-api-brueche-im-java-bytecode-erkennen/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/modulediffer-api-brueche-im-java-bytecode-erkennen/</guid>
+      <guid>https://jugbb.github.io/blog/2019/modulediffer-api-brueche-im-java-bytecode-erkennen/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 30. Oktober 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.lucanet.com/de/&#34;&gt;LucaNet AG&lt;/a&gt; zum Vortrag &lt;strong&gt;ModuleDiffer – API Brüche im Java Bytecode erkennen&lt;/strong&gt; mit Philip Schmiel ein.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Shenandoah GC Part II</title>
-      <link>http://example.org/blog/2019/shenandoah-gc-part-2/</link>
+      <link>https://jugbb.github.io/blog/2019/shenandoah-gc-part-2/</link>
       <pubDate>Tue, 03 Sep 2019 13:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/shenandoah-gc-part-2/</guid>
+      <guid>https://jugbb.github.io/blog/2019/shenandoah-gc-part-2/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 24. September 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum zweiten Teil des Vortrags &lt;strong&gt;Shenandoah GC&lt;/strong&gt; mit &lt;a href=&#34;https://shipilev.net/&#34;&gt;Aleksey Shipilëv&lt;/a&gt; ein. Der erste Teil des Vortrags wurde am 17. September 2019 gehalten.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Shenandoah GC Part I</title>
-      <link>http://example.org/blog/2019/shenandoah-gc-part-1/</link>
+      <link>https://jugbb.github.io/blog/2019/shenandoah-gc-part-1/</link>
       <pubDate>Tue, 03 Sep 2019 12:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/shenandoah-gc-part-1/</guid>
+      <guid>https://jugbb.github.io/blog/2019/shenandoah-gc-part-1/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 17. September 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum ersten Teil des Vortrags &lt;strong&gt;Shenandoah GC&lt;/strong&gt; mit &lt;a href=&#34;https://shipilev.net/&#34;&gt;Aleksey Shipilëv&lt;/a&gt; ein. Der zweite Teil des Vortrags wird am 24. September 2019 gehalten werden.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im September 2019</title>
-      <link>http://example.org/blog/2019/neunter-stammtisch-2019/</link>
+      <link>https://jugbb.github.io/blog/2019/neunter-stammtisch-2019/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/neunter-stammtisch-2019/</guid>
+      <guid>https://jugbb.github.io/blog/2019/neunter-stammtisch-2019/</guid>
       <description>&lt;p&gt;Der neunte Stammtisch in diesem Jahr wird am Dienstag, den 3. September 2019, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im August 2019</title>
-      <link>http://example.org/blog/2019/achter-stammtisch-2019/</link>
+      <link>https://jugbb.github.io/blog/2019/achter-stammtisch-2019/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/achter-stammtisch-2019/</guid>
+      <guid>https://jugbb.github.io/blog/2019/achter-stammtisch-2019/</guid>
       <description>&lt;p&gt;Der achte Stammtisch in diesem Jahr wird am Dienstag, den 6. August 2019, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im Juli 2019</title>
-      <link>http://example.org/blog/2019/siebenter-stammtisch-2019/</link>
+      <link>https://jugbb.github.io/blog/2019/siebenter-stammtisch-2019/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/siebenter-stammtisch-2019/</guid>
+      <guid>https://jugbb.github.io/blog/2019/siebenter-stammtisch-2019/</guid>
       <description>&lt;p&gt;Der siebente Stammtisch in diesem Jahr wird am Dienstag, den 2. Juli 2019, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im Juni 2019</title>
-      <link>http://example.org/blog/2019/sechster-stammtisch-2019/</link>
+      <link>https://jugbb.github.io/blog/2019/sechster-stammtisch-2019/</link>
       <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/sechster-stammtisch-2019/</guid>
+      <guid>https://jugbb.github.io/blog/2019/sechster-stammtisch-2019/</guid>
       <description>&lt;p&gt;Der sechste Stammtisch in diesem Jahr wird am Dienstag, den 4. Juni 2019, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Doppelpack zu Knative und Kubernetes</title>
-      <link>http://example.org/blog/2019/knative/</link>
+      <link>https://jugbb.github.io/blog/2019/knative/</link>
       <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/knative/</guid>
+      <guid>https://jugbb.github.io/blog/2019/knative/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 18. Juni 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zu den beiden Vorträgen &lt;strong&gt;Introduction to Knative&lt;/strong&gt; und &lt;strong&gt;Developing and running Kafka based applications on Kubernetes&lt;/strong&gt; mit Matthias Wessendorf und Jakub Scholz von &lt;a href=&#34;https://www.redhat.com/de/&#34;&gt;Red Hat&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Both talks will be held in English.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>GraalVM: Fast, Polyglot, Native</title>
-      <link>http://example.org/blog/2019/graal/</link>
+      <link>https://jugbb.github.io/blog/2019/graal/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/graal/</guid>
+      <guid>https://jugbb.github.io/blog/2019/graal/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 23. Mai 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;http://www.innoq.com&#34;&gt;InnoQ Deutschland GmbH&lt;/a&gt; zum Vortrag &lt;strong&gt;GraalVM: Fast, Polyglot, Native&lt;/strong&gt; mit Jan Stępień // &lt;a href=&#34;https://paluch.biz/&#34;&gt;Mark Paluch&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;The talk will be held in German.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im Mai 2019</title>
-      <link>http://example.org/blog/2019/fuenfter-stammtisch-2019/</link>
+      <link>https://jugbb.github.io/blog/2019/fuenfter-stammtisch-2019/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/fuenfter-stammtisch-2019/</guid>
+      <guid>https://jugbb.github.io/blog/2019/fuenfter-stammtisch-2019/</guid>
       <description>&lt;p&gt;Der fünfte Stammtisch in diesem Jahr wird am Dienstag, den 7. Mai 2019, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Microbenchmarks – Wer nicht weiss was er misst misst Mist</title>
-      <link>http://example.org/blog/2019/microbenchmarks/</link>
+      <link>https://jugbb.github.io/blog/2019/microbenchmarks/</link>
       <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/microbenchmarks/</guid>
+      <guid>https://jugbb.github.io/blog/2019/microbenchmarks/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 30. April 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.lucanet.com/de/&#34;&gt;LucaNet AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Microbenchmarks – Wer nicht weiss was er misst misst Mist&lt;/strong&gt; mit Björn Stahl ein.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The talk will be held in German.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Going Fullstack</title>
-      <link>http://example.org/blog/2019/going-fullstack/</link>
+      <link>https://jugbb.github.io/blog/2019/going-fullstack/</link>
       <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/going-fullstack/</guid>
+      <guid>https://jugbb.github.io/blog/2019/going-fullstack/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Montag, den 3. Juni 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.europace.de/&#34;&gt;Europace AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Going Fullstack&lt;/strong&gt; mit Serafima Gurevich // &lt;a href=&#34;https://paluch.biz/&#34;&gt;Mark Paluch&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;The talk will be held in English.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Reactive Relational Database Connectivity</title>
-      <link>http://example.org/blog/2019/r2dbc/</link>
+      <link>https://jugbb.github.io/blog/2019/r2dbc/</link>
       <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/r2dbc/</guid>
+      <guid>https://jugbb.github.io/blog/2019/r2dbc/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 24. April 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zum Vortrag &lt;strong&gt;Reactive Relational Database Connectivity&lt;/strong&gt; mit &lt;a href=&#34;https://paluch.biz/&#34;&gt;Mark Paluch&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The talk will be held in German.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im Februar 2019</title>
-      <link>http://example.org/blog/2019/erster-stammtisch-2019/</link>
+      <link>https://jugbb.github.io/blog/2019/erster-stammtisch-2019/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/erster-stammtisch-2019/</guid>
+      <guid>https://jugbb.github.io/blog/2019/erster-stammtisch-2019/</guid>
       <description>&lt;p&gt;Der erste Stammtisch in diesem Jahr wird am Dienstag, den 5. Februar 2019, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>OSGi Evening</title>
-      <link>http://example.org/blog/2019/osgi-evening/</link>
+      <link>https://jugbb.github.io/blog/2019/osgi-evening/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/osgi-evening/</guid>
+      <guid>https://jugbb.github.io/blog/2019/osgi-evening/</guid>
       <description>&lt;p&gt;Please join us for an evening of OSGi in Berlin on Tuesday February 19. The OSGi Alliance is holding its Expert Group meetings in town that week and we are pleased to have secured some interesting talks from them covering OSGi and Java 9 and beyond, Realtime OSGi and the edge, and also a look at a number of popular patterns to use with OSGi.&lt;/p&gt;
 &lt;p&gt;This Berlin Brandenburg JUG event is being supported by the OSGi Users’ Forum Germany and Bosch. The meeting will be held at the Bosch IoT Campus in Berlin and doors open at 18.30 for a beer and some networking in advance of the 19.00hrs start of the talks. Registration is essential so we know numbers for the drinks and pizza kindly provided by our hosts Bosch.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The hitchhiker&#39;s guide for the confused developer - Making sense of an increasingly mad IT</title>
-      <link>http://example.org/blog/2019/hitchhikersguide/</link>
+      <link>https://jugbb.github.io/blog/2019/hitchhikersguide/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/hitchhikersguide/</guid>
+      <guid>https://jugbb.github.io/blog/2019/hitchhikersguide/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 30. Januar 2018&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.europace.de/&#34;&gt;Europace AG&lt;/a&gt; zum Vortrag &lt;strong&gt;The hitchhiker&amp;rsquo;s guide for the confused developer - Making sense of an increasingly mad IT&lt;/strong&gt; mit Uwe Friedrichsen, CTO bei &lt;a href=&#34;https://www.codecentric.de/&#34;&gt;codecentric&lt;/a&gt;, ein.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The talk will be held in German.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Ausfall JUG-Stammtisch im Januar 2019</title>
-      <link>http://example.org/blog/2019/ausfall-stammtisch-januar-2019/</link>
+      <link>https://jugbb.github.io/blog/2019/ausfall-stammtisch-januar-2019/</link>
       <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2019/ausfall-stammtisch-januar-2019/</guid>
+      <guid>https://jugbb.github.io/blog/2019/ausfall-stammtisch-januar-2019/</guid>
       <description>Der erste Stammtisch 2019 wird im Februar stattfinden, da der erste Dienstag im Januar 2019 auf den 1. Januar fällt. Also, wir sehen uns im Februar.</description>
     </item>
     
     <item>
       <title>Event Sourcing - You are doing it wrong</title>
-      <link>http://example.org/blog/2018/eventsourcing-you-are-doing-it-wrong/</link>
+      <link>https://jugbb.github.io/blog/2018/eventsourcing-you-are-doing-it-wrong/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2018/eventsourcing-you-are-doing-it-wrong/</guid>
+      <guid>https://jugbb.github.io/blog/2018/eventsourcing-you-are-doing-it-wrong/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 6. Dezember 2018&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg zusammen mit dem &lt;a href=&#34;https://www.meetup.com/de-DE/eposttechtalk/&#34;&gt;E-Post Tech Talk&lt;/a&gt;
 zum Vortrag &lt;strong&gt;Event Sourcing - You are doing it wrong&lt;/strong&gt; mit David Schmitz von &lt;a href=&#34;https://senacor.com/&#34;&gt;Senacor&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Vortrag auf Deutsch.&lt;/em&gt;&lt;/p&gt;</description>
@@ -273,19 +273,19 @@ zum Vortrag &lt;strong&gt;Event Sourcing - You are doing it wrong&lt;/strong&gt;
     
     <item>
       <title>Mit Schema-Validierung APIs lahmlegen</title>
-      <link>http://example.org/blog/2018/json-schema-validierung/</link>
+      <link>https://jugbb.github.io/blog/2018/json-schema-validierung/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2018/json-schema-validierung/</guid>
+      <guid>https://jugbb.github.io/blog/2018/json-schema-validierung/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Montag, den 15. Oktober 2018&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.codecentric.de/karriere/&#34;&gt;codecentric AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Mit Schema-Validierung APIs lahmlegen&lt;/strong&gt; mit Peter Liske, Senior Software Developer bei Zalando, ein.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im Oktober 2018</title>
-      <link>http://example.org/blog/2018/fuenfter-stammtisch-2018/</link>
+      <link>https://jugbb.github.io/blog/2018/fuenfter-stammtisch-2018/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2018/fuenfter-stammtisch-2018/</guid>
+      <guid>https://jugbb.github.io/blog/2018/fuenfter-stammtisch-2018/</guid>
       <description>&lt;p&gt;Der fünfte Stammtisch in diesem Jahr wird am Dienstag, den 2. Oktober 2018, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den
 Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
@@ -293,10 +293,10 @@ Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend 
     
     <item>
       <title>Blockchain and Java</title>
-      <link>http://example.org/blog/2018/blockchain/</link>
+      <link>https://jugbb.github.io/blog/2018/blockchain/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2018/blockchain/</guid>
+      <guid>https://jugbb.github.io/blog/2018/blockchain/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 12. September 2018&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.deliveryhero.com/career/&#34;&gt;Delivery Hero&lt;/a&gt; zum Vortrag
 &lt;strong&gt;Blockchain and Java&lt;/strong&gt; mit Georg Köster, Topic Owner for Blockchain at SAP, ein.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The talk will be held in English.&lt;/em&gt;&lt;/p&gt;</description>
@@ -304,10 +304,10 @@ Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend 
     
     <item>
       <title>Aktuelle und zukünftige Versionen vom Oracle JDK und OpenJDK</title>
-      <link>http://example.org/blog/2018/java-versioning/</link>
+      <link>https://jugbb.github.io/blog/2018/java-versioning/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2018/java-versioning/</guid>
+      <guid>https://jugbb.github.io/blog/2018/java-versioning/</guid>
       <description>Am Mittwoch, den 16. Mai 2018 lädt die Java Usergroup Berlin-Brandenburg zusammen mit der adesso AG zum Vortrag Aktuelle und zukünftige Versionen vom Oracle JDK &amp;amp; OpenJDK mit Wolfgang Weigend von Oracle Deutschland ein.
 Der Vortrag Aktuelle und zukünftige Versionen vom Oracle JDK &amp;amp; OpenJDK
 (Wolfgang Weigend): Mit dem neuen JDK-Enhancement-Proposal (JEP 322), wird die zeitbasierte Java-Release-Versionierung definiert, die auf dem neuen Java SE Version-String-Schema basiert und die Namensgebung für die kommenden Versionen der Java SE Plattform und vom JDK vorgibt.</description>
@@ -315,38 +315,38 @@ Der Vortrag Aktuelle und zukünftige Versionen vom Oracle JDK &amp;amp; OpenJDK
     
     <item>
       <title>Die Venom-Story</title>
-      <link>http://example.org/blog/2018/die-venom-story/</link>
+      <link>https://jugbb.github.io/blog/2018/die-venom-story/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2018/die-venom-story/</guid>
+      <guid>https://jugbb.github.io/blog/2018/die-venom-story/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 26. Juni 2018&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;http://www.epost.de&#34;&gt;Deutsche Post E-Post Development GmbH&lt;/a&gt; zum Vortrag &lt;strong&gt;Die Venom-Story oder Bis an den Abgrund - und zurück: Aufstieg, Krise und Rettung eines (gar nicht so) hypothetischen Systems&lt;/strong&gt; mit &lt;strong&gt;Dr. Gernot Starke&lt;/strong&gt; von &lt;a href=&#34;https://www.innoq.com/de/&#34;&gt;INNOQ&lt;/a&gt; ein.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im März 2018</title>
-      <link>http://example.org/blog/2018/dritter-stammtisch-2018/</link>
+      <link>https://jugbb.github.io/blog/2018/dritter-stammtisch-2018/</link>
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2018/dritter-stammtisch-2018/</guid>
+      <guid>https://jugbb.github.io/blog/2018/dritter-stammtisch-2018/</guid>
       <description>&lt;p&gt;Der dritte Stammtisch in diesem Jahr wird am Dienstag, den 6. März 2018, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Bridging the Divide between Architecture and Code</title>
-      <link>http://example.org/blog/2018/bridging/</link>
+      <link>https://jugbb.github.io/blog/2018/bridging/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2018/bridging/</guid>
+      <guid>https://jugbb.github.io/blog/2018/bridging/</guid>
       <description>&lt;p&gt;Am &lt;strong&gt;19. März 2018&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg und die &lt;a href=&#34;https://www.europace.de/&#34;&gt;Europace AG&lt;/a&gt; zu dem Vortrag &lt;strong&gt;Bridging the Divide between Architecture and Code&lt;/strong&gt; mit &lt;strong&gt;Chris Chedgey&lt;/strong&gt; ein.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>JUG-Stammtisch im Januar 2018</title>
-      <link>http://example.org/blog/2018/erster-stammtisch-2018/</link>
+      <link>https://jugbb.github.io/blog/2018/erster-stammtisch-2018/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/blog/2018/erster-stammtisch-2018/</guid>
+      <guid>https://jugbb.github.io/blog/2018/erster-stammtisch-2018/</guid>
       <description>&lt;p&gt;Der nächste Stammtisch wird am Dienstag, den 2. Januar 2018, stattfinden.&lt;/p&gt;
 &lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
