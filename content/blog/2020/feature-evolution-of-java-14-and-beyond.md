@@ -7,9 +7,9 @@ author: Oliver B. Fischer
 Am **Donnerstag, den 30. Januar 2020**, lädt die Java Usergroup Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum Vortrag **Feature Evolution of Java 14 and Beyond** mit [Cay Horstmann](http://www.horstmann.com/) ein.
 
 <!--more-->
-== Der Vortrag
+## Der Vortrag
 
-**Feature Evolution of Java 14 and Beyond **
+**Feature Evolution of Java 14 and Beyond**
 (_Cay Horstmann_):
 Every six months, a new Java release comes along. This increased release
 frequency was motivated by the desire to introduce new language and library
@@ -34,7 +34,7 @@ Macau. He was named a Java Champion in 2005.
 
 idealo internet GmbH, Ritterstraße 11, 10969 Berlin, Deutschland
 
-== Der Ablauf
+## Der Ablauf
 
 - 18:30 Uhr Einlaß
 - 19:00 Uhr Beginn des Vortrags
