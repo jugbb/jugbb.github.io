@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="de" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta property="og:title" content="Feature Evolution of Java 14 and Beyond" />
+<meta property="og:description" content="Am Donnerstag, den 30. Januar 2020, lädt die Java Usergroup Berlin-Brandenburg und INNOQ zum Vortrag Feature Evolution of Java 14 and Beyond mit Cay Horstmann ein." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/2020/feature-evolution-of-java-14-and-beyond/" />
+<meta property="article:published_time" content="2020-01-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-07T00:00:00+00:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Feature Evolution of Java 14 and Beyond"/>
+<meta name="twitter:description" content="Am Donnerstag, den 30. Januar 2020, lädt die Java Usergroup Berlin-Brandenburg und INNOQ zum Vortrag Feature Evolution of Java 14 and Beyond mit Cay Horstmann ein."/>
+<meta name="generator" content="Hugo 0.103.1" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Feature Evolution of Java 14 and Beyond",
+  "url": "http://example.org/blog/2020/feature-evolution-of-java-14-and-beyond/",
+  "wordCount": "251",
+  "datePublished": "2020-01-07T00:00:00+00:00",
+  "dateModified": "2020-01-07T00:00:00+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Oliver B. Fischer"
+  }
+}
+</script>
+
+
+
+    <link rel="canonical" href="http://example.org/blog/2020/feature-evolution-of-java-14-and-beyond/">
+
+    <title>Feature Evolution of Java 14 and Beyond | JUG Berlin-Brandenburg</title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="http://example.org/css/style.a843845ec90f2eadad5431297d2bde0dfaa830775780a36583c9ad1ded3cde65.css" rel="stylesheet" integrity="sha256-qEOEXskPLq2tVDEpfSveDfqoMHdXgKNlg8mtHe083mU=" crossorigin="anonymous">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="http://example.org/js/fontawesome.min.f5072c55a0721857184db93a50561d7dc13975b4de2e19db7f81eb5f3fa57270.js" integrity="sha256-9QcsVaByGFcYTbk6UFYdfcE5dbTeLhnbf4HrXz&#43;lcnA=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    
+
+    <!-- custom CSS -->
+<link href="/css/custom.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+          <nav class="navbar navbar-dark navbar-expand">
+              <ul class="navbar-nav">
+                  <li class="nav-item ">
+                      <a class="nav-link " href="http://example.org/">Home</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                          Informationen
+                      </a>
+                      <div class="dropdown-menu">
+                          
+                          <a class="dropdown-item" href="/informationen_zur_jug/">Die JUG</a>
+                          
+                          <a class="dropdown-item" href="/informationen-fuer-referenten/">Für Referenten</a>
+                          
+                          <a class="dropdown-item" href="/informationen-fuer-unterstuetzer/">Für Unterstützer</a>
+                          
+                      </div>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/kontakt/" title="Kontakt zur Java Usergroup">Kontakt</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/impressum/" title="Impressum">Impressum</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/archiv/" title="Posts Archive">Archiv</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/freunde/" title="Freunde und Unterstützer der JUG">Freunde</a>
+                  </li>
+                  
+                  
+              </ul>
+          </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="http://example.org/blog/2020/feature-evolution-of-java-14-and-beyond/">Feature Evolution of Java 14 and Beyond</a></h2>
+    <p class="blog-post-meta">
+<time datetime="2020-01-07T00:00:00Z">07.01.2020</time>
+</p>
+  </header>
+  <p>Am <strong>Donnerstag, den 30. Januar 2020</strong>, lädt die Java Usergroup Berlin-Brandenburg und <a href="https://www.innoq.com">INNOQ</a> zum Vortrag <strong>Feature Evolution of Java 14 and Beyond</strong> mit <a href="http://www.horstmann.com/">Cay Horstmann</a> ein.</p>
+<h2 id="der-vortrag">Der Vortrag</h2>
+<p><strong>Feature Evolution of Java 14 and Beyond</strong>
+(<em>Cay Horstmann</em>):
+Every six months, a new Java release comes along. This increased release
+frequency was motivated by the desire to introduce new language and library
+features to a broad audience quickly. Depending on user feedback, there is the
+possibility of making changes before the design is frozen. I describe the
+evolution of several such features, including switch expressions, new forms of
+string literals, records, and fibers. By observing the design process, you will
+gain insights into the evolution of Java, and you will be better equipped to
+prepare yourself for new features.</p>
+<h2 id="der-redner">Der Redner</h2>
+<p><strong>Cay Horstmann</strong> is the author of numerous books and online courses for
+professional programmers and computer science students, including the
+international bestseller Core Java, with eleven editions since 1996. He taught
+computer science at San Jose State University for almost thirty years and held
+visiting appointments at universities in Germany, Switzerland, Vietnam, and
+Macau. He was named a Java Champion in 2005.</p>
+<h2 id="treffpunkt">Treffpunkt</h2>
+<p>idealo internet GmbH, Ritterstraße 11, 10969 Berlin, Deutschland</p>
+<h2 id="der-ablauf">Der Ablauf</h2>
+<ul>
+<li>18:30 Uhr Einlaß</li>
+<li>19:00 Uhr Beginn des Vortrags</li>
+</ul>
+<p>Anschließend gibt es die Möglichkeit für Networking und Plausch.</p>
+<h2 id="die-anmeldung">Die Anmeldung</h2>
+<p>Über eine Voranmeldung zu der Veranstaltung über die <a href="http://meetup.com/jug-bb/">Meetup-Gruppe der JUG Berlin-Brandenburg</a> würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend erforderlich. Wir freuen uns auf jeden Teilnehmer.</p>
+
+  
+
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-4 blog-sidebar">
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Aktuellste Artikel</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="/blog/2020/testcontainers/">Testcontainers &ndash; Past, Present and Future</a></li>
+
+<li><a href="/blog/2020/feature-evolution-of-java-14-and-beyond/">Feature Evolution of Java 14 and Beyond</a></li>
+
+<li><a href="/blog/2020/testing-infrastructure/">Testen von und mit Infrastruktur</a></li>
+
+<li><a href="/blog/2020/think-beyond-gui/">Think beyond the GUI</a></li>
+
+<li><a href="/blog/2020/erster-stammtisch-2020/">JUG-Stammtisch im Januar 2020</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      © 2019 | Java Usergroup Berlin-Brandenburg
+      
+      </p>
+      <p>
+      <a href="#">Zurück zum Anfang</a>
+      </p>
+    </footer>
+    
+
+      <!-- bundled bootstrap -->
+      
+      <script defer src="http://example.org/js/bootstrap.min.5a37198f0487cb978c4d9964d4a02d3b1cdd74d7cf1de7986509931a0393b685.js" integrity="sha256-WjcZjwSHy5eMTZlk1KAtOxzddNfPHeeYZQmTGgOTtoU=" crossorigin="anonymous"></script>
+  </body>
+
+</html>

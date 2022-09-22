@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta property="og:title" content="Testen von und mit Infrastruktur" />
+<meta property="og:description" content="Am Mittwoch, den 1. April 2020, lädt die Java Usergroup Berlin-Brandenburg und INNOQ zum Vortrag Testen von und mit Infrastruktur mit Sandra Parsick ein." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/blog/2020/testing-infrastructure/" />
+<meta property="article:published_time" content="2020-01-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-07T00:00:00+00:00" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Testen von und mit Infrastruktur"/>
+<meta name="twitter:description" content="Am Mittwoch, den 1. April 2020, lädt die Java Usergroup Berlin-Brandenburg und INNOQ zum Vortrag Testen von und mit Infrastruktur mit Sandra Parsick ein."/>
+<meta name="generator" content="Hugo 0.103.1" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Testen von und mit Infrastruktur",
+  "url": "http://example.org/blog/2020/testing-infrastructure/",
+  "wordCount": "336",
+  "datePublished": "2020-01-07T00:00:00+00:00",
+  "dateModified": "2020-01-07T00:00:00+00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Oliver B. Fischer"
+  }
+}
+</script>
+
+
+
+    <link rel="canonical" href="http://example.org/blog/2020/testing-infrastructure/">
+
+    <title>Testen von und mit Infrastruktur | JUG Berlin-Brandenburg</title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="http://example.org/css/style.a843845ec90f2eadad5431297d2bde0dfaa830775780a36583c9ad1ded3cde65.css" rel="stylesheet" integrity="sha256-qEOEXskPLq2tVDEpfSveDfqoMHdXgKNlg8mtHe083mU=" crossorigin="anonymous">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="http://example.org/js/fontawesome.min.f5072c55a0721857184db93a50561d7dc13975b4de2e19db7f81eb5f3fa57270.js" integrity="sha256-9QcsVaByGFcYTbk6UFYdfcE5dbTeLhnbf4HrXz&#43;lcnA=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    
+
+    <!-- custom CSS -->
+<link href="/css/custom.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+          <nav class="navbar navbar-dark navbar-expand">
+              <ul class="navbar-nav">
+                  <li class="nav-item ">
+                      <a class="nav-link " href="http://example.org/">Home</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                          Informationen
+                      </a>
+                      <div class="dropdown-menu">
+                          
+                          <a class="dropdown-item" href="/informationen_zur_jug/">Die JUG</a>
+                          
+                          <a class="dropdown-item" href="/informationen-fuer-referenten/">Für Referenten</a>
+                          
+                          <a class="dropdown-item" href="/informationen-fuer-unterstuetzer/">Für Unterstützer</a>
+                          
+                      </div>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/kontakt/" title="Kontakt zur Java Usergroup">Kontakt</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/impressum/" title="Impressum">Impressum</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/archiv/" title="Posts Archive">Archiv</a>
+                  </li>
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/freunde/" title="Freunde und Unterstützer der JUG">Freunde</a>
+                  </li>
+                  
+                  
+              </ul>
+          </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="http://example.org/blog/2020/testing-infrastructure/">Testen von und mit Infrastruktur</a></h2>
+    <p class="blog-post-meta">
+<time datetime="2020-01-07T00:00:00Z">07.01.2020</time>
+</p>
+  </header>
+  <p>Am <strong>Mittwoch, den 1. April 2020</strong>, lädt die Java Usergroup Berlin-Brandenburg und <a href="https://www.innoq.com">INNOQ</a> zum Vortrag <strong>Testen von und mit Infrastruktur</strong> mit <a href="https://www.sandra-parsick.de">Sandra Parsick</a> ein.</p>
+<h2 id="der-vortrag">Der Vortrag</h2>
+<p><strong>Testen von und mit Infrastruktur</strong>
+(<em>Sandra Parsick</em>):
+Heutzutage läuft eine Software nicht für sich alleine, sondern agiert mit Anderen. Die Kommunikation erfolgt meist über verschiedene Protokolle, sprich über verschiedene Infrastruktur-Komponenten. Gerade beim Testen stellt sich die Frage, wie kann der Entwickler Tests so schreiben, dass sie von einem bestimmten Infrastruktur-Setup unabhängig sind. Meistens gelingt es nicht und dann wird dieser Teil der Software erst spät bei den End-2-End-Tests geprüft. Doch gerade mit Microservices und dem Paradigma &ldquo;Wenn etwas schiefläuft, dann schnell wie möglich&rdquo; möchte der Entwickler schon zu einem früheren Testzeitpunkt, z.B. bei Entwicklertests, erfahren, wenn bei diesem Teil der Software etwas schiefläuft. Zudem macht die Infrastruktur nicht beim Anwendungscode halt. Mittlerweile wird die Infrastruktur immer mehr mithilfe von Code (Provisionierungsskripte, Dockerfiles, (Shell-) Skripte etc. beschrieben und automatisiert. Auch bei diesem Code möchte der Entwickler sicher gehen können, dass er so funktioniert wie erwartet.</p>
+<p>Dieser Vortrag zeigt anhand einer Java-Anwendung, wie man mithilfe von 3rd-Party-Libraries die Infrastruktur in den Tests der Anwendung einbinden kann,
+ohne sich gleich von einer bestimmten Infrastruktur abhängig zu machen. Darüber hinaus, wird darauf eingegangen, wie die Qualität des Infrastruktur-Codes gesichert werden kann, angefangen bei klassischen Provisionierungswerkzeugen bis hin zu Container.</p>
+<h2 id="die-rednerin">Die Rednerin</h2>
+<p><strong>Sandra Parsick</strong> ist als freiberufliche Softwareentwicklerin und Consultant im Java-Umfeld tätig. Seit 2008 beschäftigt sie sich mit agiler Softwareentwicklung in verschiedenen Rollen. Ihre Schwerpunkte liegen im Bereich der Java Enterprise Anwendungen, agilen Methoden, Software Craftsmanship und in der Automatisierung von Softwareentwicklungsprozessen. Darüber schreibt sie gerne Artikel und spricht gerne auf Konferenzen. In ihrer Freizeit engagiert sie sich in der Softwerkskammer Ruhrgebiet.</p>
+<h2 id="treffpunkt">Treffpunkt</h2>
+<p>TBA</p>
+<h2 id="der-ablauf">Der Ablauf</h2>
+<ul>
+<li>18:30 Uhr Einlaß</li>
+<li>19:00 Uhr Beginn des Vortrags</li>
+</ul>
+<p>Anschließend gibt es die Möglichkeit für Networking und Plausch.</p>
+<h2 id="die-anmeldung">Die Anmeldung</h2>
+<p>Über eine Voranmeldung zu der Veranstaltung über die <a href="http://meetup.com/jug-bb/">Meetup-Gruppe der JUG Berlin-Brandenburg</a> würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend erforderlich. Wir freuen uns auf jeden Teilnehmer.</p>
+
+  
+
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-4 blog-sidebar">
+  
+
+  
+        <section class="sidebar-module">
+    <h4>Aktuellste Artikel</h4>
+    <ol class="list-unstyled">
+
+
+<li><a href="/blog/2020/testcontainers/">Testcontainers &ndash; Past, Present and Future</a></li>
+
+<li><a href="/blog/2020/feature-evolution-of-java-14-and-beyond/">Feature Evolution of Java 14 and Beyond</a></li>
+
+<li><a href="/blog/2020/testing-infrastructure/">Testen von und mit Infrastruktur</a></li>
+
+<li><a href="/blog/2020/think-beyond-gui/">Think beyond the GUI</a></li>
+
+<li><a href="/blog/2020/erster-stammtisch-2020/">JUG-Stammtisch im Januar 2020</a></li>
+
+    </ol>
+  </section>
+
+  
+
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      © 2019 | Java Usergroup Berlin-Brandenburg
+      
+      </p>
+      <p>
+      <a href="#">Zurück zum Anfang</a>
+      </p>
+    </footer>
+    
+
+      <!-- bundled bootstrap -->
+      
+      <script defer src="http://example.org/js/bootstrap.min.5a37198f0487cb978c4d9964d4a02d3b1cdd74d7cf1de7986509931a0393b685.js" integrity="sha256-WjcZjwSHy5eMTZlk1KAtOxzddNfPHeeYZQmTGgOTtoU=" crossorigin="anonymous"></script>
+  </body>
+
+</html>
