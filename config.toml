@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://jugbb.github.io/'
 languageCode = 'de'
 title = 'JUG Berlin-Brandenburg'
 theme = "hugo-theme-bootstrap4-blog"
