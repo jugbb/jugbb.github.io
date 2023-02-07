@@ -11,7 +11,7 @@
 - open your browser at localhost:1313
 
 # create new post for a talk
-- run `hugo new blog/2020/title --kind talk`
+- run `hugo new blog/2020/title.md --kind talk`
 
 # create new post for a Stammtisch
-- run `hugo new blog/2020/title --kind stammtisch`
+- run `hugo new blog/2020/title.md --kind stammtisch`
