@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2019 | Java Usergroup Berlin-Brandenburg</copyright>
-    <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jugbb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Oct 2022 18:00:00 +0100</lastBuildDate><atom:link href="https://jugbb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nicht schon wieder ein Talk über Monolithen</title>
+      <link>https://jugbb.github.io/blog/2022/nicht-schon-wieder-ein-talk-ueber-monolithen/</link>
+      <pubDate>Mon, 10 Oct 2022 18:00:00 +0100</pubDate>
+      
+      <guid>https://jugbb.github.io/blog/2022/nicht-schon-wieder-ein-talk-ueber-monolithen/</guid>
+      <description>&lt;p&gt;Am &lt;strong&gt;19.10.2022&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.lucanet.com/de/&#34;&gt;LucaNet AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Nicht schon wieder ein Talk über Monolithen&lt;/strong&gt; mit Alexander Domene und Björn Stahl ein.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Testcontainers -- Past, Present and Future</title>
       <link>https://jugbb.github.io/blog/2020/testcontainers/</link>
