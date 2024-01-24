@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2019 | Java Usergroup Berlin-Brandenburg</copyright>
-    <lastBuildDate>Mon, 10 Oct 2022 18:00:00 +0100</lastBuildDate><atom:link href="https://jugbb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jan 2024 07:39:33 +0100</lastBuildDate><atom:link href="https://jugbb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asynchronous Programming in Java using Virtual Threads</title>
+      <link>https://jugbb.github.io/blog/2024/asynchronous-programming-in-java-using-virtual-threads/</link>
+      <pubDate>Wed, 24 Jan 2024 07:39:33 +0100</pubDate>
+      
+      <guid>https://jugbb.github.io/blog/2024/asynchronous-programming-in-java-using-virtual-threads/</guid>
+      <description>&lt;p&gt;The Java Usergroup Berlin-Brandenburg and our partner Europace AG invite you to the talk &amp;ldquo;&lt;strong&gt;Asynchronous Programming in Java using Virtual Threads&lt;/strong&gt;&amp;rdquo; by Dr. Venkat Subramaniam on February the 8th.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Nicht schon wieder ein Talk über Monolithen</title>
       <link>https://jugbb.github.io/blog/2022/nicht-schon-wieder-ein-talk-ueber-monolithen/</link>
