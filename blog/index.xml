@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <copyright>© 2019 | Java Usergroup Berlin-Brandenburg</copyright>
-    <lastBuildDate>Wed, 24 Jan 2024 07:39:33 +0100</lastBuildDate><atom:link href="https://jug-berlin-brandenburg.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Apr 2024 18:00:00 +0200</lastBuildDate><atom:link href="https://jug-berlin-brandenburg.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Mesh &amp; Java Profilers</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2024/data-mesh-and-java-profilers/</link>
+      <pubDate>Thu, 25 Apr 2024 18:00:00 +0200</pubDate>
+      
+      <guid>https://jug-berlin-brandenburg.de/blog/2024/data-mesh-and-java-profilers/</guid>
+      <description>&lt;p&gt;The Java Usergroup Berlin-Brandenburg and our partner INNOQ invite you to the talks &amp;ldquo;&lt;strong&gt;Data Mesh&lt;/strong&gt;&amp;rdquo; by Jochen Christ and &amp;ldquo;&lt;strong&gt;Is Your Java Application Slow? Check Out These Open-Source Profilers&lt;/strong&gt;&amp;rdquo; by Johannes Bechberger on April the 25th.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Asynchronous Programming in Java using Virtual Threads</title>
       <link>https://jug-berlin-brandenburg.de/blog/2024/asynchronous-programming-in-java-using-virtual-threads/</link>

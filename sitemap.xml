@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jug-berlin-brandenburg.de/blog/2024/asynchronous-programming-in-java-using-virtual-threads/</loc>
-    <lastmod>2024-01-24T07:39:33+01:00</lastmod>
-  </url><url>
     <loc>https://jug-berlin-brandenburg.de/blog/</loc>
-    <lastmod>2024-01-24T07:39:33+01:00</lastmod>
+    <lastmod>2024-04-25T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2024/data-mesh-and-java-profilers/</loc>
+    <lastmod>2024-04-25T18:00:00+02:00</lastmod>
   </url><url>
     <loc>https://jug-berlin-brandenburg.de/</loc>
+    <lastmod>2024-04-25T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2024/asynchronous-programming-in-java-using-virtual-threads/</loc>
     <lastmod>2024-01-24T07:39:33+01:00</lastmod>
   </url><url>
     <loc>https://jug-berlin-brandenburg.de/blog/2022/nicht-schon-wieder-ein-talk-ueber-monolithen/</loc>
