@@ -7,7 +7,7 @@ event_date: 2024-04-25
 
 The Java Usergroup Berlin-Brandenburg and our partner INNOQ invite you to the talks "**Data Mesh**" by Jochen Christ and "**Is Your Java Application Slow? Check Out These Open-Source Profilers**" by Johannes Bechberger on April the 25th.
 <!--more-->
-This talk will be in english.
+The talk will be held in English.
 
 ## Data Mesh
 (_Jochen Christ_): Data Mesh is a socio-technical approach to data management that enables teams to perform data analysis independently within their domain to make data-driven decisions. Data mesh promotes sharing data with other teams as data products and defined data contracts.

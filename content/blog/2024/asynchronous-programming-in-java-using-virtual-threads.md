@@ -7,7 +7,7 @@ event_date: 2024-02-08
 
 The Java Usergroup Berlin-Brandenburg and our partner Europace AG invite you to the talk "**Asynchronous Programming in Java using Virtual Threads**" by Dr. Venkat Subramaniam on February the 8th. 
 <!--more-->
-This talk will be in english.
+The talk will be held in English.
 
 ## The Talk
 **Asynchronous Programming in Java using Virtual Threads**
