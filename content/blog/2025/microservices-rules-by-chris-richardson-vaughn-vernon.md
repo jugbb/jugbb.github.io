@@ -1,15 +1,18 @@
 ---
-title: "Data Mesh & Java Profilers"
-date: 2024-04-25T18:00:00+02:00
-author: Jörg Müller
-event_date: 2024-04-25
+title: "Microservices Rules by Chris Richardson & Vaughn Vernon"
+date: 2025-11-16T22:57:21+01:00
+author: Oliver B. Fischer
+draft: true
+event_date: 2025-11-24
 ---
 
+xxx
 The Java Usergroup Berlin-Brandenburg and our partner INNOQ invite you to the talks "**Data Mesh**" by Jochen Christ and "**Is Your Java Application Slow? Check Out These Open-Source Profilers**" by Johannes Bechberger on April the 25th.
 <!--more-->
-The talk will be held in English.
+The talks will be held in English.
 
-## Data Mesh
+## Joint Meetup: Microservices rules by Chris Richardson & Vaughn Vernon
+
 (_Jochen Christ_): Data Mesh is a socio-technical approach to data management that enables teams to perform data analysis independently within their domain to make data-driven decisions. Data mesh promotes sharing data with other teams as data products and defined data contracts.
 
 Data Mesh adopts the principles from Domain-driven Design, Team Topologies and Microservices to the data world. However, it has many organizational implications, such as ownership and federated governance.
@@ -46,3 +49,4 @@ Treppenhaus C, 2. OG,
 ## The Registration
 
 We would appreciate it if you could pre-register for the event via [JUG Berlin-Brandenburg Meetup Group](https://www.meetup.com/de-DE/jug-bb/events/300367356/), but registration is not mandatory. We look forward to seeing everyone.
+
