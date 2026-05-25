@@ -3,6 +3,7 @@ languageCode = 'de'
 title = 'JUG Berlin-Brandenburg'
 theme = "hugo-theme-bootstrap4-blog"
 defaultContentLanguage = "de"
+publishDir = "generated-site"
 Copyright = "© 2019 | Java Usergroup Berlin-Brandenburg"
 
 [[menu.navbar]]

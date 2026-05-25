@@ -1,0 +1,9 @@
+= Sinn und Zweck von CNAME
+
+Die CNAME-Datei teilt GitHub Pages mit, dass die Custom Domain jug-berlin-brandenburg.de zu diesem Repository gehört.
+
+GitHub benötigt diese Information, um:
+
+1. Anfragen an diese Domain dem richtigen Repository zuzuordnen
+2. Ein SSL-Zertifikat für die Domain auszustellen
+3. Automatische Redirects zwischen www und Apex-Domain zu ermöglichen
