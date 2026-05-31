@@ -12,7 +12,7 @@ Schönhauser Allee 64
 ## Kontakt
 
 Telefon: +49 178 7903538  
-E-Mail: o.b.fischer@swe-blog.net  
+E-Mail: hallo@jug-berlin-brandenburg.de
 
 ## Haftungsausschluss (Disclaimer)
 
