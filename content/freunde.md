@@ -8,6 +8,11 @@ nicht existieren. Daher möchten wir uns auf diese bei allen denen herzlich beda
 die uns mit Referenten, Räumlichkeiten und anderen Dingen helfen Wissen
 rund um die JVM und Java zu teilen.
 
+## Freunde 2026
+
+* [Capgemini Deutschland](https://www.capgemini.com/de-de/)
+* [IBM Deutschland ](https://www.ibm.com/de-de)
+
 ## Freunde 2017
 
 2017 wurden wir bis jetzt von folgenden Firmen und Organisationen bei
