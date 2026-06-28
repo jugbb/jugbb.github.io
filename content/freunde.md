@@ -22,6 +22,10 @@ rund um die JVM und Java zu teilen.
 
 ## Freunde 2023
 
+## Freunde 2022
+
+* [Lucanet](https://www.lucanet.com/de/)
+
 
 ## Freunde 2017
 
