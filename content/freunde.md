@@ -13,6 +13,10 @@ rund um die JVM und Java zu teilen.
 * [Capgemini Deutschland](https://www.capgemini.com/de-de/)
 * [IBM Deutschland ](https://www.ibm.com/de-de)
 
+## Freunde 2025
+
+
+
 ## Freunde 2017
 
 2017 wurden wir bis jetzt von folgenden Firmen und Organisationen bei
