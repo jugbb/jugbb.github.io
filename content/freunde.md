@@ -15,6 +15,10 @@ rund um die JVM und Java zu teilen.
 
 ## Freunde 2025
 
+## Freunde 2024
+
+* [InnoQ](http://www.innoq.com)
+* [Europace AG](https://www.europace.de/)
 
 
 ## Freunde 2017
