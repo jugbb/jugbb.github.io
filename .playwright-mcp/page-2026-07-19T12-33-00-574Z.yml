@@ -1,0 +1,185 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - 'link "{} JUG BB" [ref=e4] [cursor=pointer]':
+        - /url: /
+        - generic [ref=e5]: "{}"
+        - generic [ref=e6]: JUG BB
+      - generic [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Informationen" [ref=e10] [cursor=pointer]:
+          - /url: ""
+        - link "Kontakt" [ref=e11] [cursor=pointer]:
+          - /url: /kontakt/
+        - link "Impressum" [ref=e12] [cursor=pointer]:
+          - /url: /impressum/
+        - link "Archiv" [ref=e13] [cursor=pointer]:
+          - /url: /archiv/
+        - link "Freunde" [ref=e14] [cursor=pointer]:
+          - /url: /freunde/
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]: Java User Group · Berlin-Brandenburg · seit 20..
+      - heading "Java User Group Berlin-Brandenburg" [level=1] [ref=e19]: Java User GroupBerlin-Brandenburg
+      - paragraph [ref=e20]: Wir sind eine offene Gemeinschaft von Entwicklerinnen und Entwicklern rund um Java, die JVM und moderne Softwarearchitektur. Vorträge, Diskussionen und Pizza — kostenlos und für alle.
+      - generic [ref=e21]:
+        - link "Nächstes Event ansehen →" [ref=e22] [cursor=pointer]:
+          - /url: "#naechstes"
+        - link "Mitglied werden" [ref=e23] [cursor=pointer]:
+          - /url: https://www.meetup.com/jug-bb/
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: Nächster Vortrag
+        - heading "JUG-Stammtisch im August 2026" [level=2] [ref=e31]
+        - paragraph
+        - paragraph [ref=e32]:
+          - text: Der achte Stammtisch in diesem Jahr wird am
+          - emphasis [ref=e33]: Dienstag, den 4. August 2026
+          - text: ", stattfinden."
+        - paragraph
+        - generic [ref=e34]:
+          - generic [ref=e35]: 04.08.2026 · 18:30
+          - generic [ref=e36]: Restaurant DaVinci
+          - generic [ref=e37]: Eintritt frei
+      - generic [ref=e38]:
+        - link "Jetzt anmelden →" [ref=e39] [cursor=pointer]:
+          - /url: https://www.meetup.com/jug-bb/events/315602606
+          - text: Jetzt anmelden
+          - generic [ref=e40]: →
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]: +
+            - text: Plätze
+          - generic [ref=e45]:
+            - generic [ref=e46]: Free
+            - text: Eintritt
+          - generic [ref=e48]:
+            - generic [ref=e49]: DE
+            - text: Sprache
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "// Beiträge" [level=3] [ref=e53]
+          - link "Alle ansehen" [ref=e54] [cursor=pointer]:
+            - /url: "#"
+        - article [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]: Event
+            - generic [ref=e58]: ·
+            - generic [ref=e59]: 15.07.2026
+            - generic [ref=e60]: ·
+            - generic [ref=e61]: Oliver B. Fischer
+          - heading [level=4] [ref=e62]:
+            - link "JUG-Stammtisch im August 2026" [ref=e63] [cursor=pointer]:
+              - /url: /blog/2026/achter-stammtisch-2026/
+          - paragraph [ref=e65]:
+            - text: Der achte Stammtisch in diesem Jahr wird am
+            - emphasis [ref=e66]: Dienstag, den 4. August 2026
+            - text: ", stattfinden."
+          - link "Weiterlesen →" [ref=e67] [cursor=pointer]:
+            - /url: /blog/2026/achter-stammtisch-2026/
+            - text: Weiterlesen
+            - generic [ref=e68]: →
+        - article [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: Event
+            - generic [ref=e72]: ·
+            - generic [ref=e73]: 15.06.2026
+            - generic [ref=e74]: ·
+            - generic [ref=e75]: Oliver B. Fischer
+          - heading [level=4] [ref=e76]:
+            - link "JUG-Stammtisch im Juli 2026" [ref=e77] [cursor=pointer]:
+              - /url: /blog/2026/siebenter-stammtisch-2026/
+          - paragraph [ref=e79]:
+            - text: Der siebente Stammtisch in diesem Jahr wird am
+            - emphasis [ref=e80]: Dienstag, den 7. Juli 2026
+            - text: ", stattfinden."
+          - link "Weiterlesen →" [ref=e81] [cursor=pointer]:
+            - /url: /blog/2026/siebenter-stammtisch-2026/
+            - text: Weiterlesen
+            - generic [ref=e82]: →
+        - article [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: Event
+            - generic [ref=e86]: ·
+            - generic [ref=e87]: 23.05.2026
+            - generic [ref=e88]: ·
+            - generic [ref=e89]: Oliver B. Fischer
+          - heading [level=4] [ref=e90]:
+            - link "Spec Driven Development - Wie KI alles verändert – und warum trotzdem nichts neu ist" [ref=e91] [cursor=pointer]:
+              - /url: /blog/2026/spec-driven-development/
+          - paragraph [ref=e93]:
+            - text: Am
+            - strong [ref=e94]: Dienstag, den 9. Juni 2026
+            - text: ", lädt die Java Usergroup Berlin-Brandenburg und"
+            - link "Capgemini" [ref=e95] [cursor=pointer]:
+              - /url: https://www.capgemini.com/de-de
+            - text: zum Vortrag
+            - strong [ref=e96]: "Spec Driven Development: Wie KI alles verändert – und warum trotzdem nichts neu ist"
+            - text: mit Simon Martinelli ein.
+          - link "Weiterlesen →" [ref=e97] [cursor=pointer]:
+            - /url: /blog/2026/spec-driven-development/
+            - text: Weiterlesen
+            - generic [ref=e98]: →
+        - article [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: Event
+            - generic [ref=e102]: ·
+            - generic [ref=e103]: 15.05.2026
+            - generic [ref=e104]: ·
+            - generic [ref=e105]: Oliver B. Fischer
+          - heading [level=4] [ref=e106]:
+            - link "JUG-Stammtisch im Juni 2026" [ref=e107] [cursor=pointer]:
+              - /url: /blog/2026/sechster-stammtisch-2026/
+          - paragraph [ref=e109]:
+            - text: Der sechste Stammtisch in diesem Jahr wird am
+            - emphasis [ref=e110]: Dienstag, den 2. Juni 2026
+            - text: ", stattfinden."
+          - link "Weiterlesen →" [ref=e111] [cursor=pointer]:
+            - /url: /blog/2026/sechster-stammtisch-2026/
+            - text: Weiterlesen
+            - generic [ref=e112]: →
+        - article [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Event
+            - generic [ref=e116]: ·
+            - generic [ref=e117]: 15.04.2026
+            - generic [ref=e118]: ·
+            - generic [ref=e119]: Oliver B. Fischer
+          - heading [level=4] [ref=e120]:
+            - link "JUG-Stammtisch im Mai 2026" [ref=e121] [cursor=pointer]:
+              - /url: /blog/2026/fuenfter-stammtisch-2026/
+          - paragraph [ref=e123]:
+            - text: Der fünfte Stammtisch in diesem Jahr wird am
+            - emphasis [ref=e124]: Dienstag, den 5. Mai 2026
+            - text: ", stattfinden."
+          - link "Weiterlesen →" [ref=e125] [cursor=pointer]:
+            - /url: /blog/2026/fuenfter-stammtisch-2026/
+            - text: Weiterlesen
+            - generic [ref=e126]: →
+      - complementary [ref=e127]:
+        - generic [ref=e128]:
+          - heading "Aktuellste Artikel" [level=3] [ref=e129]
+          - generic [ref=e130]:
+            - link "01 JUG-Stammtisch im August 2026" [ref=e131] [cursor=pointer]:
+              - /url: /blog/2026/achter-stammtisch-2026/
+              - generic [ref=e132]: "01"
+              - generic [ref=e133]: JUG-Stammtisch im August 2026
+            - link "02 JUG-Stammtisch im Juli 2026" [ref=e134] [cursor=pointer]:
+              - /url: /blog/2026/siebenter-stammtisch-2026/
+              - generic [ref=e135]: "02"
+              - generic [ref=e136]: JUG-Stammtisch im Juli 2026
+            - link "03 Spec Driven Development - Wie KI alles verändert – und warum trotzdem nichts neu ist" [ref=e137] [cursor=pointer]:
+              - /url: /blog/2026/spec-driven-development/
+              - generic [ref=e138]: "03"
+              - generic [ref=e139]: Spec Driven Development - Wie KI alles verändert – und warum trotzdem nichts neu ist
+            - link "04 JUG-Stammtisch im Juni 2026" [ref=e140] [cursor=pointer]:
+              - /url: /blog/2026/sechster-stammtisch-2026/
+              - generic [ref=e141]: "04"
+              - generic [ref=e142]: JUG-Stammtisch im Juni 2026
+            - link "05 JUG-Stammtisch im Mai 2026" [ref=e143] [cursor=pointer]:
+              - /url: /blog/2026/fuenfter-stammtisch-2026/
+              - generic [ref=e144]: "05"
+              - generic [ref=e145]: JUG-Stammtisch im Mai 2026
+  - contentinfo

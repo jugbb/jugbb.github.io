@@ -1,0 +1,11 @@
+Plane folgende Aufgabe: Zu jeder Seite, die Hugo generiert, soll eine Bild-Datei für die Link-Vorschau generiert werden. Grundlage hierfür soll die Datei @logo/jug-bb-link-preview.png sein. Hier soll im Font JetBrains Mono, der sich bereits im Repo befindet, der Titel der Seite in der Mitte der zu erzeugenden Datei eingesetzt werden.
+
+Weiterhin sollen folgende Acceptance Kriterien eingehalten werden:
+
+* Die Bilderzeugung muss über HUGO erfolgen, da auf der CI kein weiteres Tooling zur Verfügung steht
+* Der Titel der Veranstaltung soll ab Pixel X=36 beginnen
+* Bei einer weiteren Zeile muss diese ebenfalls ab Pixel X=36 beginnen
+* Der Titel muss immer linksbündig ausgerichtet sein
+* Das Summary soll in der Zeite darunter plaziert werden
+* Das Summary darf niemals gekürzt werden
+* Passt das Summary nicht auf die Grafik, dann brich mit einem Fehler ab

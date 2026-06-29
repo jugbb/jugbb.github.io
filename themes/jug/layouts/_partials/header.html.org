@@ -1,0 +1,4 @@
+
+{{ partial "menu.html" (dict "menuID" "navbar" "page" .)
+
+}}

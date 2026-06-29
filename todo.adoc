@@ -1,0 +1,2 @@
+- [x] Die Darstellung der Sprecher stimmt nicht überall überein, besonders, wenn es mehr als einen gibt.
+- [ ] Sollte es nicht in jeder Seite einen Abschnitt main geben?

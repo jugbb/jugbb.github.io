@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="60558954-33b2-4b21-a5f6-378d65a176f2"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<style>/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("c6b758f8-5a22-4d26-8ced-ae1047cb37fb") format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("ed4950e6-0b15-4f03-8de3-31d9d22875e7") format('woff');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("653c0825-fd68-477b-b3fe-cc11775d1aa3") format('woff');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("29f0ccee-fd15-472b-8b1a-9845c235f75a") format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("cd6a2d13-24f0-4305-a333-5b353e8669c3") format('woff');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("161a6266-77e7-4c92-9e97-046c9f9f271a") format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fd91a084-0de0-4e0b-9ace-c09d781435fc") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fad3d8ba-a731-4f0c-94fb-f23acdb72d82") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("994750d9-b588-4d48-b318-3395606227e0") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("7bae5c37-7e66-4009-b87b-ec7fd6405669") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("b177d0ef-eff1-4f20-bfc1-eb6f16c26f8e") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("4f9b8115-48e7-483e-9874-fa84038c4614") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fd91a084-0de0-4e0b-9ace-c09d781435fc") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fad3d8ba-a731-4f0c-94fb-f23acdb72d82") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("994750d9-b588-4d48-b318-3395606227e0") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("7bae5c37-7e66-4009-b87b-ec7fd6405669") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("b177d0ef-eff1-4f20-bfc1-eb6f16c26f8e") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("4f9b8115-48e7-483e-9874-fa84038c4614") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fd91a084-0de0-4e0b-9ace-c09d781435fc") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fad3d8ba-a731-4f0c-94fb-f23acdb72d82") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("994750d9-b588-4d48-b318-3395606227e0") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("7bae5c37-7e66-4009-b87b-ec7fd6405669") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("b177d0ef-eff1-4f20-bfc1-eb6f16c26f8e") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("4f9b8115-48e7-483e-9874-fa84038c4614") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fd91a084-0de0-4e0b-9ace-c09d781435fc") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fad3d8ba-a731-4f0c-94fb-f23acdb72d82") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("994750d9-b588-4d48-b318-3395606227e0") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("7bae5c37-7e66-4009-b87b-ec7fd6405669") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("b177d0ef-eff1-4f20-bfc1-eb6f16c26f8e") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("4f9b8115-48e7-483e-9874-fa84038c4614") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("fd91a084-0de0-4e0b-9ace-c09d781435fc") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("fad3d8ba-a731-4f0c-94fb-f23acdb72d82") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("994750d9-b588-4d48-b318-3395606227e0") format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("7bae5c37-7e66-4009-b87b-ec7fd6405669") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("b177d0ef-eff1-4f20-bfc1-eb6f16c26f8e") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("4f9b8115-48e7-483e-9874-fa84038c4614") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'JetBrains Mono',ui-monospace,monospace;background:#ECEDEF;color:#15171B;-webkit-font-smoothing:antialiased}
+  ::selection{background:#2F6FED;color:#fff}
+  a{color:inherit;text-decoration:none}
+</style>
+</helmet>
+
+
+<div style="{{ rootStyle }}">
+
+  <!-- NAV -->
+  <header style="position:sticky;top:0;z-index:50;background:var(--header-bg,rgba(236,237,239,0.85));backdrop-filter:blur(12px);border-bottom:1px solid var(--border,rgba(21,23,27,0.1))">
+    <nav style="max-width:1240px;margin:0 auto;padding:18px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px">
+      <a href="#" style="display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;letter-spacing:-0.02em">
+        <span style="display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;background:var(--accent,#2F6FED);color:var(--accent-ink,#fff);border-radius:6px;font-weight:800;font-size:13px">{}</span>
+        <span>JUG_BB</span>
+      </a>
+      <div style="display:flex;align-items:center;gap:4px;font-size:13.5px;font-weight:500">
+        <a href="#" style="padding:8px 14px;border-radius:7px;background:var(--ink,#15171B);color:var(--bg,#ECEDEF)">Home</a>
+        <a href="#" style="padding:8px 14px;border-radius:7px;color:var(--muted,#474C55)" style-hover="background:var(--hover-soft,rgba(21,23,27,0.06));color:var(--ink,#15171B)">Informationen</a>
+        <a href="#" style="padding:8px 14px;border-radius:7px;color:var(--muted,#474C55)" style-hover="background:var(--hover-soft,rgba(21,23,27,0.06));color:var(--ink,#15171B)">Kontakt</a>
+        <a href="#" style="padding:8px 14px;border-radius:7px;color:var(--muted,#474C55)" style-hover="background:var(--hover-soft,rgba(21,23,27,0.06));color:var(--ink,#15171B)">Impressum</a>
+        <a href="#" style="padding:8px 14px;border-radius:7px;color:var(--muted,#474C55)" style-hover="background:var(--hover-soft,rgba(21,23,27,0.06));color:var(--ink,#15171B)">Archiv</a>
+        <a href="#" style="padding:8px 14px;border-radius:7px;color:var(--muted,#474C55)" style-hover="background:var(--hover-soft,rgba(21,23,27,0.06));color:var(--ink,#15171B)">Freunde</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section style="max-width:1240px;margin:0 auto;padding:88px 40px 64px">
+    <div style="display:inline-flex;align-items:center;gap:9px;font-size:12px;font-weight:500;color:var(--muted,#474C55);border:1px solid var(--border-strong,rgba(21,23,27,0.18));border-radius:999px;padding:7px 14px;margin-bottom:36px">
+      <span style="width:7px;height:7px;border-radius:50%;background:var(--accent,#2F6FED);display:inline-block"></span>
+      Java Community · Berlin-Brandenburg · seit 2008
+    </div>
+    <h1 style="font-size:clamp(44px,7vw,92px);line-height:0.98;font-weight:700;letter-spacing:-0.04em;max-width:14ch">Java&nbsp;User&nbsp;Group<br><span style="color:var(--accent,#2F6FED)">Berlin-Brandenburg</span></h1>
+    <p style="margin-top:32px;max-width:58ch;font-size:17px;line-height:1.6;color:var(--muted,#474C55);font-weight:400">Wir sind eine offene Gemeinschaft von Entwicklerinnen und Entwicklern rund um Java, die JVM und moderne Softwarearchitektur. Vorträge, Diskussionen und Pizza — kostenlos und für alle.</p>
+    <div style="margin-top:40px;display:flex;flex-wrap:wrap;gap:14px">
+      <a href="#naechstes" style="display:inline-flex;align-items:center;gap:10px;background:var(--ink,#15171B);color:var(--bg,#ECEDEF);font-size:14px;font-weight:600;padding:15px 24px;border-radius:9px" style-hover="background:var(--accent,#2F6FED);color:var(--accent-ink,#fff)">Nächstes Event ansehen →</a>
+      <a href="#" style="display:inline-flex;align-items:center;gap:10px;background:transparent;color:var(--ink,#15171B);font-size:14px;font-weight:600;padding:15px 24px;border-radius:9px;border:1px solid var(--border-strong,rgba(21,23,27,0.2))" style-hover="background:var(--hover-soft,rgba(21,23,27,0.05))">Mitglied werden</a>
+    </div>
+  </section>
+
+  <!-- FEATURED EVENT -->
+  <section id="naechstes" style="max-width:1240px;margin:0 auto;padding:0 40px 40px">
+    <div style="background:var(--panel,#15171B);color:var(--panel-ink,#EAECEF);border-radius:18px;padding:54px;position:relative;overflow:hidden">
+      <div style="position:absolute;top:-60px;right:-60px;width:260px;height:260px;background:var(--accent,#2F6FED);opacity:0.18;border-radius:50%;filter:blur(8px)"></div>
+      <div style="position:relative;display:grid;grid-template-columns:1.6fr 1fr;gap:48px;align-items:end">
+        <div>
+          <div style="display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--accent,#2F6FED);margin-bottom:24px">
+            <span style="width:7px;height:7px;border-radius:50%;background:var(--accent,#2F6FED)"></span>Nächster Vortrag
+          </div>
+          <h2 style="font-size:clamp(26px,3.2vw,40px);line-height:1.08;font-weight:700;letter-spacing:-0.03em">Spec Driven Development — Wie KI alles verändert und warum trotzdem nichts neu ist</h2>
+          <p style="margin-top:22px;font-size:15px;line-height:1.6;color:var(--panel-muted,#9CA1AB);max-width:54ch">Am <strong style="color:var(--panel-ink,#EAECEF);font-weight:600">Dienstag, 9. Juni 2026</strong> lädt die JUG Berlin-Brandenburg gemeinsam mit Capgemini zum Vortrag von Simon Martinelli ein.</p>
+          <div style="margin-top:30px;display:flex;flex-wrap:wrap;gap:10px">
+            <span style="font-size:12.5px;padding:8px 13px;border:1px solid var(--panel-border,rgba(234,236,239,0.18));border-radius:8px;color:var(--panel-muted,#9CA1AB)">09.06.2026 · 18:30</span>
+            <span style="font-size:12.5px;padding:8px 13px;border:1px solid var(--panel-border,rgba(234,236,239,0.18));border-radius:8px;color:var(--panel-muted,#9CA1AB)">Capgemini Berlin</span>
+            <span style="font-size:12.5px;padding:8px 13px;border:1px solid var(--panel-border,rgba(234,236,239,0.18));border-radius:8px;color:var(--panel-muted,#9CA1AB)">Eintritt frei</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <a href="#" style="display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--accent,#2F6FED);color:var(--accent-ink,#fff);font-size:14px;font-weight:700;padding:18px 22px;border-radius:11px" style-hover="background:var(--accent-hover,#4880F5)">Jetzt anmelden <span>→</span></a>
+          <div style="display:flex;gap:14px;font-size:12.5px;color:var(--panel-muted,#9CA1AB);padding:0 4px">
+            <div><div style="color:var(--panel-ink,#EAECEF);font-weight:700;font-size:22px;letter-spacing:-0.02em">120+</div>Plätze</div>
+            <div style="width:1px;background:var(--panel-border,rgba(234,236,239,0.15))"></div>
+            <div><div style="color:var(--panel-ink,#EAECEF);font-weight:700;font-size:22px;letter-spacing:-0.02em">Free</div>Eintritt</div>
+            <div style="width:1px;background:var(--panel-border,rgba(234,236,239,0.15))"></div>
+            <div><div style="color:var(--panel-ink,#EAECEF);font-weight:700;font-size:22px;letter-spacing:-0.02em">DE</div>Sprache</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN GRID -->
+  <section style="max-width:1240px;margin:0 auto;padding:48px 40px 40px;display:grid;grid-template-columns:1fr 340px;gap:64px;align-items:start">
+
+    <!-- ARTICLE FEED -->
+    <div>
+      <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--border,rgba(21,23,27,0.12));padding-bottom:16px;margin-bottom:8px">
+        <h3 style="font-size:14px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;color:var(--muted,#474C55)">// Beiträge</h3>
+        <a href="#" style="font-size:13px;color:var(--accent,#2F6FED);font-weight:500" style-hover="text-decoration:underline">Alle ansehen</a>
+      </div>
+
+      <sc-for list="{{ posts }}" as="p" hint-placeholder-count="3">
+        <article style="padding:34px 0;border-bottom:1px solid var(--border,rgba(21,23,27,0.1))">
+          <div style="display:flex;align-items:center;gap:12px;font-size:12.5px;color:var(--faint,#878D97);margin-bottom:16px">
+            <span style="color:var(--accent,#2F6FED);font-weight:600">{{ p.tag }}</span>
+            <span>·</span>
+            <span>{{ p.date }}</span>
+            <span>·</span>
+            <span>{{ p.author }}</span>
+          </div>
+          <h4 style="font-size:clamp(22px,2.6vw,30px);line-height:1.12;font-weight:700;letter-spacing:-0.02em;max-width:22ch" style-hover="color:var(--accent,#2F6FED)">
+            <a href="#">{{ p.title }}</a>
+          </h4>
+          <p style="margin-top:16px;font-size:14.5px;line-height:1.65;color:var(--muted,#474C55);max-width:60ch">{{ p.excerpt }}</p>
+          <a href="#" style="margin-top:20px;display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600;color:var(--ink,#15171B)" style-hover="gap:14px;color:var(--accent,#2F6FED)">Weiterlesen <span>→</span></a>
+        </article>
+      </sc-for>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside style="position:sticky;top:96px;display:flex;flex-direction:column;gap:28px">
+      <div style="background:var(--surface,#fff);border:1px solid var(--border,rgba(21,23,27,0.1));border-radius:14px;padding:26px">
+        <h3 style="font-size:13px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;color:var(--muted,#474C55);margin-bottom:20px">Aktuellste Artikel</h3>
+        <div style="display:flex;flex-direction:column">
+          <sc-for list="{{ recent }}" as="r" hint-placeholder-count="5">
+            <a href="#" style="display:flex;gap:14px;padding:14px 0;border-top:1px solid var(--border,rgba(21,23,27,0.08))" style-hover="color:var(--accent,#2F6FED)">
+              <span style="font-size:12px;font-weight:700;color:var(--accent,#2F6FED);flex-shrink:0;width:22px">{{ r.num }}</span>
+              <span style="font-size:13.5px;line-height:1.45;font-weight:500">{{ r.title }}</span>
+            </a>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="background:var(--accent,#2F6FED);color:var(--accent-ink,#fff);border-radius:14px;padding:26px">
+        <h3 style="font-size:18px;font-weight:700;letter-spacing:-0.02em;line-height:1.2">Newsletter</h3>
+        <p style="margin-top:10px;font-size:13px;line-height:1.55;color:var(--accent-muted,rgba(255,255,255,0.82))">Alle neuen Termine direkt ins Postfach. Kein Spam, nur Java.</p>
+        <div style="margin-top:18px;display:flex;flex-direction:column;gap:9px">
+          <input type="email" placeholder="dein@email.de" style="font-family:inherit;font-size:13px;padding:12px 14px;border-radius:9px;border:none;background:var(--bg,#ECEDEF);color:var(--ink,#15171B);outline:none">
+          <button type="button" style="font-family:inherit;font-size:13.5px;font-weight:700;padding:12px;border-radius:9px;border:none;background:var(--ink,#15171B);color:var(--bg,#ECEDEF);cursor:pointer" style-hover="opacity:0.88">Abonnieren →</button>
+        </div>
+      </div>
+
+      <div style="border:1px dashed var(--border-strong,rgba(21,23,27,0.25));border-radius:14px;padding:24px">
+        <div style="font-size:12px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;color:var(--faint,#878D97);margin-bottom:14px">Mitmachen</div>
+        <p style="font-size:13.5px;line-height:1.6;color:var(--muted,#474C55)">Du möchtest einen Vortrag halten oder Sponsor werden? <a href="#" style="color:var(--accent,#2F6FED);font-weight:600;text-decoration:underline">Schreib uns →</a></p>
+      </div>
+    </aside>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="border-top:1px solid var(--border,rgba(21,23,27,0.12));margin-top:48px">
+    <div style="max-width:1240px;margin:0 auto;padding:56px 40px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px">
+      <div>
+        <a href="#" style="display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;margin-bottom:16px">
+          <span style="display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;background:var(--accent,#2F6FED);color:var(--accent-ink,#fff);border-radius:6px;font-weight:800;font-size:13px">{}</span>
+          JUG_BB
+        </a>
+        <p style="font-size:13px;line-height:1.6;color:var(--faint,#878D97);max-width:34ch">Java User Group Berlin-Brandenburg. Eine ehrenamtliche Community für die JVM-Welt in der Hauptstadtregion.</p>
+      </div>
+      <div>
+        <div style="font-size:11.5px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--faint,#878D97);margin-bottom:16px">Navigation</div>
+        <div style="display:flex;flex-direction:column;gap:11px;font-size:13.5px;color:var(--muted,#474C55)">
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">Home</a>
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">Informationen</a>
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">Archiv</a>
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">Freunde</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:11.5px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--faint,#878D97);margin-bottom:16px">Rechtliches</div>
+        <div style="display:flex;flex-direction:column;gap:11px;font-size:13.5px;color:var(--muted,#474C55)">
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">Kontakt</a>
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">Impressum</a>
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">Datenschutz</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:11.5px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--faint,#878D97);margin-bottom:16px">Folgen</div>
+        <div style="display:flex;flex-direction:column;gap:11px;font-size:13.5px;color:var(--muted,#474C55)">
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">Mastodon</a>
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">GitHub</a>
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">Meetup</a>
+          <a href="#" style-hover="color:var(--accent,#2F6FED)">RSS</a>
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid var(--border,rgba(21,23,27,0.1))">
+      <div style="max-width:1240px;margin:0 auto;padding:22px 40px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--faint,#878D97)">
+        <span>© 2026 JUG Berlin-Brandenburg</span>
+        <span>Made with Java ☕ in Berlin</span>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;:{&quot;width&quot;:1240,&quot;height&quot;:1600},&quot;theme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;orchard&quot;,&quot;citrus&quot;,&quot;forest&quot;,&quot;mint&quot;,&quot;green&quot;,&quot;slate&quot;,&quot;cream&quot;],&quot;default&quot;:&quot;orchard&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Theme&quot;}}">
+class Component extends DCLogic {
+  themes() {
+    return {
+      orchard: {
+        '--bg':'#E7F0E1','--ink':'#18221A','--muted':'#4F5A4E','--faint':'#86917E',
+        '--accent':'#ED5F1E','--accent-hover':'#FF7536','--accent-ink':'#FFFFFF','--accent-muted':'rgba(255,255,255,0.85)',
+        '--surface':'#F5FAF1','--border':'rgba(24,34,26,0.10)','--border-strong':'rgba(24,34,26,0.20)','--hover-soft':'rgba(24,34,26,0.06)',
+        '--header-bg':'rgba(231,240,225,0.85)','--panel':'#123D29','--panel-ink':'#E6F0E9','--panel-muted':'#9DB6A7','--panel-border':'rgba(230,240,233,0.18)'
+      },
+      citrus: {
+        '--bg':'#FBF3EA','--ink':'#20180F','--muted':'#6B5E50','--faint':'#9C8F7E',
+        '--accent':'#ED5F1E','--accent-hover':'#FF7536','--accent-ink':'#FFFFFF','--accent-muted':'rgba(255,255,255,0.85)',
+        '--surface':'#FFFBF5','--border':'rgba(32,24,15,0.10)','--border-strong':'rgba(32,24,15,0.20)','--hover-soft':'rgba(32,24,15,0.06)',
+        '--header-bg':'rgba(251,243,234,0.85)','--panel':'#123D29','--panel-ink':'#E6F0E9','--panel-muted':'#9DB6A7','--panel-border':'rgba(230,240,233,0.18)'
+      },
+      mint: {
+        '--bg':'#E3EDE4','--ink':'#15211A','--muted':'#485650','--faint':'#7E8C84',
+        '--accent':'#1C8C56','--accent-hover':'#27A366','--accent-ink':'#FFFFFF','--accent-muted':'rgba(255,255,255,0.82)',
+        '--surface':'#F6FAF6','--border':'rgba(21,33,26,0.10)','--border-strong':'rgba(21,33,26,0.20)','--hover-soft':'rgba(21,33,26,0.06)',
+        '--header-bg':'rgba(227,237,228,0.85)','--panel':'#14201A','--panel-ink':'#E7ECE6','--panel-muted':'#93A099','--panel-border':'rgba(231,236,230,0.16)'
+      },
+      forest: {
+        '--bg':'#0E1A14','--ink':'#E8EEE9','--muted':'#A6B2AA','--faint':'#6E7C73',
+        '--accent':'#3FB87A','--accent-hover':'#54C98C','--accent-ink':'#0E1A14','--accent-muted':'rgba(14,26,20,0.78)',
+        '--surface':'#16241C','--border':'rgba(232,238,233,0.12)','--border-strong':'rgba(232,238,233,0.22)','--hover-soft':'rgba(232,238,233,0.07)',
+        '--header-bg':'rgba(14,26,20,0.85)','--panel':'#1B2E22','--panel-ink':'#E8EEE9','--panel-muted':'#9DACA2','--panel-border':'rgba(232,238,233,0.14)'
+      },
+      green: {
+        '--bg':'#EAEDE8','--ink':'#16201B','--muted':'#4C5650','--faint':'#828D85',
+        '--accent':'#1C8C56','--accent-hover':'#27A366','--accent-ink':'#FFFFFF','--accent-muted':'rgba(255,255,255,0.82)',
+        '--surface':'#FBFCFA','--border':'rgba(22,32,27,0.10)','--border-strong':'rgba(22,32,27,0.20)','--hover-soft':'rgba(22,32,27,0.06)',
+        '--header-bg':'rgba(234,237,232,0.85)','--panel':'#14201A','--panel-ink':'#E7ECE6','--panel-muted':'#93A099','--panel-border':'rgba(231,236,230,0.16)'
+      },
+      slate: {
+        '--bg':'#ECEDEF','--ink':'#15171B','--muted':'#474C55','--faint':'#878D97',
+        '--accent':'#2F6FED','--accent-hover':'#4880F5','--accent-ink':'#FFFFFF','--accent-muted':'rgba(255,255,255,0.82)',
+        '--surface':'#FFFFFF','--border':'rgba(21,23,27,0.10)','--border-strong':'rgba(21,23,27,0.20)','--hover-soft':'rgba(21,23,27,0.06)',
+        '--header-bg':'rgba(236,237,239,0.85)','--panel':'#15171B','--panel-ink':'#EAECEF','--panel-muted':'#9CA1AB','--panel-border':'rgba(234,236,239,0.16)'
+      },
+      cream: {
+        '--bg':'#F0EEE6','--ink':'#1A1915','--muted':'#56534C','--faint':'#8A857B',
+        '--accent':'#C15F3C','--accent-hover':'#D17A56','--accent-ink':'#FFFFFF','--accent-muted':'rgba(255,255,255,0.82)',
+        '--surface':'#FAF9F5','--border':'rgba(26,25,21,0.10)','--border-strong':'rgba(26,25,21,0.20)','--hover-soft':'rgba(26,25,21,0.06)',
+        '--header-bg':'rgba(240,238,230,0.85)','--panel':'#1A1915','--panel-ink':'#EDEAE2','--panel-muted':'#A8A399','--panel-border':'rgba(237,234,226,0.16)'
+      }
+    };
+  }
+  renderVals() {
+    const theme = this.themes()[this.props.theme] || this.themes().orchard;
+    const rootStyle = Object.assign({ minHeight:'100vh', background:'var(--bg)', color:'var(--ink)' }, theme);
+    return {
+      rootStyle,
+      posts: [
+        {
+          tag: 'Event',
+          date: '23.05.2026',
+          author: 'Oliver B. Fischer',
+          title: 'Spec Driven Development — Wie KI alles verändert und warum trotzdem nichts neu ist',
+          excerpt: 'Am Dienstag, den 9. Juni 2026, lädt die Java Usergroup Berlin-Brandenburg gemeinsam mit Capgemini zum Vortrag von Simon Martinelli ein.'
+        },
+        {
+          tag: 'Talk',
+          date: '25.04.2024',
+          author: 'Jörg Müller',
+          title: 'Data Mesh & Java Profilers',
+          excerpt: 'Die Java Usergroup Berlin-Brandenburg und unser Partner INNOQ laden zu den Talks „Data Mesh" von Jochen Christ und „Is Your Java Application Slow? Check Out These Open-Source Profilers" ein.'
+        },
+        {
+          tag: 'Talk',
+          date: '12.02.2024',
+          author: 'Oliver B. Fischer',
+          title: 'Asynchronous Programming in Java using Virtual Threads',
+          excerpt: 'Virtual Threads versprechen einfache, skalierbare Nebenläufigkeit. Wir schauen uns an, wie sich das klassische Thread-Modell verändert und worauf man in der Praxis achten sollte.'
+        },
+        {
+          tag: 'Talk',
+          date: '08.11.2023',
+          author: 'Jörg Müller',
+          title: 'Nicht schon wieder ein Talk über Monolithen',
+          excerpt: 'Microservices waren gestern? Ein ehrlicher Blick auf modulare Monolithen, ihre Stärken und wann sie die bessere Wahl gegenüber verteilten Systemen sind.'
+        }
+      ],
+      recent: [
+        { num: '01', title: 'Spec Driven Development — Wie KI alles verändert und warum trotzdem nichts neu ist' },
+        { num: '02', title: 'Data Mesh & Java Profilers' },
+        { num: '03', title: 'Asynchronous Programming in Java using Virtual Threads' },
+        { num: '04', title: 'Nicht schon wieder ein Talk über Monolithen' },
+        { num: '05', title: 'Testcontainers — Past, Present and Future' }
+      ]
+    };
+  }
+}
+</script>
+
+
+</body></html>

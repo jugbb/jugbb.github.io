@@ -1,0 +1,5 @@
+*{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'JetBrains Mono',ui-monospace,monospace;background:#ECEDEF;color:#15171B;-webkit-font-smoothing:antialiased}
+  ::selection{background:#2F6FED;color:#fff}
+  a{color:inherit;text-decoration:none}

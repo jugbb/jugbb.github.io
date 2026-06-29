@@ -1,0 +1,33 @@
+.meta {
+  font-size: 12.5px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.meta > .type {
+  color: #ED5F1E;
+  font-weight: 600;
+}
+
+.meta > .date {
+  color: #4F5A4E;
+}
+
+.meta > .author {
+  color: #4F5A4E;
+}
+
+body {
+  background-color: #E7F0E1;
+  margin: 0;
+  padding: 0;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+.XXX {
+  color: #18221A;
+}
+
+/*# sourceMappingURL=jugbb.css.map */
