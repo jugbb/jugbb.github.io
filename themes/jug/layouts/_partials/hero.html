@@ -1,0 +1,35 @@
+<section class="hero">
+    <div class="hero-eyebrow">
+        <span class="dot"></span>
+        Java User Group · Berlin-Brandenburg · seit 20..
+    </div>
+    <h1 class="hero-title">
+        Java&nbsp;User&nbsp;Group<br><span class="accent">Berlin-Brandenburg</span>
+    </h1>
+
+    <p class="hero-lead">
+        Wir sind eine offene Gemeinschaft von Entwicklerinnen und Entwicklern rund um Java, die JVM und
+        moderne Softwarearchitektur. Vorträge, Diskussionen und Pizza — kostenlos und für alle.
+    </p>
+
+    <div class="hero-actions">
+        {{ $now := now }}
+        {{ $upcoming := where .Site.RegularPages "Params.event_type" "in" (slice "talk" "stammi") }}
+        {{ $future := slice }}
+
+        {{ range $upcoming }}
+            {{ if ge (time .Params.event_date) $now }}
+                {{ $future = $future | append . }}
+            {{ end }}
+        {{ end }}
+
+        {{ $future = sort $future "Params.event_date" "asc" }}
+
+        {{ with index $future 0 }}
+            <a href="{{ .RelPermalink }}" class="btn btn-primary">Nächstes Event ansehen →</a>
+        {{ end }}
+        <a href="https://www.meetup.com/jug-bb/" target="_blank" class="btn btn-ghost">Mitglied werden</a>
+    </div>
+
+
+</section>

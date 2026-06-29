@@ -1,0 +1,1199 @@
+// -- JUG Berlin-Brandenburg --
+
+
+// 🖌️ Farben für Flächen und Hintergründe
+$bg: #E7F0E1; // Haupthintergrund (Sage-Grün)
+$surface: #F5FAF1; // Kartenfläche
+$panel: #123D29; // Dunkles Panel
+$header-bg: rgba(231, 240, 225, 0.85); // Sticky-Header (transluzent)
+
+// 📖 Text auf hellem Grund
+$ink: #18221A; // Haupttextfarbe (Ink)
+$muted: #4F5A4E; // Sekundärtext (Muted)
+$faint: #86917E; // Leisester Text (Faint / Meta)
+
+// 📖 Text auf dunklem Panel
+$panel-ink: #E6F0E9; // Panel-Text (Off-White)
+$panel-muted: #9DB6A7; // Panel-Sekundärtext
+$panel-border: rgba(230, 240, 233, 0.18); // Panel-Rahmen
+
+// 💧 Akzentfarben --
+$accent: #ED5F1E; // Akzentfarbe (Vermilion / Burnt Orange)
+$accent-hover: #FF7536; // Akzent Hover
+$accent-ink: #FFFFFF; // Text auf Akzent
+$accent-muted: rgba(255, 255, 255, 0.85); // Akzent gedämpft
+
+// 🫥 Linien & Interaktion --
+$border: rgba(24, 34, 26, 0.10); // Rahmen und Trennlinien
+$border-strong: rgba(24, 34, 26, 0.20); // Rahmen kräftig
+$hover-soft: rgba(24, 34, 26, 0.06); // Hover-Fläche
+
+// 💌 Typografie --
+$font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+// 📏 Größen und Abstände
+$max_width: 1240px;
+$spacing_top_navigation_elements: 4px;
+
+// 🖨️ Schriften für die Seite
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+//-- Hauptstruktur
+
+.jug-main-container {
+  align-items: start;
+  display: grid;
+  gap: 72px;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  margin: 0 auto;
+  max-width: $max_width;
+  padding: 24px 40px 40px;
+}
+
+.jug-sidebar-container {
+  position: sticky;
+  top: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+
+//-- Alles, was danach kommt, muss aufgeräumt werden
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+a:hover {
+  color: $accent;
+}
+
+//-- Alle Arten von Chips
+
+.jchip-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+.chip {
+  border-radius: 8px;
+  font-size: 12.5px;
+  padding: 8px 13px;
+}
+
+.jchip {
+  @extend .chip;
+
+  border: 1px solid $panel-border;
+  color: $panel-muted;
+}
+
+.jdetail-chip {
+  @extend .jchip;
+
+  border: 1px solid $border-strong;
+  color: $muted;
+}
+
+
+.footer {
+  border-top: 1px solid $border;
+  margin-top: 48px;
+}
+
+.footer-grid {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 56px 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-desc {
+  margin-top: 16px;
+  max-width: 34ch;
+  font-size: 13px;
+  line-height: 1.6;
+  color: $faint;
+}
+
+.footer-heading {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $faint;
+  margin-bottom: 16px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  font-size: 13.5px;
+  color: $muted;
+}
+
+.footer-col a:hover {
+  color: $accent;
+}
+
+.footer-bar {
+  border-top: 1px solid $border;
+}
+
+.footer-bar-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 22px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 12px;
+  color: $faint;
+}
+
+
+/* ─── Reset ─────────────────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ─── Basis ─────────────────────────────────────────────────── */
+body {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  background: $bg;
+  color: $ink;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: $accent;
+  color: $accent-ink;
+}
+
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: $accent;
+  display: inline-block;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   EVENT-BLOCK (dunkles Panel)
+   ═══════════════════════════════════════════════════════════════ */
+.event-section {
+  max-width: $max_width;
+  margin: 0 auto;
+  padding: 0 40px 40px;
+}
+
+.event-card {
+  position: relative;
+  overflow: hidden;
+  background: $panel;
+  color: $panel-ink;
+  border-radius: 18px;
+  padding: 54px;
+}
+
+
+.event-glow {
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: $accent;
+  opacity: 0.18;
+  filter: blur(8px);
+}
+
+.event-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 48px;
+  align-items: end;
+}
+
+.event-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $accent;
+  margin-bottom: 24px;
+}
+
+.event-title {
+  font-size: clamp(26px, 3.2vw, 40px);
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.event-lead {
+  margin-top: 22px;
+  max-width: 54ch;
+  font-size: 15px;
+  line-height: 1.6;
+  color: $panel-muted;
+}
+
+.event-lead strong {
+  color: $panel-ink;
+  font-weight: 600;
+}
+
+.event-tags {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.event-tag {
+  font-size: 12.5px;
+  padding: 8px 13px;
+  border-radius: 8px;
+  border: 1px solid $panel-border;
+  color: $panel-muted;
+}
+
+.event-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.event-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: $accent;
+  color: $accent-ink;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 18px 22px;
+  border-radius: 11px;
+  transition: background .15s;
+}
+
+.event-cta:hover {
+  background: $accent-hover;
+}
+
+.event-stats {
+  display: flex;
+  gap: 14px;
+  font-size: 12.5px;
+  color: $panel-muted;
+  padding: 0 4px;
+}
+
+.event-stat-num {
+  color: $panel-ink;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+}
+
+.event-divider {
+  width: 1px;
+  background: $panel-border;
+}
+
+
+/* ═══════════════════════════════════════════════════════════════
+   HERO
+   ═══════════════════════════════════════════════════════════════ */
+.hero {
+  max-width: $max_width;
+  margin: 0 auto;
+  padding: 88px 40px 64px;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 12px;
+  font-weight: 500;
+  color: $muted;
+  border: 1px solid $border-strong;
+  border-radius: 999px;
+  padding: 7px 14px;
+  margin-bottom: 36px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: $accent;
+  display: inline-block;
+}
+
+.hero-title {
+  font-size: clamp(44px, 7vw, 92px);
+  line-height: 0.98;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  max-width: 14ch;
+}
+
+.hero-title .accent {
+  color: $accent;
+}
+
+.hero-lead {
+  margin-top: 32px;
+  max-width: 58ch;
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: $muted;
+}
+
+.hero-actions {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+
+/* ─── Buttons ───────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 24px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+
+.btn-primary {
+  background: $ink;
+  color: $bg;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: $accent;
+  color: $ink;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: $ink;
+  border: 1px solid $border-strong;
+}
+
+.btn-ghost:hover {
+  background: $hover-soft;
+}
+
+/*
+ * Top-Navigation
+ */
+
+.header {
+  backdrop-filter: blur(12px);
+  background: $header-bg;
+  border-bottom: 1px solid $border;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: $max_width;
+  padding: 18px 40px;
+}
+
+.nav-logo {
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  gap: 10px;
+  letter-spacing: -0.02em;
+}
+
+.nav-logo-mark {
+  align-items: center;
+  background: $accent;
+  border-radius: 6px;
+  color: $accent-ink;
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 800;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  font-size: 13.5px;
+  font-weight: 500;
+  gap: $spacing_top_navigation_elements;
+}
+
+.nav-link {
+  border-radius: 7px;
+  color: $muted;
+  padding: 8px 14px;
+  transition: background .15s, color .15s;
+}
+
+.nav-link:hover {
+  background: $hover-soft;
+  color: $ink;
+}
+
+.nav-link.is-active {
+  background: $ink;
+  color: $bg;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-menu {
+  display: none;
+  left: 0;
+  min-width: 180px;
+  padding: 6px 0;
+  position: absolute;
+  top: 100%;
+  z-index: 100;
+}
+
+.nav-dropdown-menu li .nav-link {
+  display: block;
+  margin-top: $spacing_top_navigation_elements;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu {
+  display: block;
+}
+
+
+/*
+  Überschriften, aktuell abgeleitet aus der Event-Seite
+ */
+
+.event-detail-title {
+  font-size: clamp(34px, 4.6vw, 58px);
+  line-height: 1.04;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+.detail-meta {
+  margin-top: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.__detail-chip {
+  border-radius: 8px;
+  border: 1px solid $border-strong;
+  color: $muted;
+  font-size: 12.5px;
+  padding: 8px 13px;
+}
+
+/* todo: ist das identisch mit dem anderen Eyebrow */
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 22px;
+}
+
+/* Das kommt hier für die Event Seite und sorgt dafür, dass
+ der Inhalt immer links ist
+
+ */
+
+
+.detail-article {
+  min-width: 0;
+}
+
+
+/*
+  So, jetzt muss ich die Elemente auf der Event-Seite mit Selektoren arbeiten
+  Sonst muss ich zu tief in das Rendering eingreifen
+ */
+
+article[class="detail-article"] h2 {
+
+  margin-top: 52px;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: $ink;
+  padding-bottom: 14px;
+  border-bottom: 1px solid $border;
+
+
+}
+
+article[class="detail-article"] h3 {
+
+  font-size: 19px; /* zwischen H2 26px und Body 15px */
+  font-weight: 700; /* Bold, wie H2 */
+  letter-spacing: -0.015em; /* leicht negativ — großes Element */
+  line-height: 1.25;
+  color: $ink;
+  margin-top: 34px; /* kleiner als H2 (52px) */
+
+}
+
+article[class="detail-article"] p {
+  margin-top: 18px;
+  max-width: 64ch;
+  font-size: 15px;
+  line-height: 1.72;
+  color: $muted;
+}
+
+article[class="detail-article"] ul {
+  padding-left: 20px; /* links mehr Platz */
+  margin-top: 18px;
+  max-width: 64ch;
+  font-size: 15px;
+  line-height: 1.72;
+  color: $muted;
+}
+
+article[class="detail-article"] ul li {
+  padding-left: 11px;
+}
+
+article[class="detail-article"] p strong {
+  color: $ink;
+  font-weight: 600;
+}
+
+article[class="detail-article"] p a {
+
+  color: $accent;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+// todo aUf der Event-Seite der erste Absatz, die Einleitung
+
+article.detail-article > p:first-of-type {
+  margin-top: 34px;
+  max-width: 64ch;
+  font-size: 17px;
+  line-height: 1.62;
+  font-weight: 400;
+  color: $ink;
+}
+
+article.detail-article > p:first-of-type strong {
+  font-weight: 600
+}
+
+// Ablauf-Liste: die <ul> direkt nach der Überschrift "Der Ablauf"
+// wird als Agenda-Zeitleiste gestylt (Uhrzeit + Label)
+#der-ablauf + ul {
+  margin-top: 24px;
+  max-width: 64ch;
+  list-style: none;
+  padding: 0;
+
+  li {
+
+    padding: 14px 0;
+    border-bottom: 1px dashed $border;
+    font-size: 15px;
+    color: $muted;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.agenda {
+  margin-top: 24px;
+  max-width: 64ch;
+}
+
+.agenda-row {
+  display: flex;
+  gap: 18px;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px dashed $border;
+}
+
+.agenda-row:last-child {
+  border-bottom: none;
+}
+
+.agenda-time {
+  font-size: 14px;
+  font-weight: 700;
+  color: $accent;
+  flex-shrink: 0;
+  width: 64px;
+}
+
+.agenda-label {
+  font-size: 15px;
+  color: $muted;
+}
+
+// Location auf der Event-Seite
+
+.place-card {
+  margin-top: 22px;
+  max-width: 64ch;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: 12px;
+  padding: 20px 22px;
+}
+
+.place-card:hover {
+  border-color: $accent;
+}
+
+.place-icon {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: $accent;
+  color: $accent_ink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.place-name {
+  display: block;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: $ink;
+}
+
+.place-addr {
+  display: block;
+  font-size: 13px;
+  color: $muted;
+  margin-top: 3px;
+}
+
+.speaker {
+  margin-top: 24px;
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+}
+
+.speaker-avatar {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 14px;
+  background: $panel;
+  color: $panel-ink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.speaker-body {
+  min-width: 0;
+
+  /*
+    Muss hier dupliziert werden, da Hugo nicht immer einen Absatz mit p genriert, wenn es für
+    den Sprecher nur einen einzelnen Absatz gibt
+  */
+}
+
+/*
+ * Wenn es für den Sprechner mehr als einen Absatz gibt, dann generiert Hugo richtige
+ * p-Elemente, die korrekt layoutet werden. Gibt es nur einen einzigen Absatz, wird
+ * kein p-Element generiert. Diese Regel soll diesen Fall abdecken und die gleiche
+ * Formatierung wie bei den p-Elementen sicherstellen.
+ */
+.speaker-body:not(:has(p)) {
+  color: $muted;
+  font-size: 15px;
+  line-height: 1.72;
+  margin-top: 18px;
+}
+
+.speaker-body:not(:has(p)) strong {
+  color: $ink;
+  font-weight: 600;
+}
+
+.speaker-body {
+  max-width: 58ch;
+}
+
+
+.register-card {
+  position: relative;
+  overflow: hidden;
+  background: $panel;
+  color: $panel-ink;
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.register-glow {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: $accent;
+  opacity: 0.18;
+  filter: blur(8px);
+}
+
+.register-inner {
+  position: relative;
+}
+
+.register-weekday {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $accent;
+}
+
+.register-date {
+  margin-top: 8px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.register-time {
+  margin-top: 6px;
+  font-size: 14px;
+  color: $panel-muted;
+}
+
+.register-facts {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.register-fact {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 0;
+  border-top: 1px solid $panel-border;
+}
+
+.register-fact span:first-child {
+  color: $panel-muted;
+}
+
+.register-fact span:last-child {
+  font-weight: 600;
+}
+
+.register-btn {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: $accent;
+  color: $accent-ink;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 20px;
+  border-radius: 11px;
+  transition: background .15s;
+}
+
+.register-btn:hover {
+  background: $accent-hover;
+}
+
+.register-note {
+  margin-top: 12px;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: $panel-muted;
+  text-align: center;
+}
+
+
+.card {
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: 14px;
+  padding: 26px;
+}
+
+.card-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $muted;
+  margin-bottom: 20px;
+}
+
+.recent-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-item {
+  display: flex;
+  gap: 14px;
+  padding: 14px 0;
+  border-top: 1px solid $border;
+  transition: color .15s;
+}
+
+.recent-item:hover {
+  color: $accent;
+}
+
+.recent-num {
+  font-size: 12px;
+  font-weight: 700;
+  color: $accent;
+  flex-shrink: 0;
+  width: 22px;
+}
+
+.recent-title {
+  font-size: 13.5px;
+  line-height: 1.45;
+  font-weight: 500;
+}
+
+
+.post {
+  padding: 34px 0;
+  border-bottom: 1px solid $border;
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12.5px;
+  color: $faint;
+  margin-bottom: 16px;
+}
+
+.post-meta .tag {
+  color: $accent;
+  font-weight: 600;
+}
+
+.post-title {
+  font-size: clamp(22px, 2.6vw, 30px);
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  max-width: 22ch;
+  transition: color .15s;
+}
+
+.post-title:hover {
+  color: $accent;
+}
+
+.post-excerpt {
+  margin-top: 16px;
+  max-width: 60ch;
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: $muted;
+}
+
+.post-more {
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: $ink;
+  transition: gap .15s, color .15s;
+}
+
+.post-more:hover {
+  gap: 14px;
+  color: $accent;
+}
+
+
+//-- alt
+
+.__detail-sidebar {
+  position: sticky;
+  top: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+
+.__main-sidebar {
+  position: sticky;
+  top: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.__detail {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 40px 40px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 72px;
+  align-items: start;
+}
+
+.__main {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 40px 40px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 72px;
+  align-items: start;
+}
+
+.feed-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid $border;
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+}
+
+.section-label {
+
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $muted;
+}
+
+.section-label::before {
+  content: "// ";
+}
+
+.section-label h3 {
+  min-width: 0;
+}
+
+
+.link-more {
+  font-size: 13px;
+  font-weight: 500;
+  color: $accent;
+}
+
+.link-more:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 900px) {
+  .jug-main-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .jug-sidebar-container {
+    position: static;
+  }
+}
+
+@media (max-width: 560px) {
+  .breadcrumb {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .jug-main-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .speaker {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

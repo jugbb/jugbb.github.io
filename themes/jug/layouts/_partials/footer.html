@@ -1,0 +1,45 @@
+<footer class="footer">
+    <div class="footer-grid">
+        <div>
+            <a href="/" class="nav-logo">
+                <span class="nav-logo-mark">{}</span>
+                <span>JUG BB</span>
+            </a>
+
+            <p class="footer-desc">
+                Java User Group Berlin-Brandenburg.
+                Eine offene Community für die JVM-Welt in der Hauptstadtregion.
+            </p>
+        </div>
+        <div>
+            <div class="footer-heading">Navigation</div>
+            <div class="footer-col">
+                <a href="/">Home</a>
+
+                {{ partial "footer-nav-element.html" (dict "kv" . "key" "the_jug" "alt" "Informationen") }}
+                {{ partial "footer-nav-element.html" (dict "kv" . "key" "archiv") }}
+                {{ partial "footer-nav-element.html" (dict "kv" . "key" "freunde") }}
+            </div>
+        </div>
+        <div>
+            <div class="footer-heading">Rechtliches</div>
+            <div class="footer-col">
+                {{ partial "footer-nav-element.html" (dict "kv" . "key" "kontakt") }}
+                {{ partial "footer-nav-element.html" (dict "kv" . "key" "impressum") }}
+            </div>
+        </div>
+        <div>
+            <div class="footer-heading">Folgen</div>
+            <div class="footer-col">
+                <a href="https://www.linkedin.com/company/103512774/admin/dashboard/" target="_blank">LinkedIn</a>
+                <a href="http://meetup.com/jug-bb/" target="_blank">Meetup</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bar">
+        <div class="footer-bar-inner">
+            <span>&copy; {{ now.Year }} JUG Berlin-Brandenburg</span>
+            <span>Made with Java ☕ and Hugo 🎩 in Berlin</span>
+        </div>
+    </div>
+</footer>

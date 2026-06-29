@@ -1,0 +1,20 @@
+<div class="jug-main-container">
+    <div>
+        <article class="detail-article">
+
+            <div class="eyebrow">
+                <span class="dot"></span>
+                {{ .Title }}
+            </div>
+
+            <h1 class="event-detail-title">{{ .Title }}</h1>
+
+            {{ .Content }}
+
+        </article>
+    </div>
+
+    <aside class="jug-sidebar-container" >
+        {{ partial "last-posts.html" }}
+    </aside>
+</div>

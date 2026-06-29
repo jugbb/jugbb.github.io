@@ -1,0 +1,19 @@
+{{ $key := .key  }}
+{{ $alternative_titel := .alt }}
+{{ $found := false }}
+
+{{ range site.Menus.navbar }}
+    {{ if not $found }}
+        {{ if eq .Identifier $.key }}
+            <a href="{{ partial "url-of-nav-element.html" (dict "kv" . "key" $key) }}">{{ or $alternative_titel .Name }}</a>
+            {{ $found = true }}
+        {{ else }}
+            {{ range .Children }}
+                {{ if eq .Identifier $.key }}
+                    <a href="{{ partial "url-of-nav-element.html" (dict "kv" . "key" $key) }}">{{ or $alternative_titel .Name }}</a>
+                    {{ $found = true }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}

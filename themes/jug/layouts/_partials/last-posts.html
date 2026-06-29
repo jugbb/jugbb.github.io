@@ -1,0 +1,14 @@
+<div class="card">
+    <h3 class="card-title">Aktuellste Artikel</h3>
+    <div class="recent-list">
+
+        {{ range $index, $post := first 5 site.RegularPages }}
+
+            <a href="{{ $post.RelPermalink }}" class="recent-item">
+                <span class="recent-num">{{ printf "%02d" (add $index 1) }}</span>
+                <span class="recent-title">{{ $post.LinkTitle }}</span>
+            </a>
+
+        {{ end }}
+    </div>
+</div>

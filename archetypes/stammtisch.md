@@ -2,17 +2,31 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 author: <AUTHOR>
-event_date: <EVENT_DATE>
+event_date: <EVENT_DATE>18:30:00+02:00
+event_start: <EVENT_DATE>T18:30:00+02:00
+event_type: stammi
+event_lang: de
+event_host: Restaurant DaVinci
+
+meetup_signup_url: https://www.meetup.com/de-DE/jug-bb/
 ---
 
-Der <erste|...|zwölfte> Stammtisch in diesem Jahr wird am **{{< param "date" >}}**, stattfinden.
+{{% invite_stammtisch no=8 %}}
 
-Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.
 <!--more-->
 
-Unserer Stammtischtermine sind auch in unserer Meetup-Gruppe unter [https://www.meetup.com/de-DE/jug-bb/events](https://www.meetup.com/de-DE/jug-bb/events) zu finden.
+{{% invite_stammtisch_floskel_ab_2026 %}}
 
-Wir laden daher jeden an unserer JUG Interessierten herzlich zu unserem Treffen am **<DATUM>**, ab 18:30 Uhr ein.
+## Der Treffpunkt
 
-Treffpunkt ist das [Cafe Via Nova II, Universitätsstraße 2, 10117 Berlin](http://www.cafe-vianova.de/nova2#kontakt).
+{{< location_davinci >}}
 
+## Der Ablauf
+
+{{< agenda >}}
+- 18:30 Beginn des Stammtisches
+  {{< /agenda >}}
+
+## Die Anmeldung
+
+{{% register_stammtisch_meetup %}}

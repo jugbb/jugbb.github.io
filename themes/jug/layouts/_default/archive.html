@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+{{ $dateFormat := default "Mon Jan 2, 2006" (index .Site.Params "date_format") }}
+<section class="jug-main-container">
+    <div>
+        <article class="detail-article">
+
+            <div class="eyebrow">
+                <span class="dot"></span>
+                Archiv
+            </div>
+
+        {{ $type := .Type }}
+        {{ $.Scratch.Set "count" 1 }}
+
+        {{ range (.Site.RegularPages.GroupByDate "2006") }}
+            {{ if and (gt .Key 1) (gt (where .Pages "Type" $type) 0) }}
+
+                {{ range (where .Pages "Type" $type) }}
+                    {{ if (eq ($.Scratch.Get "count") 1) }}
+                        {{ $.Scratch.Set "count" 0 }}
+                        <h2>{{ .Date.Format "2006" }}</h2>
+                    {{ end }}
+                {{ end }}
+
+                {{ $.Scratch.Set "count" 1 }}
+
+                <ul>
+                    {{ range (where .Pages "Type" $type) }}
+                        {{ if (ne .Params.hidden true) }}
+                            <li>
+                                <a href="{{ .RelPermalink }}">
+                                    <span>{{ .Date.Format $dateFormat }}</span> &mdash; {{ .Title }}
+                                </a>
+                            </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+
+            {{ end }}
+        {{ end }}
+
+
+        </article>
+    </div>
+
+    <aside class="main-sidebar">
+        {{ partial "last-posts.html" }}
+    </aside>
+</section>
+
+{{ end }}

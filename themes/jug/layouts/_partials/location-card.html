@@ -1,0 +1,15 @@
+{{ if .url }}
+    <a href="{{ .url }}">
+{{ end }}
+
+    <div class="place-card">
+        <span class="place-icon">◎</span>
+        <span>
+        <span class="place-name">{{ .name }}</span>
+        <span class="place-addr">{{ .address }}</span>
+        </span>
+    </div>
+
+{{ if .url }}
+    </a>
+{{ end }}

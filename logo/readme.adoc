@@ -1,0 +1,4 @@
+= Golden Master für das Favicon
+
+In diesem Ordner liegt die Vorlage für das Favicon.
+Aus diesem werden die konkreten Größen und Formate mittels des CSV-Files und dem Skript `generate-favicons.sh` erzeugt.

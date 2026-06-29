@@ -1,0 +1,24 @@
+
+<div class="agenda">
+    {{ range split .Inner "\n" }}
+        {{ $line := strings.TrimSpace . }}
+            {{ if $line }}
+
+                {{ $parts := split $line " " }}
+                {{ $time := index $parts 1 }}
+
+                {{ $label := delimit (after 2 $parts) " " }}
+
+                <div class="agenda-row">
+                    <span class="agenda-time">
+                        {{ $time }}
+                    </span>
+                    <span class="agenda-label">
+                        {{ $label }}
+                    </span>
+                </div>
+
+            {{ end }}
+        {{ end }}
+
+</div>

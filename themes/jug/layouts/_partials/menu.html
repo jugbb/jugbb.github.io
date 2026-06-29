@@ -1,0 +1,52 @@
+{{/* . ist hier die aktuelle Seite */}}
+{{ $currentPage := . }}
+
+<nav class="nav">
+    <!-- todo
+    <a href="{ .Site.BaseURL | absLangURL }" class="nav-logo">
+    -->
+    <a href="/" class="nav-logo">
+        <span class="nav-logo-mark">{}</span>
+        <span>JUG BB</span>
+    </a>
+
+    <div class="nav-links">
+        {{
+            $activeClass := cond ( $currentPage.IsHome )
+                            "is-active" ""
+        }}
+
+        <a href="/" class="nav-link {{ $activeClass }}">Home</a>
+
+    {{ range .Site.Menus.navbar }}
+
+        {{
+            $activeClass := cond (or ($currentPage.IsMenuCurrent "navbar" . )
+                                     ($currentPage.HasMenuCurrent "navbar" . )
+                                     ($currentPage.IsAncestor . ))
+                            "is-active" ""
+        }}
+
+        {{ if .HasChildren }}
+            <div class="nav-dropdown">
+                <a href="{{ .URL }}" class="nav-link nav-dropdown-toggle {{ $activeClass }}">
+                    {{ .Name }}
+                </a>
+                <ul class="nav-dropdown-menu">
+                    {{range .Children }}
+                        <li>
+                            <a href="{{ .URL }}" class="nav-link">
+                                {{ .Name }}
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+        {{ else }}
+            <a href="{{ .URL }}" class="nav-link {{ $activeClass }}">
+                {{ .Name }}
+            </a>
+        {{ end }}
+    {{ end }}
+    </div>
+</nav>
