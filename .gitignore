@@ -2,3 +2,4 @@
 .DS_Store
 /generated-site/
 .hugo_build.lock
+/resources/_gen/

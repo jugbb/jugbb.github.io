@@ -1,0 +1,8 @@
+<div class="speaker">
+    <div class="speaker-avatar">
+        {{ .Get "initials" }}
+    </div>
+    <div class="speaker-body">
+        {{ .Inner |  .Page.RenderString }}
+    </div>
+</div>

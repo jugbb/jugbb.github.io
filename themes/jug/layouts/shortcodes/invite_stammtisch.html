@@ -1,0 +1,20 @@
+{{ $ordinals := dict
+    "1" "erste"
+    "2" "zweite"
+    "3" "dritte"
+    "4" "vierte"
+    "5" "fünfte"
+    "6" "sechste"
+    "7" "siebente"
+    "8" "achte"
+    "9" "neunte"
+    "10" "zehnte"
+    "11" "elfte"
+    "12" "zwölfte"
+    "13" "dreizehnte"
+}}
+
+{{ $zahlwort := index $ordinals (printf "%v" (.Get "no")) }}
+
+Der {{ $zahlwort }} Stammtisch in diesem Jahr wird am
+*{{ time.Format "Monday, den 2. January 2006" .Page.Params.event_date }}*, stattfinden.

@@ -1,0 +1,49 @@
+ <section id="_naechstes" class="event-section">
+        <div class="event-card">
+            <div class="event-glow"></div>
+            <div class="event-grid">
+                <div>
+                    <div class="event-eyebrow">
+                        <span class="dot"></span>Nächster Vortrag
+                    </div>
+                    <h2 class="event-title">{{ .Title }}</h2>
+                    <p class="event-lead">
+                        {{ .Summary }}
+                    </p>
+
+
+                    <div class="jchip-container">
+                        <span class="jchip">
+                            {{ (time.AsTime .Params.event_date).Format "02.01.2006" }}
+                            ·
+                            {{ (time.AsTime .Params.event_date).Format "15:04" }}
+
+                        </span>
+                        <span class="jchip">{{ .Params.event_host }}</span>
+                        <span class="jchip">{{ .Params.event_fee | default "Eintritt frei" }}</span>
+                    </div>
+                </div>
+                <div class="event-aside">
+                    <a href="{{ .Params.meetup_signup_url }}" target="_blank" class="event-cta">Jetzt anmelden <span>→</span></a>
+                    <div class="event-stats">
+                        {{ if .Site.Params.event_seats }}
+                            <div><div class="event-stat-num">
+                                {{ .Params.event_seats }}+
+                            </div>Plätze</div>
+                            <div class="event-divider"></div>
+                        {{ end }}
+
+                        <div><div class="event-stat-num">
+                            {{ .Params.event_fee | default "Free" }}
+                        </div>
+                            Eintritt</div>
+                        <div class="event-divider"></div>
+
+                        <div><div class="event-stat-num">
+                            {{ upper .Params.event_lang }}
+                        </div>Sprache</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

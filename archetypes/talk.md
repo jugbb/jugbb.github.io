@@ -2,7 +2,16 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 author: <AUTHOR>
-event_date: <EVENT_DATE>
+event_type: talk
+event_date:  <EVENT_DATE>18:00:00+02:00
+event_start: <EVENT_DATE>T18:30:00+02:00
+event_host: XXXXXXXXXXXX
+event_lang: de
+event_speaker:
+  - XXXXXXXX
+  - YYYYYYYY
+
+meetup_signup_url: http://meetup.com/jug-bb/<XXXXXXXXX>
 ---
 
 Am **<DATUM>**, lädt die Java Usergroup Berlin-Brandenburg und <PARTNER> zum Vortrag **{{ replace .Name "-" " " | title }}** mit <SPEAKER:IN> ein.
@@ -10,23 +19,28 @@ Am **<DATUM>**, lädt die Java Usergroup Berlin-Brandenburg und <PARTNER> zum Vo
 <!--more-->
 ## Der Vortrag
 
-**Titel**
-(_Speaker:in_): abstract
+**Titel**(_Speaker:in_): 
+
+abstract
 
 ## Der Redner / Die Rednerin
+
 bio
 
-## Treffpunkt
+## Der Treffpunkt
 
-[innoQ Deutschland GmbH,  
-Ohlauer Str. 43,  
-Treppenhaus C, 2. OG,  
-10999 Berlin](https://www.google.de/maps/place/innoQ+Deutschland+GmbH/@52.49403,13.427006,17z/data=!3m1!4b1!4m2!3m1!1s0x47a84fb457ec5c5b:0xa406bef9bec3c42)
+{{< location >}} 
+Firma
+Adresse
+Google-Maps-Adresse
+{{< /location >}}
 
 ## Der Ablauf
 
-- 18:30 Uhr Einlaß
-- 19:00 Uhr Beginn des Vortrags
+{{< agenda >}}
+- 18:30 Beginn des Vortrags
+- 19:00 Beginn des Vortrags
+{{< /agenda >}}
 
 Anschließend gibt es die Möglichkeit für Networking und Plausch.
 

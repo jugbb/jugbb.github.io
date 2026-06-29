@@ -1,10 +1,9 @@
 baseURL = 'https://jug-berlin-brandenburg.de/'
 languageCode = 'de'
 title = 'JUG Berlin-Brandenburg'
-theme = "hugo-theme-bootstrap4-blog"
+theme = "jug"
 defaultContentLanguage = "de"
 publishDir = "generated-site"
-Copyright = "© 2019 | Java Usergroup Berlin-Brandenburg"
 
 [[menu.navbar]]
 name = "Informationen"

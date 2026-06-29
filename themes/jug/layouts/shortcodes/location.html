@@ -1,0 +1,9 @@
+{{ $splitter := split .Inner "\n" }}
+
+{{ $data := dict "name" (index $splitter 1) "address" (index $splitter 2) }}
+
+{{ if ge (len $splitter) 4 }}
+    {{ $data = merge $data (dict "url" (index $splitter 3)) }}
+{{ end }}
+
+{{ partial "location-card.html" $data }}

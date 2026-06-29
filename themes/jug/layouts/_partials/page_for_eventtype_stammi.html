@@ -1,0 +1,103 @@
+{{ if not .Params.event_date }}
+    {{ errorf "Parameter event_date fehlt in %s" .File.Path }}
+{{ end }}
+
+{{ if not .Params.event_start }}
+    {{ errorf "Parameter event_start fehlt in %s" .File.Path }}
+{{ end }}
+
+{{ if not .Params.event_lang }}
+    {{ errorf "Parameter event_lang fehlt in %s" .File.Path }}
+{{ end }}
+
+<!-- todo event_host -> event_location -->
+{{ if not .Params.event_host }}
+    {{ errorf "Parameter event_host fehlt in %s" .File.Path }}
+{{ end }}
+
+
+<div class="jug-main-container">
+
+    <!-- ARTICLE -->
+    <article class="detail-article">
+
+        <div class="eyebrow">
+            <span class="dot"></span>
+
+            {{ if and .IsPage (eq .Params.event_type "stammi")}}
+            Stammtisch
+            {{ end }}
+
+        </div>
+
+        <h1 class="event-detail-title">{{ .Title }}</h1>
+
+        <div class="detail-meta">
+            <span class="jdetail-chip">
+                    {{ (time.AsTime .Params.event_date).Format "02.01.2006" }}
+                    ·
+                    {{ (time.AsTime .Params.event_date).Format "15:04" }}
+            </span>
+            <span class="jdetail-chip">
+                {{ .Params.event_host }}
+            </span>
+
+        </div>
+
+        {{ .Content }}
+
+    </article>
+
+    <aside class="jug-sidebar-container" >
+
+        <!-- Anmelde-Karte -->
+        <div class="register-card">
+            <div class="register-glow"></div>
+            <div class="register-inner">
+                <div class="register-weekday">
+                    {{ time.Format "Monday" .Params.event_date }}
+                </div>
+                <div class="register-date">
+                    {{ time.Format "2. January 2006" .Params.event_date }}
+                </div>
+                <div class="register-time">
+                    Einlass
+                    {{ time.Format "15:04" .Params.event_date }}
+                    ·
+                    Beginn
+                    {{ time.Format "15:04" .Params.event_start }}
+                </div>
+
+                <div class="register-facts">
+                    <div class="register-fact">
+                        <span>Ort</span>
+                        <span>
+                            {{ .Params.event_host }}
+                        </span>
+                    </div>
+
+                    <div class="register-fact">
+                        <span>Eintritt</span>
+                        <span>
+                            {{ .Params.event_fee | default "Frei" }}
+                        </span>
+                    </div>
+
+                    <div class="register-fact">
+                        <span>Sprache</span>
+                        <span>
+                            {{ upper .Params.event_lang }}
+                        </span>
+                    </div>
+                </div>
+
+                <a href="{{ .Params.meetup_signup_url }}" target="_blank" class="register-btn">
+                    Jetzt anmelden <span>→</span>
+                </a>
+                <p class="register-note">Anmeldung über Meetup — nicht zwingend erforderlich</p>
+            </div>
+        </div>
+
+        {{ partial "last-posts.html" }}
+    </aside>
+</div>

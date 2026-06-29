@@ -1,0 +1,5 @@
+{{ if eq .Level 1 }}
+  <h1 class="page-title">{{ .Text }}</h1>
+{{ else }}
+    <h{{ .Level }} id="{{ .Anchor }}">{{ .Text }}</h{{ .Level }}>
+{{ end }}

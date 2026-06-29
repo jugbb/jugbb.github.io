@@ -1,0 +1,18 @@
+{{- $key := .key -}}
+{{- $found := false -}}
+
+{{- range site.Menus.navbar -}}
+    {{- if not $found -}}
+        {{- if eq .Identifier $.key -}}
+            {{- .URL -}}
+            {{- $found = true -}}
+        {{- else -}}
+            {{- range .Children -}}
+                {{- if eq .Identifier $.key -}}
+                    {{- .URL -}}
+                    {{- $found = true -}}
+                {{- end -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
