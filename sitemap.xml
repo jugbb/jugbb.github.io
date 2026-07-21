@@ -3,31 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jug-berlin-brandenburg.de/blog/</loc>
-    <lastmod>2026-05-23T22:54:31+02:00</lastmod>
+    <lastmod>2026-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jug-berlin-brandenburg.de/</loc>
-    <lastmod>2026-05-23T22:54:31+02:00</lastmod>
+    <lastmod>2026-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2026/achter-stammtisch-2026/</loc>
+    <lastmod>2026-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2026/siebenter-stammtisch-2026/</loc>
+    <lastmod>2026-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jug-berlin-brandenburg.de/blog/2026/spec-driven-development/</loc>
     <lastmod>2026-05-23T22:54:31+02:00</lastmod>
   </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2026/sechster-stammtisch-2026/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2026/fuenfter-stammtisch-2026/</loc>
+    <lastmod>2026-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2026/vierter-stammtisch-2026/</loc>
+    <lastmod>2026-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2026/dritter-stammtisch-2026/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2026/zweiter-stammtisch-2026/</loc>
+    <lastmod>2026-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2026/erster-stammtisch-2026/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jug-berlin-brandenburg.de/blog/2024/data-mesh-and-java-profilers/</loc>
-    <lastmod>2024-04-25T18:00:00+02:00</lastmod>
+    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jug-berlin-brandenburg.de/blog/2024/asynchronous-programming-in-java-using-virtual-threads/</loc>
     <lastmod>2024-01-24T07:39:33+01:00</lastmod>
   </url><url>
     <loc>https://jug-berlin-brandenburg.de/blog/2022/nicht-schon-wieder-ein-talk-ueber-monolithen/</loc>
     <lastmod>2022-10-10T18:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://jug-berlin-brandenburg.de/blog/2020/testcontainers/</loc>
-    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jug-berlin-brandenburg.de/blog/2020/feature-evolution-of-java-14-and-beyond/</loc>
-    <lastmod>2020-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jug-berlin-brandenburg.de/blog/2020/testing-infrastructure/</loc>
-    <lastmod>2020-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jug-berlin-brandenburg.de/blog/2020/think-beyond-gui/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
@@ -145,8 +160,12 @@
   </url><url>
     <loc>https://jug-berlin-brandenburg.de/categories/</loc>
   </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2020/feature-evolution-of-java-14-and-beyond/</loc>
+  </url><url>
     <loc>https://jug-berlin-brandenburg.de/archiv/</loc>
   </url><url>
     <loc>https://jug-berlin-brandenburg.de/tags/</loc>
+  </url><url>
+    <loc>https://jug-berlin-brandenburg.de/blog/2020/testcontainers/</loc>
   </url>
 </urlset>

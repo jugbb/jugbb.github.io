@@ -6,9 +6,22 @@
     <description>Recent content in Blogs on JUG Berlin-Brandenburg</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <copyright>© 2019 | Java Usergroup Berlin-Brandenburg</copyright>
-    <lastBuildDate>Sat, 23 May 2026 22:54:31 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jug-berlin-brandenburg.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JUG-Stammtisch im August 2026</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/achter-stammtisch-2026/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/achter-stammtisch-2026/</guid>
+      <description>&lt;p&gt;Der achte Stammtisch in diesem Jahr wird am&#xA;&lt;em&gt;Dienstag, den 4. August 2026&lt;/em&gt;, stattfinden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JUG-Stammtisch im Juli 2026</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/siebenter-stammtisch-2026/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/siebenter-stammtisch-2026/</guid>
+      <description>&lt;p&gt;Der siebente Stammtisch in diesem Jahr wird am&#xA;&lt;em&gt;Dienstag, den 7. Juli 2026&lt;/em&gt;, stattfinden.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Spec Driven Development - Wie KI alles verändert – und warum trotzdem nichts neu ist</title>
       <link>https://jug-berlin-brandenburg.de/blog/2026/spec-driven-development/</link>
@@ -17,9 +30,51 @@
       <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 9. Juni 2026&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.capgemini.com/de-de&#34;&gt;Capgemini&lt;/a&gt; zum Vortrag &lt;strong&gt;Spec Driven Development: Wie KI alles verändert – und warum trotzdem nichts neu ist&lt;/strong&gt; mit Simon Martinelli ein.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>JUG-Stammtisch im Juni 2026</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/sechster-stammtisch-2026/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/sechster-stammtisch-2026/</guid>
+      <description>&lt;p&gt;Der sechste Stammtisch in diesem Jahr wird am&#xA;&lt;em&gt;Dienstag, den 2. Juni 2026&lt;/em&gt;, stattfinden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JUG-Stammtisch im Mai 2026</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/fuenfter-stammtisch-2026/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/fuenfter-stammtisch-2026/</guid>
+      <description>&lt;p&gt;Der fünfte Stammtisch in diesem Jahr wird am&#xA;&lt;em&gt;Dienstag, den 5. Mai 2026&lt;/em&gt;, stattfinden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JUG-Stammtisch im April</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/vierter-stammtisch-2026/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/vierter-stammtisch-2026/</guid>
+      <description>&lt;p&gt;Der vierte Stammtisch in diesem Jahr wird am&#xA;&lt;em&gt;Dienstag, den 7. April 2026&lt;/em&gt;, stattfinden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JUG-Stammtisch im März 2026</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/dritter-stammtisch-2026/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/dritter-stammtisch-2026/</guid>
+      <description>&lt;p&gt;Der dritte Stammtisch in diesem Jahr wird am&#xA;&lt;em&gt;Dienstag, den 3. März 2026&lt;/em&gt;, stattfinden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JUG-Stammtisch im Februar 2026</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/zweiter-stammtisch-2026/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/zweiter-stammtisch-2026/</guid>
+      <description>&lt;p&gt;Der zweite Stammtisch in diesem Jahr wird am&#xA;&lt;em&gt;Dienstag, den 3. Februar 2026&lt;/em&gt;, stattfinden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JUG-Stammtisch im Januar 2026</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/erster-stammtisch-2026/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/erster-stammtisch-2026/</guid>
+      <description>&lt;p&gt;Der erste Stammtisch in diesem Jahr wird am&#xA;&lt;em&gt;Dienstag, den 6. Januar 2026&lt;/em&gt;, stattfinden.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Data Mesh &amp; Java Profilers</title>
       <link>https://jug-berlin-brandenburg.de/blog/2024/data-mesh-and-java-profilers/</link>
-      <pubDate>Thu, 25 Apr 2024 18:00:00 +0200</pubDate>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2024/data-mesh-and-java-profilers/</guid>
       <description>&lt;p&gt;The Java Usergroup Berlin-Brandenburg and our partner INNOQ invite you to the talks &amp;ldquo;&lt;strong&gt;Data Mesh&lt;/strong&gt;&amp;rdquo; by Jochen Christ and &amp;ldquo;&lt;strong&gt;Is Your Java Application Slow? Check Out These Open-Source Profilers&lt;/strong&gt;&amp;rdquo; by Johannes Bechberger on April the 25th.&lt;/p&gt;</description>
     </item>
@@ -38,27 +93,6 @@
       <description>&lt;p&gt;Am &lt;strong&gt;19.10.2022&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.lucanet.com/de/&#34;&gt;LucaNet AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Nicht schon wieder ein Talk über Monolithen&lt;/strong&gt; mit Alexander Domene und Björn Stahl ein.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Testcontainers -- Past, Present and Future</title>
-      <link>https://jug-berlin-brandenburg.de/blog/2020/testcontainers/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://jug-berlin-brandenburg.de/blog/2020/testcontainers/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 25. Februar 2020&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.lucanet.com/de/&#34;&gt;LucaNet AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Testcontainers &amp;ndash; Past, Present and Future&lt;/strong&gt; mit &lt;a href=&#34;https://twitter.com/bsideup?lang=de&#34;&gt;Sergei Egorov&lt;/a&gt; ein.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Feature Evolution of Java 14 and Beyond</title>
-      <link>https://jug-berlin-brandenburg.de/blog/2020/feature-evolution-of-java-14-and-beyond/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jug-berlin-brandenburg.de/blog/2020/feature-evolution-of-java-14-and-beyond/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 30. Januar 2020&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum Vortrag &lt;strong&gt;Feature Evolution of Java 14 and Beyond&lt;/strong&gt; mit &lt;a href=&#34;http://www.horstmann.com/&#34;&gt;Cay Horstmann&lt;/a&gt; ein.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Testen von und mit Infrastruktur</title>
-      <link>https://jug-berlin-brandenburg.de/blog/2020/testing-infrastructure/</link>
-      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jug-berlin-brandenburg.de/blog/2020/testing-infrastructure/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 1. April 2020&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum Vortrag &lt;strong&gt;Testen von und mit Infrastruktur&lt;/strong&gt; mit &lt;a href=&#34;https://www.sandra-parsick.de&#34;&gt;Sandra Parsick&lt;/a&gt; ein.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Think beyond the GUI</title>
       <link>https://jug-berlin-brandenburg.de/blog/2020/think-beyond-gui/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
@@ -70,28 +104,28 @@
       <link>https://jug-berlin-brandenburg.de/blog/2020/erster-stammtisch-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2020/erster-stammtisch-2020/</guid>
-      <description>&lt;p&gt;Der erste Stammtisch in diesem Jahr wird am &lt;em&gt;Dienstag, den 7. Januar 2020&lt;/em&gt;, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der erste Stammtisch in diesem Jahr wird am&#xA;&lt;em&gt;Dienstag, den 7. Januar 2020&lt;/em&gt;, stattfinden.&lt;/p&gt;&#xA;&#xA;    &lt;h2 id=&#34;der-treffpunkt&#34;&gt;Der Treffpunkt&lt;/h2&gt;&#xA;&#xA;&#xA;    &lt;a href=&#34;http://www.cafe-vianova.de/nova2#kontakt&#34;&gt;&#xA;&#xA;&#xA;    &lt;div class=&#34;place-card&#34;&gt;&#xA;        &lt;span class=&#34;place-icon&#34;&gt;◎&lt;/span&gt;&#xA;        &lt;span&gt;&#xA;        &lt;span class=&#34;place-name&#34;&gt;Cafe Via Nova II&lt;/span&gt;&#xA;        &lt;span class=&#34;place-addr&#34;&gt;Universitätsstraße 2, 10117 Berlin&lt;/span&gt;&#xA;        &lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&#xA;    &lt;/a&gt;&#xA;&#xA;&#xA;&#xA;    &lt;h2 id=&#34;der-ablauf&#34;&gt;Der Ablauf&lt;/h2&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;agenda&#34;&gt;&#xA;    &#xA;        &#xA;            &#xA;        &#xA;        &#xA;            &#xA;&#xA;                &#xA;                &#xA;&#xA;                &#xA;&#xA;                &lt;div class=&#34;agenda-row&#34;&gt;&#xA;                    &lt;span class=&#34;agenda-time&#34;&gt;&#xA;                        18:30&#xA;                    &lt;/span&gt;&#xA;                    &lt;span class=&#34;agenda-label&#34;&gt;&#xA;                        Beginn des Stammtisches&#xA;                    &lt;/span&gt;&#xA;                &lt;/div&gt;&#xA;&#xA;            &#xA;        &#xA;        &#xA;            &#xA;        &#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;    &lt;h2 id=&#34;die-anmeldung&#34;&gt;Die Anmeldung&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;Über eine Voranmeldung zum Stammtisch über die &lt;a href=&#34;http://meetup.com/jug-bb/&#34;&gt;Meetup-Gruppe der JUG Berlin-Brandenburg&lt;/a&gt; würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend erforderlich.&#xA;Wir freuen uns auf jeden Teilnehmer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JUG-Stammtisch im Dezember 2019</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/elfter-stammtisch-2019/</link>
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/elfter-stammtisch-2019/</guid>
-      <description>&lt;p&gt;Der elfte Stammtisch in diesem Jahr wird am Dienstag, den 3. Dezember 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der elfte Stammtisch in diesem Jahr wird am Dienstag, den 3. Dezember 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JUG-Stammtisch im November 2019</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/zehnter-stammtisch-2019/</link>
       <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/zehnter-stammtisch-2019/</guid>
-      <description>&lt;p&gt;Der zehnte Stammtisch in diesem Jahr wird am Dienstag, den 5. November 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der zehnte Stammtisch in diesem Jahr wird am Dienstag, den 5. November 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>20% Ticketrabatt O&#39;Reilly Velocity und O&#39;Reilly Software Architecture</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/rabatt-oreilly-konferenzen/</link>
       <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/rabatt-oreilly-konferenzen/</guid>
-      <description>&lt;p&gt;Liebe JUGler,&lt;/p&gt;&#xA;&lt;p&gt;O&amp;rsquo;Reilly hat uns als JUG einen Rabatt in Höhe von 20% für die im November in Berlin stattfindenden Konferenzen Velocity und Software Architecture bereitgestellt.&lt;/p&gt;&#xA;&lt;p&gt;Hier der Orginaltext von O&amp;rsquo;Reilly inkl. Code:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Liebe JUGler,&lt;/p&gt;&#xA;&lt;p&gt;O&amp;rsquo;Reilly hat uns als JUG einen Rabatt in Höhe von 20% für die im November in Berlin stattfindenden Konferenzen Velocity und Software Architecture bereitgestellt.&lt;/p&gt;&#xA;&lt;p&gt;Hier der Originaltext von O&amp;rsquo;Reilly inkl. Code:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kubernetes-Native Java with Quarkus</title>
@@ -112,42 +146,42 @@
       <link>https://jug-berlin-brandenburg.de/blog/2019/shenandoah-gc-part-2/</link>
       <pubDate>Tue, 03 Sep 2019 13:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/shenandoah-gc-part-2/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 24. September 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum zweiten Teil des Vortrags &lt;strong&gt;Shenandoah GC&lt;/strong&gt; mit &lt;a href=&#34;https://shipilev.net/&#34;&gt;Aleksey Shipilëv&lt;/a&gt; ein. Der erste Teil des Vortrags wurde am 17. September 2019 gehalten.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 24. September 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum zweiten Teil des Vortrags &lt;strong&gt;Shenandoah GC&lt;/strong&gt; mit &lt;a href=&#34;https://shipilev.net/&#34;&gt;Aleksey Shipilëv&lt;/a&gt; ein.&#xA;Der erste Teil des Vortrags wurde am 17. September 2019 gehalten.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Shenandoah GC Part I</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/shenandoah-gc-part-1/</link>
       <pubDate>Tue, 03 Sep 2019 12:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/shenandoah-gc-part-1/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 17. September 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum ersten Teil des Vortrags &lt;strong&gt;Shenandoah GC&lt;/strong&gt; mit &lt;a href=&#34;https://shipilev.net/&#34;&gt;Aleksey Shipilëv&lt;/a&gt; ein. Der zweite Teil des Vortrags wird am 24. September 2019 gehalten werden.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 17. September 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum ersten Teil des Vortrags &lt;strong&gt;Shenandoah GC&lt;/strong&gt; mit &lt;a href=&#34;https://shipilev.net/&#34;&gt;Aleksey Shipilëv&lt;/a&gt; ein.&#xA;Der zweite Teil des Vortrags wird am 24. September 2019 gehalten werden.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JUG-Stammtisch im September 2019</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/neunter-stammtisch-2019/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/neunter-stammtisch-2019/</guid>
-      <description>&lt;p&gt;Der neunte Stammtisch in diesem Jahr wird am Dienstag, den 3. September 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der neunte Stammtisch in diesem Jahr wird am Dienstag, den 3. September 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JUG-Stammtisch im August 2019</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/achter-stammtisch-2019/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/achter-stammtisch-2019/</guid>
-      <description>&lt;p&gt;Der achte Stammtisch in diesem Jahr wird am Dienstag, den 6. August 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der achte Stammtisch in diesem Jahr wird am Dienstag, den 6. August 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JUG-Stammtisch im Juli 2019</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/siebenter-stammtisch-2019/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/siebenter-stammtisch-2019/</guid>
-      <description>&lt;p&gt;Der siebente Stammtisch in diesem Jahr wird am Dienstag, den 2. Juli 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der siebente Stammtisch in diesem Jahr wird am Dienstag, den 2. Juli 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JUG-Stammtisch im Juni 2019</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/sechster-stammtisch-2019/</link>
       <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/sechster-stammtisch-2019/</guid>
-      <description>&lt;p&gt;Der sechste Stammtisch in diesem Jahr wird am Dienstag, den 4. Juni 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der sechste Stammtisch in diesem Jahr wird am Dienstag, den 4. Juni 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Doppelpack zu Knative und Kubernetes</title>
@@ -161,14 +195,14 @@
       <link>https://jug-berlin-brandenburg.de/blog/2019/graal/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/graal/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 23. Mai 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;http://www.innoq.com&#34;&gt;InnoQ Deutschland GmbH&lt;/a&gt; zum Vortrag &lt;strong&gt;GraalVM: Fast, Polyglot, Native&lt;/strong&gt; mit Jan Stępień // &lt;a href=&#34;https://paluch.biz/&#34;&gt;Mark Paluch&lt;/a&gt; ein.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;The talk will be held in German.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 23. Mai 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;http://www.innoq.com&#34;&gt;InnoQ Deutschland GmbH&lt;/a&gt; zum Vortrag &lt;strong&gt;GraalVM: Fast, Polyglot, Native&lt;/strong&gt; mit Jan Stępień // &lt;a href=&#34;https://paluch.biz/&#34;&gt;Mark Paluch&lt;/a&gt; ein.&lt;/p&gt;&#xA;&lt;p&gt;_&lt;strong&gt;The talk will be held in German.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>JUG-Stammtisch im Mai 2019</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/fuenfter-stammtisch-2019/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/fuenfter-stammtisch-2019/</guid>
-      <description>&lt;p&gt;Der fünfte Stammtisch in diesem Jahr wird am Dienstag, den 7. Mai 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der fünfte Stammtisch in diesem Jahr wird am Dienstag, den 7. Mai 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microbenchmarks – Wer nicht weiss was er misst misst Mist</title>
@@ -182,7 +216,7 @@
       <link>https://jug-berlin-brandenburg.de/blog/2019/going-fullstack/</link>
       <pubDate>Sat, 23 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/going-fullstack/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Montag, den 3. Juni 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.europace.de/&#34;&gt;Europace AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Going Fullstack&lt;/strong&gt; mit Serafima Gurevich // &lt;a href=&#34;https://paluch.biz/&#34;&gt;Mark Paluch&lt;/a&gt; ein.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;The talk will be held in English.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Am &lt;strong&gt;Montag, den 3. Juni 2019&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.europace.de/&#34;&gt;Europace AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Going Fullstack&lt;/strong&gt; mit Serafima Gurevich  ein.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;The talk will be held in English.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reactive Relational Database Connectivity</title>
@@ -196,14 +230,14 @@
       <link>https://jug-berlin-brandenburg.de/blog/2019/erster-stammtisch-2019/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/erster-stammtisch-2019/</guid>
-      <description>&lt;p&gt;Der erste Stammtisch in diesem Jahr wird am Dienstag, den 5. Februar 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der erste Stammtisch in diesem Jahr wird am Dienstag, den 5. Februar 2019, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OSGi Evening</title>
       <link>https://jug-berlin-brandenburg.de/blog/2019/osgi-evening/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/osgi-evening/</guid>
-      <description>&lt;p&gt;Please join us for an evening of OSGi in Berlin on Tuesday February 19. The OSGi Alliance is holding its Expert Group meetings in town that week and we are pleased to have secured some interesting talks from them covering OSGi and Java 9 and beyond, Realtime OSGi and the edge, and also a look at a number of popular patterns to use with OSGi.&lt;/p&gt;&#xA;&lt;p&gt;This Berlin Brandenburg JUG event is being supported by the OSGi Users’ Forum Germany and Bosch. The meeting will be held at the Bosch IoT Campus in Berlin and doors open at 18.30 for a beer and some networking in advance of the 19.00hrs start of the talks. Registration is essential so we know numbers for the drinks and pizza kindly provided by our hosts Bosch.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Please join us for an evening of OSGi in Berlin on Tuesday February 19.&#xA;The OSGi Alliance is holding its Expert Group meetings in town that week and we are pleased to have secured some interesting talks from them covering OSGi and Java 9 and beyond, Realtime OSGi and the edge, and also a look at a number of popular patterns to use with OSGi.&lt;/p&gt;&#xA;&lt;p&gt;This Berlin Brandenburg JUG event is being supported by the OSGi Users’ Forum Germany and Bosch.&#xA;The meeting will be held at the Bosch IoT Campus in Berlin and doors open at 18.30 for a beer and some networking in advance of the 19.00hrs start of the talks.&#xA;Registration is essential so we know numbers for the drinks and pizza kindly provided by our hosts Bosch.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The hitchhiker&#39;s guide for the confused developer - Making sense of an increasingly mad IT</title>
@@ -217,14 +251,14 @@
       <link>https://jug-berlin-brandenburg.de/blog/2019/ausfall-stammtisch-januar-2019/</link>
       <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2019/ausfall-stammtisch-januar-2019/</guid>
-      <description>&lt;p&gt;Der erste Stammtisch 2019 wird im Februar stattfinden, da der erste Dienstag im Januar 2019 auf den 1. Januar fällt. Also, wir sehen uns im Februar.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der erste Stammtisch 2019 wird im Februar stattfinden, da der erste Dienstag im Januar 2019 auf den 1. Januar fällt.&#xA;Also, wir sehen uns im Februar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Event Sourcing - You are doing it wrong</title>
       <link>https://jug-berlin-brandenburg.de/blog/2018/eventsourcing-you-are-doing-it-wrong/</link>
       <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2018/eventsourcing-you-are-doing-it-wrong/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 6. Dezember 2018&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg zusammen mit dem &lt;a href=&#34;https://www.meetup.com/de-DE/eposttechtalk/&#34;&gt;E-Post Tech Talk&lt;/a&gt;&#xA;zum Vortrag &lt;strong&gt;Event Sourcing - You are doing it wrong&lt;/strong&gt; mit David Schmitz von &lt;a href=&#34;https://senacor.com/&#34;&gt;Senacor&lt;/a&gt; ein.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Vortrag auf Deutsch.&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 6. Dezember 2018&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg zusammen mit dem &lt;a href=&#34;https://www.meetup.com/de-DE/eposttechtalk/&#34;&gt;E-Post Tech Talk&lt;/a&gt; zum Vortrag &lt;strong&gt;Event Sourcing - You are doing it wrong&lt;/strong&gt; mit David Schmitz von &lt;a href=&#34;https://senacor.com/&#34;&gt;Senacor&lt;/a&gt; ein.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Vortrag auf Deutsch.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mit Schema-Validierung APIs lahmlegen</title>
@@ -238,21 +272,21 @@
       <link>https://jug-berlin-brandenburg.de/blog/2018/fuenfter-stammtisch-2018/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2018/fuenfter-stammtisch-2018/</guid>
-      <description>&lt;p&gt;Der fünfte Stammtisch in diesem Jahr wird am Dienstag, den 2. Oktober 2018, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den&#xA;Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der fünfte Stammtisch in diesem Jahr wird am Dienstag, den 2. Oktober 2018, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blockchain and Java</title>
       <link>https://jug-berlin-brandenburg.de/blog/2018/blockchain/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2018/blockchain/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 12. September 2018&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.deliveryhero.com/career/&#34;&gt;Delivery Hero&lt;/a&gt; zum Vortrag&#xA;&lt;strong&gt;Blockchain and Java&lt;/strong&gt; mit Georg Köster, Topic Owner for Blockchain at SAP, ein.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The talk will be held in English.&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 12. September 2018&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.deliveryhero.com/career/&#34;&gt;Delivery Hero&lt;/a&gt; zum Vortrag &lt;strong&gt;Blockchain and Java&lt;/strong&gt; mit Georg Köster, Topic Owner for Blockchain at SAP, ein.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;The talk will be held in English.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aktuelle und zukünftige Versionen vom Oracle JDK und OpenJDK</title>
       <link>https://jug-berlin-brandenburg.de/blog/2018/java-versioning/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2018/java-versioning/</guid>
-      <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 16. Mai 2018&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.adesso.de/de/&#34;&gt;adesso AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Aktuelle und zukünftige Versionen vom Oracle JDK &amp;amp; OpenJDK&lt;/strong&gt; mit Wolfgang Weigend von &lt;a href=&#34;http://www.oracle.com/&#34;&gt;Oracle Deutschland&lt;/a&gt; ein.&lt;/p&gt;&#xA;&lt;h2 id=&#34;der-vortrag&#34;&gt;Der Vortrag&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Aktuelle und zukünftige Versionen vom Oracle JDK &amp;amp; OpenJDK&lt;/strong&gt;&lt;br&gt;&#xA;(&lt;em&gt;Wolfgang Weigend&lt;/em&gt;): Mit dem neuen JDK-Enhancement-Proposal (JEP 322), wird die zeitbasierte Java-Release-Versionierung definiert, die auf dem neuen Java SE Version-String-Schema basiert und die Namensgebung für die kommenden Versionen der Java SE Plattform und vom JDK vorgibt. Die künftigenJava-Releases erscheinen ab dem Jahr 2018 alle 6 Monate als Feature-Release. Mit dem zeitlichen Abstand von sechs Monaten bekommen die Entwickler wesentlich schneller neue Java-Funktionsmerkmale als dies mit dem bisherigen Dreijahreszyklus der Fall war. Zwischen den JDK-Feature-Releases sind zwei Updates geplant, bei denen es um die Wartung und Bugfixes geht, die wie gewohnt, jeweils im Januar, April, Juli und Oktober eines Jahres als Java Critical Patch Update erscheinen werden. Die Planung sieht vor, jeweils alle drei Jahre ein weiteres Java-LTS-Release zu veröffentlichen, damit der Anwendungsbetrieb eine stabile und ausgereifte Java-Basis bekommt, die mit der nachfolgenden Versionierung $FEATURE.$INTERIM.$UPDATE.$PATCH gekennzeichnet wird. Das JDK 10 wurde im März dieses Jahres als aktuelles Feature-Release veröffentlicht. Nach sechs Monaten folgt im September 2018 das JDK 11 als Long-Term-Support-Release (LTS-Release), welches über den Zeitraum von fünf Jahren weitere Java Updates für die Nutzer mit Java SE Advanced Support zugänglich macht. Im Vortrag werden die Unterschiede vom Oracle JDK zum OpenJDK besprochen, sowie Empfehlungen diskutiert, wie die künftige Java-Strategie mit Java SE Advanced Support für die Entwickler und für den Anwendungsbetrieb aussehen soll.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, den 16. Mai 2018&lt;/strong&gt; lädt die Java Usergroup Berlin-Brandenburg zusammen mit der &lt;a href=&#34;https://www.adesso.de/de/&#34;&gt;adesso AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Aktuelle und zukünftige Versionen vom Oracle JDK &amp;amp; OpenJDK&lt;/strong&gt; mit Wolfgang Weigend von &lt;a href=&#34;http://www.oracle.com/&#34;&gt;Oracle Deutschland&lt;/a&gt; ein.&lt;/p&gt;&#xA;&#xA;    &lt;h2 id=&#34;der-vortrag&#34;&gt;Der Vortrag&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Aktuelle und zukünftige Versionen vom Oracle JDK &amp;amp; OpenJDK&lt;/strong&gt; (&lt;em&gt;Wolfgang Weigend&lt;/em&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Mit dem neuen JDK-Enhancement-Proposal (JEP 322), wird die zeitbasierte Java-Release-Versionierung definiert, die auf dem neuen Java SE Version-String-Schema basiert und die Namensgebung für die kommenden Versionen der Java SE Plattform und vom JDK vorgibt.&#xA;Die künftigen Java-Releases erscheinen ab dem Jahr 2018 alle 6 Monate als Feature-Release.&#xA;Mit dem zeitlichen Abstand von sechs Monaten bekommen die Entwickler wesentlich schneller neue Java-Funktionsmerkmale als dies mit dem bisherigen Dreijahreszyklus der Fall war.&#xA;Zwischen den JDK-Feature-Releases sind zwei Updates geplant, bei denen es um die Wartung und Bugfixes geht, die wie gewohnt, jeweils im Januar, April, Juli und Oktober eines Jahres als Java Critical Patch Update erscheinen werden.&#xA;Die Planung sieht vor, jeweils alle drei Jahre ein weiteres Java-LTS-Release zu veröffentlichen, damit der Anwendungsbetrieb eine stabile und ausgereifte Java-Basis bekommt, die mit der nachfolgenden Versionierung $FEATURE.$INTERIM.$UPDATE.$PATCH gekennzeichnet wird.&#xA;Das JDK 10 wurde im März dieses Jahres als aktuelles Feature-Release veröffentlicht.&#xA;Nach sechs Monaten folgt im September 2018 das JDK 11 als Long-Term-Support-Release (LTS-Release), welches über den Zeitraum von fünf Jahren weitere Java Updates für die Nutzer mit Java SE Advanced Support zugänglich macht.&#xA;Im Vortrag werden die Unterschiede vom Oracle JDK zum OpenJDK besprochen, sowie Empfehlungen diskutiert, wie die künftige Java-Strategie mit Java SE Advanced Support für die Entwickler und für den Anwendungsbetrieb aussehen soll.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Die Venom-Story</title>
@@ -266,7 +300,7 @@
       <link>https://jug-berlin-brandenburg.de/blog/2018/dritter-stammtisch-2018/</link>
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2018/dritter-stammtisch-2018/</guid>
-      <description>&lt;p&gt;Der dritte Stammtisch in diesem Jahr wird am Dienstag, den 6. März 2018, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der dritte Stammtisch in diesem Jahr wird am Dienstag, den 6. März 2018, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bridging the Divide between Architecture and Code</title>
@@ -280,7 +314,21 @@
       <link>https://jug-berlin-brandenburg.de/blog/2018/erster-stammtisch-2018/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://jug-berlin-brandenburg.de/blog/2018/erster-stammtisch-2018/</guid>
-      <description>&lt;p&gt;Der nächste Stammtisch wird am Dienstag, den 2. Januar 2018, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder. Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Der nächste Stammtisch wird am Dienstag, den 2. Januar 2018, stattfinden.&lt;/p&gt;&#xA;&lt;p&gt;Der Stammtisch der JUG ist offen für alle Interessierten und JUG-Mitglieder.&#xA;Bei dem Treffen geht es wie immer um ein gegenseitiges Kennenlernen, den Austausch von Ideen zur JUG und allem, was sich sonst so an einem solchen Abend ergeben kann.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Feature Evolution of Java 14 and Beyond</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2020/feature-evolution-of-java-14-and-beyond/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2020/feature-evolution-of-java-14-and-beyond/</guid>
+      <description>&lt;p&gt;Am &lt;strong&gt;Donnerstag, den 30. Januar 2020&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.innoq.com&#34;&gt;INNOQ&lt;/a&gt; zum Vortrag &lt;strong&gt;Feature Evolution of Java 14 and Beyond&lt;/strong&gt; mit &lt;a href=&#34;http://www.horstmann.com/&#34;&gt;Cay Horstmann&lt;/a&gt; ein.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testcontainers -- Past, Present and Future</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2020/testcontainers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2020/testcontainers/</guid>
+      <description>&lt;p&gt;Am &lt;strong&gt;Dienstag, den 25. Februar 2020&lt;/strong&gt;, lädt die Java Usergroup Berlin-Brandenburg und &lt;a href=&#34;https://www.lucanet.com/de/&#34;&gt;LucaNet AG&lt;/a&gt; zum Vortrag &lt;strong&gt;Testcontainers &amp;ndash; Past, Present and Future&lt;/strong&gt; mit &lt;a href=&#34;https://twitter.com/bsideup?lang=de&#34;&gt;Sergei Egorov&lt;/a&gt; ein.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
