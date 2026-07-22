@@ -211,6 +211,26 @@ a:hover {
   gap: 40px;
 }
 
+@media (max-width: $bp_small_devices) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-grid > :first-child {
+    grid-column: 1 / -1;  /* Spannt über alle 3 Spalten */
+  }
+}
+
+@media (max-width: $bp_tables_larger_phones) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer-grid > :first-child {
+    grid-column: 1 / -1;
+  }
+}
+
 .footer-desc {
   margin-top: 16px;
   max-width: 34ch;
@@ -218,6 +238,19 @@ a:hover {
   line-height: 1.6;
   color: $faint;
 }
+
+@media (max-width: $bp_small_devices) {
+  .footer-desc {
+    max-width: max-content;
+  }
+}
+
+@media (max-width: $bp_tables_larger_phones) {
+  .footer-desc {
+    max-width: 62ch;
+  }
+}
+
 
 .footer-heading {
   font-size: 11.5px;
