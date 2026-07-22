@@ -905,6 +905,13 @@ article.detail-article > p:first-of-type strong {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: -0.02em;
+  border: red dotted 1px;
+}
+
+@media (max-width: $bp_tables_larger_phones) {
+  .speaker-avatar {
+    display: none;
+  }
 }
 
 .speaker-body {
