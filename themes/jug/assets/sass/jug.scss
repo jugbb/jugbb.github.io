@@ -133,6 +133,44 @@ a:hover {
   gap: 26px;
 }
 
+//-- 🏤 Der Kasten zum Teilen
+
+.jug-share-box {
+  border: 1px dashed $border-strong;
+  border-radius: 14px;
+  padding: 22px;
+}
+
+.jug-share-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.jug-share-buttons a {
+  flex: 1;
+  text-align: center;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 9px;
+  border: 1px solid $border-strong;
+  color: $muted;
+}
+
+.jug-share-buttons a:hover {
+  background: $hover-soft;
+  color: $ink;
+}
+
+.jug-share-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $faint;
+  margin-bottom: 14px;
+}
+
 //-- 🦶 Die Fusszeile
 
 .footer {

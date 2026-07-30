@@ -1,0 +1,57 @@
+{{/*
+  og-wordwrap.html — Bricht einen Text in Zeilen um (Word-Wrap).
+
+  Parameter (als dict übergeben):
+    - text:     Der zu umbrechende Text
+    - maxChars: Maximale Zeichen pro Zeile
+    - maxLines: Maximale Anzahl Zeilen (0 = unbegrenzt, >0 = mit "…" abschneiden)
+
+  Rückgabe: slice mit den umgebrochenen Zeilen
+*/}}
+
+{{ $text     := .text }}
+{{ $maxChars := .maxChars }}
+{{ $maxLines := .maxLines | default 0 }}
+
+{{ $words   := split $text " " }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "lines"       slice }}
+{{ $scratch.Set "currentLine" "" }}
+
+{{ range $words }}
+  {{ $word    := . }}
+  {{ $current := $scratch.Get "currentLine" }}
+
+  {{ $test := cond (eq $current "") $word (printf "%s %s" $current $word) }}
+
+  {{ if le (strings.RuneCount $test) $maxChars }}
+    {{ $scratch.Set "currentLine" $test }}
+  {{ else }}
+    {{ if ne $current "" }}
+      {{ $scratch.Set "lines" ($scratch.Get "lines" | append $current) }}
+    {{ end }}
+    {{ if gt (strings.RuneCount $word) $maxChars }}
+      {{ $scratch.Set "currentLine" (printf "%s…" (substr $word 0 (sub $maxChars 1))) }}
+    {{ else }}
+      {{ $scratch.Set "currentLine" $word }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ with $scratch.Get "currentLine" }}
+  {{ $scratch.Set "lines" ($scratch.Get "lines" | append .) }}
+{{ end }}
+
+{{ $lines := $scratch.Get "lines" }}
+
+{{/* Nur begrenzen wenn maxLines > 0 */}}
+{{ if and (gt $maxLines 0) (gt (len $lines) $maxLines) }}
+  {{ $visible := first (sub $maxLines 1) $lines }}
+  {{ $last    := index $lines (sub $maxLines 1) }}
+  {{ if gt (strings.RuneCount $last) (sub $maxChars 2) }}
+    {{ $last = printf "%s…" (substr $last 0 (sub $maxChars 2)) }}
+  {{ end }}
+  {{ $lines = $visible | append $last }}
+{{ end }}
+
+{{ return $lines }}

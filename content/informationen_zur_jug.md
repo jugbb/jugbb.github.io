@@ -2,6 +2,8 @@
 title: "Die Java User Group Berlin-Brandenburg"
 date: 2013-12-04
 ---
+Todo Hier kommt ein kürzeres Summary hin
+<!--more-->
 
 **Die Java Usergroup Berlin-Brandenburg fördert** in der Region Berlin-Brandenburg aktiv **den Wissens- und Erfahrungsaustausch** zwischen allen an Java und dem rund um Java und die Java Virtual Machine existierendem Ökosystem interessierten **Menschen und Organisationen**.
 

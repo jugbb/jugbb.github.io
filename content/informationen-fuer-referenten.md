@@ -2,6 +2,8 @@
 title: "Informationen für Referenten"
 date: 2013-12-27
 ---
+Todo Hier kommt ein kürzeres Summary hin
+<!--more-->
 
 Auf dieser Seite haben wir die wichtigsten Informationen für an einem Vortrag vor der Java Usergroup Berlin-Brandenburg interessierte Referenten zusammengestellt.
 Bei darüber hinausgehenden Fragen freuen wir uns über eine direkte [Kontaktaufnahme](kontakt.html).

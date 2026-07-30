@@ -5,6 +5,8 @@ date: 2017-04-10
 todo: yes
 
 ---
+Todo Hier kommt ein kürzeres Summary hin
+<!--more-->
 
 Ohne die Unterstützung von vielen Firmen und Organisationen könnte die Java Usergroup nicht existieren.
 Daher möchten wir uns auf diese bei allen denen herzlich bedanken, die uns mit Referenten, Räumlichkeiten und anderen Dingen helfen Wissen rund um die JVM und Java zu teilen.

@@ -1,6 +1,9 @@
 ---
 title: "Kontakt zur Java User Group"
 date: 2013-12-27
+description: >-
+    Kontakt zur Java User Group und unsere Präsenz in den 
+    sozialen Medien
 ---
 
 Die Aktivitäten der Java Usergroup Berlin-Brandenburg können über verschiedene soziale Kanäle verfolgt werden.

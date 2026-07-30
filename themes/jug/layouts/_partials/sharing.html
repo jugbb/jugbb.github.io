@@ -1,0 +1,7 @@
+<div class="jug-share-box">
+    <div class="jug-share-label">Teilen und Weitersagen</div>
+    <div class="jug-share-buttons">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlquery }}" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" onclick="var el=this;navigator.clipboard.writeText('{{ .Permalink }}').then(function(){el.textContent='Kopiert!';setTimeout(function(){el.textContent='Link'},5000)});return false">Link</a>
+    </div>
+</div>

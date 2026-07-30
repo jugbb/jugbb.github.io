@@ -1,26 +1,3 @@
-{{/*
-  og-image.html — Generiert ein Open Graph Bild mit Titel und Summary.
-
-  Verwendet Hugo Image Processing (images.Text), keine externen Tools.
-  Gibt das fertige Bild-Resource zurück.
-
-  Ablauf:
-    1. Template-Bild und Font laden
-    2. Titel in Zeilen umbrechen und rendern (groß, dunkel)
-    3. Summary in Zeilen umbrechen und rendern (kleiner, dezent)
-    4. Fertiges Bild zurückgeben
-
-  Layout (1200×627px):
-    - Logo-Bereich:  Y=0   bis Y=160
-    - Titel:         ab Y=200, X=36, linksbündig, 48px, #2D3A2D
-    - Summary:       nach dem Titel + 20px Abstand, X=36, 28px, #4F5A4E
-*/}}
-
-
-{{/* ══════════════════════════════════════════════════════════
-     1. KONFIGURATION
-     ══════════════════════════════════════════════════════════ */}}
-
 {{/* Titel */}}
 {{ $titleFontSize   := 48 }}
 {{ $titleLineHeight := 62 }}
@@ -38,15 +15,10 @@
 {{ $imgHeight         := 627 }}
 {{ $bottomPadding     := 20 }}
 
-{{/* Gemeinsam */}}
 {{ $textX := 36 }}
 {{ $font  := resources.Get "fonts/JetBrainsMono-Bold.ttf" }}
 {{ $img   := resources.Get "images/og-template.png" }}
 
-
-{{/* ══════════════════════════════════════════════════════════
-     2. TITEL RENDERN
-     ══════════════════════════════════════════════════════════ */}}
 
 {{ $title      := .Title | default site.Title }}
 {{ $titleLines := partial "og-wordwrap.html" (dict "text" $title "maxChars" $titleMaxChars "maxLines" $titleMaxLines) }}
@@ -69,7 +41,8 @@
      3. SUMMARY RENDERN (falls vorhanden)
      ══════════════════════════════════════════════════════════ */}}
 
-{{ $summaryText := .Summary | plainify | replaceRE `\s+` " " | strings.TrimLeft " " }}
+{{ $summaryRaw  := cond (ne .Description "") .Description .Summary }}
+{{ $summaryText := $summaryRaw | plainify | replaceRE `\s+` " " | strings.TrimLeft " " }}
 
 {{ with $summaryText }}
   {{/* Y-Position: nach der letzten Titelzeile + Abstand */}}
@@ -78,7 +51,7 @@
   {{/* Summary ohne Kürzung umbrechen (maxLines=0 → unbegrenzt) */}}
   {{ $summaryLines := partial "og-wordwrap.html" (dict "text" . "maxChars" $summaryMaxChars "maxLines" 0) }}
 
-  {{/* Prüfen ob der Summary-Text auf die Grafik passt */}}
+  {{/* Prüfen, ob der Summary-Text auf die Grafik passt */}}
   {{ $lastLineBottom := add $summaryStartY (add (mul (sub (len $summaryLines) 1) $summaryLineHeight) $summaryFontSize) }}
   {{ if gt $lastLineBottom (sub $imgHeight $bottomPadding) }}
     {{ errorf "OG-Bild für '%s': Summary passt nicht auf die Grafik (%d Zeilen, letzte endet bei Y=%d, max Y=%d). Kürze den Summary-Text." $.Title (len $summaryLines) $lastLineBottom (sub $imgHeight $bottomPadding) }}

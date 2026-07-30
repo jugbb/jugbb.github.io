@@ -9,3 +9,4 @@ Weiterhin sollen folgende Acceptance Kriterien eingehalten werden:
 * Das Summary soll in der Zeite darunter plaziert werden
 * Das Summary darf niemals gekürzt werden
 * Passt das Summary nicht auf die Grafik, dann brich mit einem Fehler ab
+* Ist im Frontmatter das Feld description definiert, dann nimm dieses anstatt des Summarys
