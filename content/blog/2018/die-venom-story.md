@@ -14,7 +14,7 @@ event_speaker:
 meetup_signup_url: https://www.meetup.com/de-DE/eposttechtalk/
 ---
 
-Am **Dienstag, den 26. Juni 2018**, lädt die Java Usergroup Berlin-Brandenburg zusammen mit der [Deutsche Post E-Post Development GmbH](http://www.epost.de) zum Vortrag **Die Venom-Story oder Bis an den Abgrund - und zurück: Aufstieg, Krise und Rettung eines (gar nicht so) hypothetischen Systems** mit **Dr. Gernot Starke** von [INNOQ](https://www.innoq.com/de/) ein.
+Am **Dienstag, den 26. Juni 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit der [Deutsche Post E-Post Development GmbH](http://www.epost.de) zum Vortrag **Die Venom-Story oder Bis an den Abgrund - und zurück: Aufstieg, Krise und Rettung eines (gar nicht so) hypothetischen Systems** mit **Dr. Gernot Starke** von [INNOQ](https://www.innoq.com/de/) ein.
 <!--more-->
 ## Der Vortrag
 

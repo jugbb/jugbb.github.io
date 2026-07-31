@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Donnerstag, den 23. Mai 2019** lädt die Java Usergroup Berlin-Brandenburg zusammen mit der [InnoQ Deutschland GmbH](http://www.innoq.com) zum Vortrag **GraalVM: Fast, Polyglot, Native** mit Jan Stępień // [Mark Paluch](https://paluch.biz/) ein.
+Am **Donnerstag, den 23. Mai 2019** lädt die Java User Group Berlin-Brandenburg zusammen mit der [InnoQ Deutschland GmbH](http://www.innoq.com) zum Vortrag **GraalVM: Fast, Polyglot, Native** mit Jan Stępień // [Mark Paluch](https://paluch.biz/) ein.
 
 _**The talk will be held in German.**
 <!--more-->

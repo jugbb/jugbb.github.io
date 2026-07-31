@@ -3,16 +3,16 @@ title: "Kontakt zur Java User Group"
 date: 2013-12-27
 ---
 
-Die Aktivitäten der Java Usergroup Berlin-Brandenburg können über verschiedene soziale Kanäle verfolgt werden.
+Die Aktivitäten der Java User Group Berlin-Brandenburg können über verschiedene soziale Kanäle verfolgt werden.
 Neben unserem **Blog** ist **XING unsere Hauptplattform** und jeder, der automatisch Einladungen zu unseren Veranstaltungen und Hinweise auf weitere interessante Veranstaltungen erhalten möchte, sollte am besten [Mitglied in unserer XING-Gruppe][xing] werden.
 
 Der beste Weg, um mit uns **direkt in Kontakt** zu treten ist per E-Mail.
 
 ## Die JUG in den sozialen Medien
 
-- [XING-Gruppe der Java Usergroup Berlin-Brandenburg][xing]
-- [Facebook-Seite der Java Usergroup Berlin-Brandenburg][fb]
-- [Google+-Seite der Java Usergroup Berlin-Brandenburg][gplus]
+- [XING-Gruppe der Java User Group Berlin-Brandenburg][xing]
+- [Facebook-Seite der Java User Group Berlin-Brandenburg][fb]
+- [Google+-Seite der Java User Group Berlin-Brandenburg][gplus]
 - [JUG-relevante Tweets haben den Hashtag *#jugbb*][twitterhashtag]
 
 

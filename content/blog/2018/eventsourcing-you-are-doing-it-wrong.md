@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: https://www.meetup.com/de-DE/eposttechtalk/
 ---
 
-Am **Donnerstag, den 6. Dezember 2018**, lädt die Java Usergroup Berlin-Brandenburg zusammen mit dem [E-Post Tech Talk](https://www.meetup.com/de-DE/eposttechtalk/) zum Vortrag **Event Sourcing - You are doing it wrong** mit David Schmitz von [Senacor](https://senacor.com/) ein.
+Am **Donnerstag, den 6. Dezember 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit dem [E-Post Tech Talk](https://www.meetup.com/de-DE/eposttechtalk/) zum Vortrag **Event Sourcing - You are doing it wrong** mit David Schmitz von [Senacor](https://senacor.com/) ein.
 
 _Vortrag auf Deutsch._
 <!--more-->

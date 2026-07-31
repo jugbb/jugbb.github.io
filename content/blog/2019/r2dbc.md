@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Mittwoch, den 24. April 2019** lädt die Java Usergroup Berlin-Brandenburg zum Vortrag **Reactive Relational Database Connectivity** mit [Mark Paluch](https://paluch.biz/) ein.
+Am **Mittwoch, den 24. April 2019** lädt die Java User Group Berlin-Brandenburg zum Vortrag **Reactive Relational Database Connectivity** mit [Mark Paluch](https://paluch.biz/) ein.
 
 _The talk will be held in German._
 <!--more-->

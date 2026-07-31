@@ -13,7 +13,7 @@ event_speaker:
 
 meetup_signup_url: https://www.meetup.com/jug-bb/events/314937312
 ---
-Am **Dienstag, den 9. Juni 2026**, lädt die Java Usergroup Berlin-Brandenburg und [Capgemini](https://www.capgemini.com/de-de) zum Vortrag **Spec Driven Development: Wie KI alles verändert – und warum trotzdem nichts neu ist** mit Simon Martinelli ein.
+Am **Dienstag, den 9. Juni 2026**, lädt die Java User Group Berlin-Brandenburg und [Capgemini](https://www.capgemini.com/de-de) zum Vortrag **Spec Driven Development: Wie KI alles verändert – und warum trotzdem nichts neu ist** mit Simon Martinelli ein.
 
 <!--more-->
 ## Der Vortrag

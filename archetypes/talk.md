@@ -14,7 +14,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/<XXXXXXXXX>
 ---
 
-Am **<DATUM>**, lädt die Java Usergroup Berlin-Brandenburg und <PARTNER> zum Vortrag **{{ replace .Name "-" " " | title }}** mit <SPEAKER:IN> ein.
+Am **<DATUM>**, lädt die Java User Group Berlin-Brandenburg und <PARTNER> zum Vortrag **{{ replace .Name "-" " " | title }}** mit <SPEAKER:IN> ein.
 
 <!--more-->
 ## Der Vortrag
