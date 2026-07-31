@@ -14,7 +14,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **19. März 2018** lädt die Java User Group Berlin-Brandenburg und die [Europace AG](https://www.europace.de/) zu dem Vortrag **Bridging the Divide between Architecture and Code** mit **Chris Chedgey** ein.
+Am **19. März 2018**, lädt die Java User Group Berlin-Brandenburg und die [Europace AG](https://www.europace.de/) zu dem Vortrag **Bridging the Divide between Architecture and Code** mit **Chris Chedgey** ein.
 
 <!--more-->
 ## Der Vortrag

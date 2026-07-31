@@ -16,24 +16,24 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Mittwoch, den 30. Oktober 2019** lädt die Java User Group Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **ModuleDiffer – API Brüche im Java Bytecode erkennen** mit Philip Schmiel ein.
+Am **Mittwoch, dem 30. Oktober 2019**, lädt die Java User Group Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **ModuleDiffer – API Brüche im Java Bytecode erkennen** mit Philip Schmiel ein.
 <!--more-->
 ## Der Vortrag
 
 **ModuleDiffer – API Brüche im Java Bytecode erkennen** (_Philip Schmiel_)
 
 Auf dem Weg zur Modularisierung von großen Softwaremonolithen lauert die Dependency Hell.
-Ein Weg ihr entgegenzuwirken ist die von Tom Preston-Werner zusammengetragene Semantische Versionierung.
+Ein Weg ihr entgegenzuwirken, ist die von Tom Preston-Werner zusammengetragene Semantische Versionierung.
 Für einen Entwickler ist es aber nicht immer eine einfache Entscheidung, ob eine bestimmte Änderung im Code einen Bruch der API zur Folge hat.
 
-Aus diesem Grund wurde bei LucaNet ein Werkzeug entwickelt, das anhand von Java Bytecode API-Brechende Änderungen erkennen kann.
+Aus diesem Grund wurde bei LucaNet ein Werkzeug entwickelt, das anhand von Java Bytecode API-brechende Änderungen erkennen kann.
 Dieser Vortrag geht auf Besonderheiten und interessante Randfälle in der JVM und dem Java Bytecode ein, auf die wir während der Entwicklung dieses Werkzeuges gestoßen sind.
 
 ## Der Redner
 
 {{< speaker initials="PS" >}}
 **Philip Schmiel** ist Java Developer bei der LucaNet AG und entwirft dort zusammen mit seinem Team einen Plugin-Mechanismus für die LucaNet Software.
-Übersetzerbau ist seine Leidenschaft und er erweiterte für seine Bachelor-Arbeit eine While-Sprache um Objektorientierung mit Möglichkeit zur Reflektion.
+Übersetzerbau ist seine Leidenschaft und er erweiterte für seine Bachelor-Arbeit eine While-Sprache um Objektorientierung mit Möglichkeit zur Reflection.
 {{< /speaker >}}
 
 

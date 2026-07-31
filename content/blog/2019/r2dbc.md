@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Mittwoch, den 24. April 2019** lädt die Java User Group Berlin-Brandenburg zum Vortrag **Reactive Relational Database Connectivity** mit [Mark Paluch](https://paluch.biz/) ein.
+Am **Mittwoch, dem 24. April 2019**, lädt die Java User Group Berlin-Brandenburg zum Vortrag **Reactive Relational Database Connectivity** mit [Mark Paluch](https://paluch.biz/) ein.
 
 _The talk will be held in German._
 <!--more-->
@@ -26,11 +26,11 @@ _The talk will be held in German._
 
 Immer mehr Projekte setzen auf reaktive Programmierung.
 Auf ihrem Weg reaktive Systeme zu bauen, stellen Entwicklungsteams fest, dass sich sämtliche Vorteile dieser Umstellung nur bei einem durchgängig reaktiven Stack einstellen.
-Es gibt einige reaktive Messaging und NoSQL Integrationen, jedoch gehören die relationalen Datenbanksysteme nicht dazu.
+Es gibt einige reaktive Messaging- und NoSQL-Integrationen, jedoch gehören die relationalen Datenbanksysteme nicht dazu.
 
 Dieser Vortrag stellt die Reactive Relational Database Connectivity (R2DBC) Initiative vor.
 Das Ziel dieses Projekts ist es, ein reaktives API für relationale Datenbanken zu definieren.
-Dieser Vortrag erklärt das R2DBC API, seine Funktionsweise und die Vorteile die sich aus der Nutzung ergeben.
+Dieser Vortrag erklärt das R2DBC API, seine Funktionsweise und die Vorteile, die sich aus der Nutzung ergeben.
 Wir schauen uns auch Gemeinsamkeiten und Unterschiede weiterer Initiativen wie ADBA, dem asynchronen Nachfolger von JDBC, an und wie diese sich mit R2DBC nutzen lassen.
 
 ## Der Redner

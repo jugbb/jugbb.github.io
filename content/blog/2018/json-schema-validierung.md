@@ -17,7 +17,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Montag, den 15. Oktober 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit der [codecentric AG](https://www.codecentric.de/karriere/) zum Vortrag **Mit Schema-Validierung APIs lahmlegen** mit Peter Liske, Senior Software Developer bei Zalando, ein.
+Am **Montag, dem 15. Oktober 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit der [codecentric AG](https://www.codecentric.de/karriere/) zum Vortrag **Mit Schema-Validierung APIs lahmlegen** mit Peter Liske, Senior Software Developer bei Zalando, ein.
 
 <!--more-->
 ## Der Vortrag

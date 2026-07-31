@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: https://www.meetup.com/de-DE/eposttechtalk/
 ---
 
-Am **Donnerstag, den 6. Dezember 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit dem [E-Post Tech Talk](https://www.meetup.com/de-DE/eposttechtalk/) zum Vortrag **Event Sourcing - You are doing it wrong** mit David Schmitz von [Senacor](https://senacor.com/) ein.
+Am **Donnerstag, dem 6. Dezember 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit dem [E-Post Tech Talk](https://www.meetup.com/de-DE/eposttechtalk/) zum Vortrag **Event Sourcing - You are doing it wrong** mit David Schmitz von [Senacor](https://senacor.com/) ein.
 
 _Vortrag auf Deutsch._
 <!--more-->
@@ -27,7 +27,7 @@ _Vortrag auf Deutsch._
 This talk is about staying sane when using eventsourcing in your microservices.
 
 Eventsourcing and CQRS are two very useful and popular patterns when dealing with data and microservices.
-We often find in our customer's projects, that both have a severe impact on your future options and the maintainability of your architecture.
+We often find in our customers' projects, that both have a severe impact on your future options and the maintainability of your architecture.
 Presentations and articles on both topics are often superficial and do not tackle real world problems like security and compliance requirements.
 
 This combination of half-knowledge and technical confusion leads to many projects that either refactor back to a 'non-eventsourced' architecture or reduce eventsourcing to a message queue.
