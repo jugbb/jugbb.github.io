@@ -1,6 +1,7 @@
 ---
 title: "The hitchhiker's guide for the confused developer - Making sense of an increasingly mad IT"
 date: 2019-01-06
+description: Am 30. Januar 20218 laden wir zum Vortrag mit Uwe Friedrichsen, CTO bei codecentric, ein.
 author: Oliver B. Fischer
 
 todo: yes
@@ -16,13 +17,8 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Todo Hier kommt ein kürzeres Summary hin
-<!--more-->
-
 Am **Mittwoch, den 30. Januar 2018** lädt die Java Usergroup Berlin-Brandenburg zusammen mit der [Europace AG](https://www.europace.de/) zum Vortrag **The hitchhiker's guide for the confused developer - Making sense of an increasingly mad IT** mit Uwe Friedrichsen, CTO bei [codecentric](https://www.codecentric.de/), ein.
 
-_The talk will be held in German._
-<!--more-->
 ## Der Vortrag
 
 **The hitchhiker's guide for the confused developer - Making sense of an increasingly mad IT** (_Uwe Friedrichsen_)

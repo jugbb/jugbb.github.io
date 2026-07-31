@@ -54,7 +54,7 @@
   {{/* Prüfen, ob der Summary-Text auf die Grafik passt */}}
   {{ $lastLineBottom := add $summaryStartY (add (mul (sub (len $summaryLines) 1) $summaryLineHeight) $summaryFontSize) }}
   {{ if gt $lastLineBottom (sub $imgHeight $bottomPadding) }}
-    {{ errorf "OG-Bild für '%s': Summary passt nicht auf die Grafik (%d Zeilen, letzte endet bei Y=%d, max Y=%d). Kürze den Summary-Text." $.Title (len $summaryLines) $lastLineBottom (sub $imgHeight $bottomPadding) }}
+    {{ errorf "Open Graph-Bild für '%s': Beschreibung passt nicht auf die Grafik für das Teilen über Social Media. Kürze den Summary-Text oder setze im Frontmatter das Feld Description." $.Title (len $summaryLines) $lastLineBottom (sub $imgHeight $bottomPadding) }}
   {{ end }}
 
   {{ range $i, $line := $summaryLines }}

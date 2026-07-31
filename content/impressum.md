@@ -1,10 +1,8 @@
 ---
 title: "Impressum"
 date: 2017-03-11
+description: Impressum der Java User Group Berlin-Brandenburg
 ---
-Todo Hier kommt ein kürzeres Summary hin
-<!--more-->
-
 ## Angaben gemäß § 5 TMG:
 
 Oliver Fischer  
