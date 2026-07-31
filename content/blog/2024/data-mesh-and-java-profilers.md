@@ -31,7 +31,7 @@ Data mesh promotes sharing data with other teams as data products and defined da
 Data Mesh adopts the principles from Domain-driven Design, Team Topologies and Microservices to the data world.
 However, it has many organizational implications, such as ownership and federated governance.
 
-In this talk, Jochen from INNOQ describe how a Data Mesh architecture can be implemented in practice, which organizational transformations will be necessary and which technologies are suitable in this context.
+In this talk, Jochen from INNOQ describes how a Data Mesh architecture can be implemented in practice, which organizational transformations will be necessary and which technologies are suitable in this context.
 
 **Is Your Java Application Slow? Check Out These Open-Source Profilers** (_Johannes Bechberger_)
 
@@ -71,7 +71,7 @@ https://www.google.de/maps/place/innoQ+Deutschland+GmbH/@52.49403,13.427006,17z/
 - 17:30 Welcome and introductions
 - 18:00 Doors open 
 - 18:30 Start of the talk
-- {{< /agenda >}}
+{{< /agenda >}}
 
 ## The Registration
 

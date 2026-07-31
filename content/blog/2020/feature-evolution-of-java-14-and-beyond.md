@@ -14,7 +14,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Donnerstag, den 30. Januar 2020**, lädt die Java User Group Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum Vortrag **Feature Evolution of Java 14 and Beyond** mit [Cay Horstmann](http://www.horstmann.com/) ein.
+Am **Donnerstag, dem 30. Januar 2020**, lädt die Java User Group Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum Vortrag **Feature Evolution of Java 14 and Beyond** mit [Cay Horstmann](http://www.horstmann.com/) ein.
 
 <!--more-->
 ## Der Vortrag

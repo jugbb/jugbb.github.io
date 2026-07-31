@@ -7,7 +7,7 @@ todo: yes
 ---
 
 Ohne die Unterstützung von vielen Firmen und Organisationen könnte die Java User Group nicht existieren.
-Daher möchten wir uns auf diese bei allen denen herzlich bedanken, die uns mit Referenten, Räumlichkeiten und anderen Dingen helfen Wissen rund um die JVM und Java zu teilen.
+Daher möchten wir uns an dieser Stelle bei allen denen herzlich bedanken, die uns mit Referenten, Räumlichkeiten und anderen Dingen helfen, Wissen rund um die JVM und Java zu teilen.
 
 ## Freunde 2026
 

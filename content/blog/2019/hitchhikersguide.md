@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Mittwoch, den 30. Januar 2018** lädt die Java User Group Berlin-Brandenburg zusammen mit der [Europace AG](https://www.europace.de/) zum Vortrag **The hitchhiker's guide for the confused developer - Making sense of an increasingly mad IT** mit Uwe Friedrichsen, CTO bei [codecentric](https://www.codecentric.de/), ein.
+Am **Mittwoch, dem 30. Januar 2019**, lädt die Java User Group Berlin-Brandenburg zusammen mit der [Europace AG](https://www.europace.de/) zum Vortrag **The hitchhiker's guide for the confused developer - Making sense of an increasingly mad IT** mit Uwe Friedrichsen, CTO bei [codecentric](https://www.codecentric.de/), ein.
 
 _The talk will be held in German._
 <!--more-->
@@ -45,7 +45,7 @@ Then we will locate some of the "hype" topics as well as some "legacy" topics in
 
 Finally, I will try to provide some hints what you as a software engineer can do to sustain or even increase your craft and market value, based on a well-balanced combination of new and timeless skills.
 
-While not promising to answer every question you might have, I hope to put some sense back into to the increasing madness of IT and give you a better idea how to stay ahead of the curve.
+While not promising to answer every question you might have, I hope to put some sense back into the increasing madness of IT and give you a better idea how to stay ahead of the curve.
 Or using the words of our ultimate source of nerd wisdom: DON'T PANIC! ... ;)
 
 ## Der Redner

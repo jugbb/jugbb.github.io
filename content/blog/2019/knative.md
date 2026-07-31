@@ -17,7 +17,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Dienstag, den 18. Juni 2019** lädt die Java User Group Berlin-Brandenburg zu den beiden Vorträgen **Introduction to Knative** und **Developing and running Kafka based applications on Kubernetes** mit Matthias Wessendorf und Jakub Scholz von [Red Hat](https://www.redhat.com/de/) ein.
+Am **Dienstag, dem 18. Juni 2019**, lädt die Java User Group Berlin-Brandenburg zu den beiden Vorträgen **Introduction to Knative** und **Developing and running Kafka based applications on Kubernetes** mit Matthias Wessendorf und Jakub Scholz von [Red Hat](https://www.redhat.com/de/) ein.
 
 _**Both talks will be held in English.**_
 <!--more-->
@@ -37,7 +37,7 @@ If you are interested in learning about serverless developer experience on Kuber
 
 Apache Kafka is one of the most popular platforms for streaming and messaging.
 This talk will show how easy it is to deploy and use Apache Kafka on Kubernetes and OpenShift using the open source project called Strimzi.
-Kubernetes operators provided by Strimzi let users deploy Apache Kafka with just few YAML files.
+Kubernetes operators provided by Strimzi let users deploy Apache Kafka with just a few YAML files.
 It will also demonstrate how you can easily connect to Kafka and Strimzi from your own applications in a secure fashion using authentication and authorisation.
 The demo used during this talk will include several applications using different Apache Kafka components such as Kafka Connect or Kafka Streams and demonstrate the architecture patterns commonly used with Apache Kafka.
 

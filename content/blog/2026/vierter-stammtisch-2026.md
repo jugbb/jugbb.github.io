@@ -1,5 +1,5 @@
 ---
-title: JUG-Stammtisch im April
+title: JUG-Stammtisch im April 2026
 date: 2026-03-15
 author: Oliver B. Fischer
 event_type: stammi

@@ -15,7 +15,7 @@ meetup_signup_url: http://meetup.com/jug-bb/
 
 ---
 
-Am **Dienstag, den 25. Februar 2020**, lädt die Java User Group Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **Testcontainers -- Past, Present and Future** mit [Sergei Egorov](https://twitter.com/bsideup?lang=de) ein.
+Am **Dienstag, dem 25. Februar 2020**, lädt die Java User Group Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **Testcontainers -- Past, Present and Future** mit [Sergei Egorov](https://twitter.com/bsideup?lang=de) ein.
 
 <!--more-->
 ## Der Vortrag

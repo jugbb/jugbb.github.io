@@ -17,7 +17,7 @@ meetup_signup_url: http://meetup.com/jug-bb/
 
 ---
 
-Am **Dienstag, den 24. September 2019** lädt die Java User Group Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum zweiten Teil des Vortrags **Shenandoah GC** mit [Aleksey Shipilëv](https://shipilev.net/) ein.
+Am **Dienstag, dem 24. September 2019**, lädt die Java User Group Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum zweiten Teil des Vortrags **Shenandoah GC** mit [Aleksey Shipilëv](https://shipilev.net/) ein.
 Der erste Teil des Vortrags wurde am 17. September 2019 gehalten.
 <!--more-->
 
@@ -29,7 +29,7 @@ The major problem for large Java applications is G... (wait for it...) C pauses.
 Large heaps storing lots of live data, the failure to adhere to generational hypothesis, fragmentation due to old objects coming and going, exacerbate the issues even more.
 OpenJDK GCs managed to solve the first large part of the puzzle, concurrent marking — the ability to estimate the object reachability graph without stopping the application for a long time.
 Shenandoah is the new low-pause collector that tries to solve the second large part of the puzzle — the ability to move the objects without stopping the application, cutting the GC pauses even more.
-This talk is the basic introduction in Shenandoah's design choices, important internal details, performance benefits and trade-offs.
+This talk is the basic introduction to Shenandoah's design choices, important internal details, performance benefits and trade-offs.
 
 ## Der Redner
 
@@ -38,7 +38,7 @@ This talk is the basic introduction in Shenandoah's design choices, important in
 Today he is employed by Red Hat, where he does OpenJDK development and performance work.
 Aleksey develops and maintains a number of OpenJDK subprojects, including JMH, JOL, and JCStress.
 He is also an active participant in expert groups and communities dealing with performance and concurrency.
-Prior joining Red Hat, Aleksey was working on Apache Harmony at Intel, then moved to Sun Microsystems, which was later consumed by Oracle.
+Prior to joining Red Hat, Aleksey was working on Apache Harmony at Intel, then moved to Sun Microsystems, which was later consumed by Oracle.
 {{< /speaker >}}
 
 ## Der Treffpunkt

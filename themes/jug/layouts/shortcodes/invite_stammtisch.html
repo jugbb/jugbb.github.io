@@ -17,4 +17,4 @@
 {{ $zahlwort := index $ordinals (printf "%v" (.Get "no")) }}
 
 Der {{ $zahlwort }} Stammtisch in diesem Jahr wird am
-*{{ time.Format "Monday, den 2. January 2006" .Page.Params.event_date }}*, stattfinden.
+*{{ time.Format "Monday, dem 2. January 2006" .Page.Params.event_date }}*, stattfinden.

@@ -16,24 +16,24 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Mittwoch, den 4. März 2020**, lädt die Java User Group Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum Vortrag **Think beyond the GUI** mit [Aminata Sidibe](https://twitter.com/wuschey) ein.
+Am **Mittwoch, dem 4. März 2020**, lädt die Java User Group Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum Vortrag **Think beyond the GUI** mit [Aminata Sidibe](https://twitter.com/wuschey) ein.
 
 <!--more-->
 ## Der Vortrag
 
 **Think beyond the GUI** (_Aminata Sidibe_)
 
-Wir brauchen dafür eine (Web)App" – Diese und ähnliche Sätze fallen sehr häufig, wenn es um die Entwicklung digitaler Produkte und Services geht.
+Wir brauchen dafür eine (Web)App – diese und ähnliche Sätze fallen sehr häufig, wenn es um die Entwicklung digitaler Produkte und Services geht.
 Es passiert sehr schnell, dass wir in konkrete und schon bestehende Lösungsszenarien denken und unsere Architekturen somit automatisch auf diesen Szenarien aufbauen.
 
-Durch die Allzweck-Waffe Smartphone sind wir es mittlerweile gewohnt, fast alles auf einen Display zu bringen, was in unseren Köpfen in Form einer Idee schwebt – Ohne vielleicht einen Schritt zurückzugehen um uns über den Nutzer in seinem konkreten Kontext Gedanken zu machen.
+Durch die Allzweck-Waffe Smartphone sind wir es mittlerweile gewohnt, fast alles auf einen Display zu bringen, was in unseren Köpfen in Form einer Idee schwebt – ohne vielleicht einen Schritt zurückzugehen, um uns über den Nutzer in seinem konkreten Kontext Gedanken zu machen.
 Ist eine angepriesene smarte Lösung zum Beispiel wirklich immer smart?!
 
 Oft kann ein GUI sogar den Nutzer eher stören, als dass es ein konkretes Problem löst.
-Wie sinnvoll ist es also seine Produktideen direkt als Bedienelement zu denken?
+Wie sinnvoll ist es also, seine Produktideen direkt als Bedienelement zu denken?
 Gibt es in der heutigen Zeit nicht Alternativen, mit denen wir den Menschen, der hinter der Benutzung steht, sinnvoller unterstützen können, als mit grafischen User Interfaces?
 
-In meinem Talk möchte ich über die Probleme von grafischen User Interfaces sprechen, um gleichzeitig zu alternativen Denkansätze zu inspirieren.
+In meinem Talk möchte ich über die Probleme von grafischen User Interfaces sprechen, um gleichzeitig zu alternativen Denkansätzen zu inspirieren.
 Die Auswirkungen auf die tägliche Architekturarbeit möchte ich auch gerne in der Runde diskutieren.
 
 ## Die Rednerin
@@ -41,8 +41,8 @@ Die Auswirkungen auf die tägliche Architekturarbeit möchte ich auch gerne in d
 {{< speaker initials="AS" >}}
 **Aminata Sidibe** ist Principal Consultant bei INNOQ.
 Sie beschäftigt sich seit vielen Jahren mit der Umsetzung komplexer Applikationen und eCommerce-Projekte.
-Ihr Fokus liegt auf der Mensch-Maschinen-Interaktion. (GUIs, Voice UIs, Smart Home, ...).
-Themen im Bereich der User Experience gehören neben der Technologie zu ihrer täglichen Arbeit.
+Ihr Fokus liegt auf der Mensch-Maschine-Interaktion. (GUIs, Voice UIs, Smart Home, ...).
+Themen im Bereich der User-Experience gehören neben der Technologie zu ihrer täglichen Arbeit.
 {{< /speaker >}}
 
 ## Der Treffpunkt

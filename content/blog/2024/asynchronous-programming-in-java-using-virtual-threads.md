@@ -37,7 +37,7 @@ Venkat helps his clients effectively apply and succeed with sustainable agile pr
 
 Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award-winning book Practices of an Agile Developer.
 You can find a list of his books at [agiledeveloper.com](https://agiledeveloper.com).
-You can reach him by email at [venkats@agiledeveloper.com](https://agiledeveloper.com) or on twitter at [@venkat_s](https://twitter.com/venkat_s).
+You can reach him by email at [venkats@agiledeveloper.com](https://agiledeveloper.com) or on Twitter at [@venkat_s](https://twitter.com/venkat_s).
 {{< /speaker >}}
 
 ## The Location

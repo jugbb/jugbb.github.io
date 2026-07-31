@@ -14,20 +14,20 @@ event_speaker:
 meetup_signup_url: https://www.meetup.com/de-DE/eposttechtalk/
 ---
 
-Am **Dienstag, den 26. Juni 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit der [Deutsche Post E-Post Development GmbH](http://www.epost.de) zum Vortrag **Die Venom-Story oder Bis an den Abgrund - und zurück: Aufstieg, Krise und Rettung eines (gar nicht so) hypothetischen Systems** mit **Dr. Gernot Starke** von [INNOQ](https://www.innoq.com/de/) ein.
+Am **Dienstag, dem 26. Juni 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit der [Deutsche Post E-Post Development GmbH](http://www.epost.de) zum Vortrag **Die Venom-Story oder Bis an den Abgrund - und zurück: Aufstieg, Krise und Rettung eines (gar nicht so) hypothetischen Systems** mit **Dr. Gernot Starke** von [INNOQ](https://www.innoq.com/de/) ein.
 <!--more-->
 ## Der Vortrag
 
-**Die Venom-Story oder Bis an den Abgrund - und zurück: Aufstieg, Krise und Rettung eines (gar nicht so)hypothetischen Systems** (_Dr. Gernot Starke_)
+**Die Venom-Story oder Bis an den Abgrund - und zurück: Aufstieg, Krise und Rettung eines (gar nicht so) hypothetischen Systems** (_Dr. Gernot Starke_)
 
 Unser [_ganz normales System_ (VENOM, _very normal system_)](http://venom-story.org/) unterstützt eCommerce-Prozesse für ziemlich komplizierte Produkte (Komplettausstattung von Kaufhäusern und Apotheken, Gartenplanung, Regal- und Möbelplanung und ähnliche abgefahrene Dinge) - inklusive kompletter Lieferung, Verzollung, Aufbau, Abnahme, Inbetriebnahme...
 
-Das System, über viele Jahre eher hysterisch als historisch gewachsen, wird von einer ziemlich desolaten organisierten Firma (SAMM Inc.) entwickelt und betrieben.
+Das System, über viele Jahre eher hysterisch als historisch gewachsen, wird von einer ziemlich desolat organisierten Firma (SAMM Inc.) entwickelt und betrieben.
 Es drohte vor einiger Zeit, _den Bach herunter_ zu gehen.
-SAMM Inc. zog die Reißleine, und beauftragte ein Team damit, die Rettung von VENOM (und SAMM) vorzubereiten und durchzuführen - _Succeed or die_, hieß die Devise.
+SAMM Inc. zog die Reißleine und beauftragte ein Team damit, die Rettung von VENOM (und SAMM) vorzubereiten und durchzuführen - _Succeed or die_, hieß die Devise.
 
 Diese (überaus fiktive) Situation ist in Wirklichkeit völlig real.
-Lernen Sie „_rise and fall of a system_ aus der Nähe kennen, sehen Sie die Auswirkungen desaströser Architekturarbeit sowie verkorkster Entwicklungs- und Betriebsprozesse.
+Lernen Sie „_rise and fall of a system_" aus der Nähe kennen, sehen Sie die Auswirkungen desaströser Architekturarbeit sowie verkorkster Entwicklungs- und Betriebsprozesse.
 Und dann - erfahren Sie von Maßnahmen, die wirklich helfen könnten (oder auch nicht) - und sehen Sie (am realen Beispiel), wie methodische Verbesserung von Software(architektur) funktionieren kann.
 
 Disclaimer:
