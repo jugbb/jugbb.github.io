@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Dienstag, den 30. April 2019** lädt die Java Usergroup Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **Microbenchmarks – Wer nicht weiss was er misst misst Mist** mit Björn Stahl ein.
+Am **Dienstag, den 30. April 2019** lädt die Java User Group Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **Microbenchmarks – Wer nicht weiss was er misst misst Mist** mit Björn Stahl ein.
 
 _The talk will be held in German._
 <!--more-->

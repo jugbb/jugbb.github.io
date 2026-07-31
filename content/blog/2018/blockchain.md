@@ -14,7 +14,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Mittwoch, den 12. September 2018** lädt die Java Usergroup Berlin-Brandenburg zusammen mit der [Delivery Hero](https://www.deliveryhero.com/career/) zum Vortrag **Blockchain and Java** mit Georg Köster, Topic Owner for Blockchain at SAP, ein.
+Am **Mittwoch, den 12. September 2018** lädt die Java User Group Berlin-Brandenburg zusammen mit der [Delivery Hero](https://www.deliveryhero.com/career/) zum Vortrag **Blockchain and Java** mit Georg Köster, Topic Owner for Blockchain at SAP, ein.
 
 _The talk will be held in English._
 <!--more-->

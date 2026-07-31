@@ -17,7 +17,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **19.10.2022**, lädt die Java Usergroup Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **Nicht schon wieder ein Talk über Monolithen** mit Alexander Domene und Björn Stahl ein.
+Am **19.10.2022**, lädt die Java User Group Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **Nicht schon wieder ein Talk über Monolithen** mit Alexander Domene und Björn Stahl ein.
 
 <!--more-->
 ## Der Vortrag

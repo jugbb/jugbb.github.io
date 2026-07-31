@@ -17,7 +17,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-The Java Usergroup Berlin-Brandenburg and our partner INNOQ invite you to the talks "**Data Mesh**" by Jochen Christ and "**Is Your Java Application Slow? Check Out These Open-Source Profilers**" by Johannes Bechberger on April the 25th.
+The Java User Group Berlin-Brandenburg and our partner INNOQ invite you to the talks "**Data Mesh**" by Jochen Christ and "**Is Your Java Application Slow? Check Out These Open-Source Profilers**" by Johannes Bechberger on April the 25th.
 <!--more-->
 The talk will be held in English.
 

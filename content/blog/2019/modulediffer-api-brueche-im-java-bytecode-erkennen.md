@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Mittwoch, den 30. Oktober 2019** lädt die Java Usergroup Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **ModuleDiffer – API Brüche im Java Bytecode erkennen** mit Philip Schmiel ein.
+Am **Mittwoch, den 30. Oktober 2019** lädt die Java User Group Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **ModuleDiffer – API Brüche im Java Bytecode erkennen** mit Philip Schmiel ein.
 <!--more-->
 ## Der Vortrag
 

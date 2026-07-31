@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Montag, den 3. Juni 2019** lädt die Java Usergroup Berlin-Brandenburg zusammen mit der [Europace AG](https://www.europace.de/) zum Vortrag **Going Fullstack** mit Serafima Gurevich  ein.
+Am **Montag, den 3. Juni 2019** lädt die Java User Group Berlin-Brandenburg zusammen mit der [Europace AG](https://www.europace.de/) zum Vortrag **Going Fullstack** mit Serafima Gurevich  ein.
 
 _**The talk will be held in English.**_
 

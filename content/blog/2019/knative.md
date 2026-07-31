@@ -17,7 +17,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Dienstag, den 18. Juni 2019** lädt die Java Usergroup Berlin-Brandenburg zu den beiden Vorträgen **Introduction to Knative** und **Developing and running Kafka based applications on Kubernetes** mit Matthias Wessendorf und Jakub Scholz von [Red Hat](https://www.redhat.com/de/) ein.
+Am **Dienstag, den 18. Juni 2019** lädt die Java User Group Berlin-Brandenburg zu den beiden Vorträgen **Introduction to Knative** und **Developing and running Kafka based applications on Kubernetes** mit Matthias Wessendorf und Jakub Scholz von [Red Hat](https://www.redhat.com/de/) ein.
 
 _**Both talks will be held in English.**_
 <!--more-->

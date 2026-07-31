@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Mittwoch, den 4. März 2020**, lädt die Java Usergroup Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum Vortrag **Think beyond the GUI** mit [Aminata Sidibe](https://twitter.com/wuschey) ein.
+Am **Mittwoch, den 4. März 2020**, lädt die Java User Group Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum Vortrag **Think beyond the GUI** mit [Aminata Sidibe](https://twitter.com/wuschey) ein.
 
 <!--more-->
 ## Der Vortrag

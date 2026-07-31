@@ -15,7 +15,7 @@ event_speaker:
 meetup_signup_url: https://www.meetup.com/de-DE/jug-bb/events/298688245/
 ---
 
-The Java Usergroup Berlin-Brandenburg and our partner Europace AG invite you to the talk "**Asynchronous Programming in Java using Virtual Threads**" by Dr. Venkat Subramaniam on February the 8th. 
+The Java User Group Berlin-Brandenburg and our partner Europace AG invite you to the talk "**Asynchronous Programming in Java using Virtual Threads**" by Dr. Venkat Subramaniam on February the 8th. 
 <!--more-->
 The talk will be held in English.
 

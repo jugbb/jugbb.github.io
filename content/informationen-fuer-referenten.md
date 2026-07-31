@@ -3,7 +3,7 @@ title: "Informationen für Referenten"
 date: 2013-12-27
 ---
 
-Auf dieser Seite haben wir die wichtigsten Informationen für an einem Vortrag vor der Java Usergroup Berlin-Brandenburg interessierte Referenten zusammengestellt.
+Auf dieser Seite haben wir die wichtigsten Informationen für an einem Vortrag vor der Java User Group Berlin-Brandenburg interessierte Referenten zusammengestellt.
 Bei darüber hinausgehenden Fragen freuen wir uns über eine direkte [Kontaktaufnahme](kontakt.html).
 
 ## Wer kann vor der JUG einen Vortrag halten?
@@ -49,4 +49,4 @@ Bei darüber hinausgehenden Fragen freuen wir uns über eine direkte [Kontaktauf
 ## Kann die JUG eventuell anfallende Kosten übernehmen?
 
   Leider nein.
-  Die Java Usergroup ist arm wie eine Kirchenmaus und lebt von ehrenamtlichen Engagement und der Unterstützung vieler Unternehmen und Organisationen in der Region.
+  Die Java User Group ist arm wie eine Kirchenmaus und lebt von ehrenamtlichen Engagement und der Unterstützung vieler Unternehmen und Organisationen in der Region.
