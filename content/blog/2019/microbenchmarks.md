@@ -1,7 +1,10 @@
 ---
-title: "Microbenchmarks – Wer nicht weiss was er misst misst Mist"
+title: "Microbenchmarks – Wer nicht weiss was er misst, misst Mist"
 date: 2019-04-14
 author: Oliver B. Fischer
+description: >
+  Am Dienstag, den 30. April 2019 lädt die Java Usergroup Berlin-Brandenburg zu Microbenchmarks – Wer nicht weiss was er misst, misst Mist mit Björn Stahl ein.
+  
 
 todo: yes
 
@@ -16,13 +19,11 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Dienstag, den 30. April 2019** lädt die Java Usergroup Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **Microbenchmarks – Wer nicht weiss was er misst misst Mist** mit Björn Stahl ein.
+Am **Dienstag, den 30. April 2019** lädt die Java Usergroup Berlin-Brandenburg und [LucaNet AG](https://www.lucanet.com/de/) zum Vortrag **Microbenchmarks – Wer nicht weiss was er misst, misst Mist** mit Björn Stahl ein.
 
-_The talk will be held in German._
-<!--more-->
 ## Der Vortrag
 
-**Microbenchmarks – Wer nicht weiss was er misst misst Mist** (_Björn Stahl_)
+**Microbenchmarks – Wer nicht weiss was er misst, misst Mist** (_Björn Stahl_)
 
 Die Performanceoptimierung ist ein sehr spannendes Feld in der Softwareentwicklung.
 Es ist in einigen Situationen unerlässlich bestimmte Implementierungen gegeneinander zu vergleichen.

@@ -17,9 +17,6 @@ event_speaker:
 
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
-Todo Hier kommt ein kürzeres Summary hin
-<!--more-->
-
 Please join us for an evening of OSGi in Berlin on Tuesday February 19.
 The OSGi Alliance is holding its Expert Group meetings in town that week and we are pleased to have secured some interesting talks from them covering OSGi and Java 9 and beyond, Realtime OSGi and the edge, and also a look at a number of popular patterns to use with OSGi.
 
