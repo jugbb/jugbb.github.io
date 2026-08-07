@@ -16,6 +16,8 @@ Daher möchten wir uns an dieser Stelle bei allen denen herzlich bedanken, die u
 
 ## Freunde 2025
 
+* [InnoQ](http://www.innoq.com)
+
 ## Freunde 2024
 
 * [InnoQ](http://www.innoq.com)
