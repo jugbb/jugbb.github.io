@@ -21,6 +21,7 @@ Daher möchten wir uns an dieser Stelle bei allen denen herzlich bedanken, die u
 * [codecentric AG](https://www.codecentric.de/)
 * [Europace AG](https://www.europace.de/)
 * [InnoQ](http://www.innoq.com)
+* [JetBrains](https://www.jetbrains.com/)
 
 ## Freunde 2024
 
