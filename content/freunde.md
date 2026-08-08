@@ -17,6 +17,7 @@ Daher möchten wir uns an dieser Stelle bei allen denen herzlich bedanken, die u
 ## Freunde 2025
 
 * [InnoQ](http://www.innoq.com)
+* [Europace AG](https://www.europace.de/)
 
 ## Freunde 2024
 
