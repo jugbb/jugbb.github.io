@@ -17,8 +17,8 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Dienstag, dem 17. September 2019**, lädt die Java User Group Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum ersten Teil des Vortrags **Shenandoah GC** mit [Aleksey Shipilëv](https://shipilev.net/) ein.
-Der zweite Teil des Vortrags wird am 24. September 2019 gehalten werden.
+Am **Dienstag, dem 17. September 2019**, lädt die Java User Group Berlin-Brandenburg und [INNOQ](https://www.innoq.com) zum ersten Teil des Vortrags **Shenandoah GC** mit [Aleksey Shipilëv](https://shipilev.net/) ein.
+Der zweite Teil des Vortrags wird am 24. September 2019 gehalten werden.
 
 <!--more-->
 ## Der Vortrag

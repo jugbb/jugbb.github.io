@@ -17,7 +17,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Mittwoch, dem 16. Mai 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit der [adesso AG](https://www.adesso.de/de/) zum Vortrag **Aktuelle und zukünftige Versionen vom Oracle JDK & OpenJDK** mit Wolfgang Weigend von [Oracle Deutschland](http://www.oracle.com/) ein.
+Am **Mittwoch, dem 16. Mai 2018**, lädt die Java User Group Berlin-Brandenburg zusammen mit der [adesso AG](https://www.adesso.de/de/) zum Vortrag **Aktuelle und zukünftige Versionen vom Oracle JDK & OpenJDK** mit Wolfgang Weigend von [Oracle Deutschland](http://www.oracle.com/) ein.
 
 ## Der Vortrag
 

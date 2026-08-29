@@ -12,7 +12,7 @@ event_seats: 'n/a'
 meetup_signup_url: https://www.meetup.com/de-DE/jug-bb/events/316809992/
 ---
 
-Am **Mittwoch, dem 14. Oktober 2026**, laden die Java User Group Berlin-Brandenburg, das **Berlin Technology Centre der Deutschen Bank** und **JCON** zu den **GitHub Copilot DevDays** ein.
+Am **Mittwoch, dem 14. Oktober 2026**, laden die Java User Group Berlin-Brandenburg, das **Berlin Technology Centre der Deutschen Bank** und **JCON** zu den **GitHub Copilot DevDays** ein.
 Von **18:00 bis 21:00 Uhr** erwarten euch Live-Demos, praktische Übungen und gemeinsamer Austausch rund um die Softwareentwicklung mit KI.
 
 <!--more-->
