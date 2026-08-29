@@ -16,7 +16,7 @@ event_speaker:
 meetup_signup_url: https://www.meetup.com/jug-bb/events/310954486/
 ---
 
-Am **Mittwoch, dem 17. September 2025**, lädt die Java User Group Berlin-Brandenburg und [innoQ](https://www.innoq.com) zu zwei Vorträgen mit anschließender Ticketverlosung für die BED-Con ein.
+Am **Mittwoch, dem 17. September 2025**, lädt die Java User Group Berlin-Brandenburg und [innoQ](https://www.innoq.com) zu zwei Vorträgen mit anschließender Ticketverlosung für die BED-Con ein.
 
 <!--more-->
 

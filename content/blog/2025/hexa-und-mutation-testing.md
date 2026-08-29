@@ -15,7 +15,7 @@ event_speaker:
 meetup_signup_url: https://www.meetup.com/jug-bb/events/306016433/
 ---
 
-Am **Donnerstag, dem 6. März 2025**, lädt die Java User Group Berlin-Brandenburg und [Europace AG](https://www.europace.de) zu zwei Vorträgen ein.
+Am **Donnerstag, dem 6. März 2025**, lädt die Java User Group Berlin-Brandenburg und [Europace AG](https://www.europace.de) zu zwei Vorträgen ein.
 
 <!--more-->
 

@@ -17,7 +17,7 @@ event_speaker:
 meetup_signup_url: http://meetup.com/jug-bb/
 ---
 
-Am **Donnerstag, dem 7. November 2019**, lädt die Java User Group Berlin-Brandenburg zum Vortrag **Kubernetes-Native Java with Quarkus** mit [Alex Soto](https://twitter.com/alexsotob?lang=de) ein.
+Am **Donnerstag, dem 7. November 2019**, lädt die Java User Group Berlin-Brandenburg zum Vortrag **Kubernetes-Native Java with Quarkus** mit [Alex Soto](https://twitter.com/alexsotob?lang=de) ein.
 <!--more-->
 
 ## Der Vortrag
