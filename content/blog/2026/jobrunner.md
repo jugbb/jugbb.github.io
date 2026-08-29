@@ -7,6 +7,7 @@ event_date:  2026-10-07T18:00:00+02:00
 event_start: 2026-10-07T18:30:00+02:00
 event_host: codecentric
 event_lang: en
+event_seats: 60
 event_speaker:
   - Ronald Dehuysser
 
@@ -16,7 +17,8 @@ meetup_signup_url: https://www.meetup.com/de-DE/jug-bb/events/316325588/
 Am **07.10.2026**, lädt die Java User Group Berlin-Brandenburg und <PARTNER> zum Vortrag **A Java 8 lambda and JobRunr is all you need for distributed (batch) processing!** mit Ronald Dehuysser ein.
 
 <!--more-->
-## Der Vortrag
+## The Talk
+
 
 **A Java 8 lambda and JobRunr is all you need for distributed (batch) processing!** (Ronald Dehuysser): 
 
@@ -28,7 +30,12 @@ After this session, you’ll have a good idea of what JobRunr is, how it does it
 
 ## Der Redner / Die Rednerin
 
-bio
+{{< speaker initials="RD" >}}
+**Ronald Dehuysser** is a software architect from Belgium and creator of JobRunr. 
+Seamlessly integrating with Spring Boot, Micronaut, and Quarkus, JobRunr is Ronald's solution for efficient distributed background job processing.
+
+When he's not working on open-source software, he is probably either rock climbing or sipping a fine Belgian Duvel beer.
+{{< /speaker >}}
 
 ## Der Treffpunkt
 
