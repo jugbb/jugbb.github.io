@@ -60,8 +60,8 @@ Google-Maps-Adresse
 - 18:30 Doors open
 - 19:00 Start of the talk
 {{< /agenda >}}
-- 
-Afterwards there will be time for networking and a chat.
+
+Afterwards, there will be time for networking and a chat.
 
 ODER
 
