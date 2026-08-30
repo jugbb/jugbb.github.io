@@ -14,11 +14,10 @@ event_speaker:
 meetup_signup_url: https://www.meetup.com/de-DE/jug-bb/events/316325588/
 ---
 
-Am **07.10.2026**, lädt die Java User Group Berlin-Brandenburg und <PARTNER> zum Vortrag **A Java 8 lambda and JobRunr is all you need for distributed (batch) processing!** mit Ronald Dehuysser ein.
+The Java User Group Berlin-Brandenburg and our partner [codecentric](https://www.codecentric.de/) invite you to the talk **A Java 8 lambda and JobRunr is all you need for distributed (batch) processing!** by Ronald Dehuysser on **October the 7th, 2026**.
 
 <!--more-->
 ## The Talk
-
 
 **A Java 8 lambda and JobRunr is all you need for distributed (batch) processing!** (Ronald Dehuysser): 
 
@@ -28,7 +27,7 @@ During this entertaining session, I will introduce you to JobRunr: the ultimate 
 
 After this session, you’ll have a good idea of what JobRunr is, how it does its magic, and how it will allow you to focus on delivering value to your end users instead of implementing scheduling over and over again.
 
-## Der Redner / Die Rednerin
+## The Speaker
 
 {{< speaker initials="RD" >}}
 **Ronald Dehuysser** is a software architect from Belgium and creator of JobRunr. 
@@ -50,10 +49,11 @@ https://maps.app.goo.gl/3Wthrtk1rxvjdzDj6
 {{< agenda >}}
 - 18:30 Doors open
 - 19:00 Start of the talk
-  {{< /agenda >}}
+{{< /agenda >}}
 
-Anschließend gibt es die Möglichkeit für Networking und Plausch.
+Afterwards, there will be time for networking and a chat.
 
-## Die Anmeldung
+## The Registration
 
-Über eine Voranmeldung zu der Veranstaltung über die [Meetup-Gruppe der JUG Berlin-Brandenburg](http://meetup.com/jug-bb/) würden wir uns freuen, jedoch ist die Anmeldung nicht zwingend erforderlich. Wir freuen uns auf jeden Teilnehmer.
+We would appreciate it if you could pre-register for the event via the [JUG Berlin-Brandenburg Meetup Group](https://www.meetup.com/jug-bb/), but registration is not mandatory.
+We look forward to seeing everyone.
