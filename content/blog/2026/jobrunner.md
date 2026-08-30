@@ -37,7 +37,7 @@ Seamlessly integrating with Spring Boot, Micronaut, and Quarkus, JobRunr is Rona
 When he's not working on open-source software, he is probably either rock climbing or sipping a fine Belgian Duvel beer.
 {{< /speaker >}}
 
-## Der Treffpunkt
+## The Location
 
 {{< location >}}
 codecentric AG
@@ -45,12 +45,12 @@ Köpenicker Str 31, 10179 Berlin
 https://maps.app.goo.gl/3Wthrtk1rxvjdzDj6
 {{< /location >}}
 
-## Der Ablauf
+## The Program
 
 {{< agenda >}}
-- 18:30 Beginn des Vortrags
-- 19:00 Beginn des Vortrags
-{{< /agenda >}}
+- 18:30 Doors open
+- 19:00 Start of the talk
+  {{< /agenda >}}
 
 Anschließend gibt es die Möglichkeit für Networking und Plausch.
 
