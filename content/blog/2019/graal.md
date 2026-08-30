@@ -10,6 +10,7 @@ event_date: 2019-05-23T18:30:00+02:00
 event_start: 2019-05-23T19:00:00+02:00
 event_host: InnoQ Deutschland
 event_lang: de
+event_seats: 'n/a'
 event_speaker:
   - Jan Stępień
 

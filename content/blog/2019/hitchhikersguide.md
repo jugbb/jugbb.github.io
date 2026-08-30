@@ -10,6 +10,7 @@ event_date: 2019-01-30T18:30:00+02:00
 event_start: 2019-01-30T19:00:00+02:00
 event_host: Europace
 event_lang: de
+event_seats: 'n/a'
 event_speaker:
   - Uwe Friedrichsen
 

@@ -10,6 +10,7 @@ event_date: 2024-04-25T18:00:00+02:00
 event_start: 2024-04-25T18:30:00+02:00
 event_host: innoQ Deutschland
 event_lang: en
+event_seats: 'n/a'
 event_speaker:
   - Jochen Christ
   - Johannes Bechberger

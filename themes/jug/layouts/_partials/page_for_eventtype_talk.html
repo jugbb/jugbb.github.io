@@ -14,6 +14,10 @@
     {{ errorf "Parameter event_lang fehlt in %s" .File.Path }}
 {{ end }}
 
+{{ if and (not .Params.event_seats) (not (eq .Params.event_seats "n/a")) }}
+    {{ errorf "Parameter event_seats fehlt in %s" .File.Path }}
+{{ end }}
+
 {{ if not .Params.meetup_signup_url }}
     {{ errorf "Parameter meetup_signup_url fehlt in %s" .File.Path }}
 {{ end }}

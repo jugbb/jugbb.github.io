@@ -10,6 +10,7 @@ event_date: 2019-09-24T18:30:00+02:00
 event_start: 2019-09-24T19:00:00+02:00
 event_host: innoQ Deutschland
 event_lang: en
+event_seats: 'n/a'
 event_speaker:
   - Aleksey Shipilëv
 

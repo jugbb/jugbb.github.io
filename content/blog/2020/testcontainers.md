@@ -8,6 +8,7 @@ event_date: 2020-02-09T18:30:00+02:00
 event_start: 2020-02-09T19:00:00+02:00
 event_host: LucaNet
 event_lang: en
+event_seats: 'n/a'
 event_speaker:
   - Sergei Egorov
 

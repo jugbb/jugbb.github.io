@@ -8,6 +8,7 @@ event_date: 2020-01-07T18:30:00+02:00
 event_start: 2020-01-07T19:00:00+02:00
 event_host: idealo internet 
 event_lang: en
+event_seats: 'n/a'
 event_speaker:
   - Cay Horstmann
   

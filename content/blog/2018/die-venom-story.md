@@ -8,6 +8,7 @@ event_date: 2018-06-26T18:30:00+02:00
 event_start: 2018-06-26T19:00:00+02:00
 event_host: E-Post Development
 event_lang: de
+event_seats: 'n/a'
 event_speaker:
   - Dr. Gernot Starke
 
