@@ -10,6 +10,7 @@ event_date: 2019-04-24T18:30:00+02:00
 event_start: 2019-04-24T19:00:00+02:00
 event_host: idealo internet
 event_lang: de
+event_seats: 'n/a'
 event_speaker:
   - Mark Paluch
 

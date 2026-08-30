@@ -8,6 +8,7 @@ event_date: 2018-09-12T18:30:00+02:00
 event_start: 2018-09-12T19:00:00+02:00
 event_host: Delivery Hero
 event_lang: en
+event_seats: 'n/a'
 event_speaker:
   - Georg Köster
 

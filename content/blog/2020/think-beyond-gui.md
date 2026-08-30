@@ -10,6 +10,7 @@ event_date: 2020-03-04T18:30:00+02:00
 event_start: 2020-03-04T19:00:00+02:00
 event_host: innoQ Deutschland
 event_lang: de
+event_seats: 'n/a'
 event_speaker:
   - Aminata Sidibe
 

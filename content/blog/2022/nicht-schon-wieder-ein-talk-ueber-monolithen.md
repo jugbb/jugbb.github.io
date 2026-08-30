@@ -10,6 +10,7 @@ event_date: 2022-10-19T18:00:00+02:00
 event_start: 2022-10-19T18:30:00+02:00
 event_host: LucaNet
 event_lang: de
+event_seats: 'n/a'
 event_speaker:
   - Alexander Domene
   - Björn Stahl

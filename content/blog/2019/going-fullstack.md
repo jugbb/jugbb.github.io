@@ -10,6 +10,7 @@ event_date: 2019-06-03T18:30:00+02:00
 event_start: 2019-06-03T19:00:00+02:00
 event_host: Europace
 event_lang: en
+event_seats: 'n/a'
 event_speaker:
   - Serafima Gurevich
 

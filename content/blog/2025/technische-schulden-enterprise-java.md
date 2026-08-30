@@ -8,6 +8,7 @@ event_date: 2025-09-17T18:30:00+02:00
 event_start: 2025-09-17T19:00:00+02:00
 event_host: innoQ Deutschland
 event_lang: de
+event_seats: 'n/a'  
 event_speaker:
   - Carola Lilienthal
   - Lars Roewekamp
