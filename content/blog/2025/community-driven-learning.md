@@ -59,7 +59,7 @@ https://www.google.com/maps/place/Europace+AG/@52.5299083,13.3691551,17z/data=!3
 - 19:00 Start of the talk
 {{< /agenda >}}
 
-Afterwards there will be time for networking and a chat.
+Afterwards, there will be time for networking and a chat.
 
 ## The Registration
 

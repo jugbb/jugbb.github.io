@@ -61,7 +61,7 @@ https://www.google.com/maps/search/codecentric+AG+K%C3%B6penickerstr.+31+Berlin
 - 19:00 Start of the talk
 {{< /agenda >}}
 
-Afterwards there will be time for networking and a chat.
+Afterwards, there will be time for networking and a chat.
 
 ## The Registration
 
