@@ -26,7 +26,7 @@
                 <div class="event-aside">
                     <a href="{{ .Params.meetup_signup_url }}" target="_blank" class="event-cta">Jetzt anmelden <span>→</span></a>
                     <div class="event-stats">
-                        {{ if .Site.Params.event_seats }}
+                        {{ if and (.Params.event_seats) (not (eq .Params.event_seats "n/a")) }}
                             <div><div class="event-stat-num">
                                 {{ .Params.event_seats }}+
                             </div>Plätze</div>
