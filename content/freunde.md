@@ -12,6 +12,7 @@ Daher möchten wir uns an dieser Stelle bei allen denen herzlich bedanken, die u
 ## Freunde 2026
 
 * [Capgemini Deutschland](https://www.capgemini.com/de-de/)
+* [codecentric AG](https://www.codecentric.de/)
 * [IBM Deutschland ](https://www.ibm.com/de-de)
 
 ## Freunde 2025
