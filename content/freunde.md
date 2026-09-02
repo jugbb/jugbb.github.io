@@ -16,6 +16,8 @@ Daher möchten wir uns an dieser Stelle bei allen denen herzlich bedanken, die u
 * [IBM Deutschland ](https://www.ibm.com/de-de)
 
 ## Freunde 2025
+
+* [adesso AG](https://www.adesso.de/de/)
 * [codecentric AG](https://www.codecentric.de/)
 * [Europace AG](https://www.europace.de/)
 * [InnoQ](http://www.innoq.com)
