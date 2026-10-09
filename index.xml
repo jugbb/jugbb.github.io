@@ -6,8 +6,15 @@
     <description>Recent content on JUG Berlin-Brandenburg</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Sat, 29 Aug 2026 14:19:29 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 15:26:34 +0200</lastBuildDate>
     <atom:link href="https://jug-berlin-brandenburg.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Copilot DevDays bei der Deutschen Bank</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/github-copilot-devdays/</link>
+      <pubDate>Fri, 02 Oct 2026 15:26:34 +0200</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/github-copilot-devdays/</guid>
+      <description>&lt;p&gt;Am &lt;strong&gt;Mittwoch, dem 14. Oktober 2026&lt;/strong&gt;, laden die Java User Group Berlin-Brandenburg, das &lt;strong&gt;Berlin Technology Centre der Deutschen Bank&lt;/strong&gt; und &lt;strong&gt;JCON&lt;/strong&gt; zu den &lt;strong&gt;GitHub Copilot DevDays&lt;/strong&gt; ein.&#xA;Von &lt;strong&gt;18:00 bis 21:00 Uhr&lt;/strong&gt; erwarten euch Live-Demos, praktische Übungen und gemeinsamer Austausch rund um die Softwareentwicklung mit KI.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Java 8 lambda and JobRunr is all you need for distributed (batch) processing!</title>
       <link>https://jug-berlin-brandenburg.de/blog/2026/jobrunner/</link>
