@@ -1,5 +1,5 @@
 ---
-title: "JUG at JetBrains with Teodor, Björn Stahl, Gernot Starke and Benjamin Wolf"
+title: "JUG at JetBrains with Teodor Irkhin, Björn Stahl, Gernot Starke and Benjamin Wolf"
 date: 2025-06-01T00:00:00+02:00
 author: Sandra Ahlgrimm
 
