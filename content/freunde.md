@@ -13,13 +13,13 @@ Daher möchten wir uns an dieser Stelle bei allen denen herzlich bedanken, die u
 
 * [Capgemini Deutschland](https://www.capgemini.com/de-de/)
 * [codecentric AG](https://www.codecentric.de/)
-* [IBM Deutschland ](https://www.ibm.com/de-de)
 
 ## Freunde 2025
 
 * [adesso AG](https://www.adesso.de/de/)
 * [codecentric AG](https://www.codecentric.de/)
 * [Europace AG](https://www.europace.de/)
+* [IBM](https://www.ibm.com/de-de)
 * [InnoQ](http://www.innoq.com)
 * [JetBrains](https://www.jetbrains.com/)
 
