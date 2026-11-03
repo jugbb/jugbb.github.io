@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Event Sourcing: Simpler Persistence Without ORMs | JUG Berlin-Brandenburg</title>
+
+
+<meta name="description" content="The Java User Group Berlin-Brandenburg and invites you to the talk Event Sourcing: Simpler Persistence Without ORMs by Ted M. Young on November the 10th, 2026.">
+
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/android-chrome-192x192.png" sizes="192x192" type="image/png">
+<link rel="icon" href="/android-chrome-512x512.png" sizes="512x512" type="image/png">
+
+
+
+
+
+
+    
+    
+        
+            
+                <link rel="stylesheet" href="/css/jug.0f068a140ad1892f5e9b5f60cff8bb95677b79b8919059adda61ae31942651a5.css" integrity="sha256-DwaKFArRiS9em19gz/i7lWd7ebiRkFmt2mGuMZQmUaU=" crossorigin="anonymous">
+            
+        
+    
+
+
+
+
+</head>
+<body>
+ <header class="header">
+    
+
+
+<nav class="nav">
+    
+    <a href="/" class="nav-logo">
+        <span class="nav-logo-mark">{}</span>
+        <span>JUG BB</span>
+    </a>
+
+    <div class="nav-links">
+        
+
+        <a href="/" class="nav-link ">Home</a>
+
+    
+
+        
+
+        
+            <div class="nav-dropdown">
+                <a href="" class="nav-link nav-dropdown-toggle ">
+                    Informationen
+                </a>
+                <ul class="nav-dropdown-menu">
+                    
+                        <li>
+                            <a href="/informationen_zur_jug/" class="nav-link">
+                                Die JUG
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/informationen-fuer-referenten/" class="nav-link">
+                                Für Referenten
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/informationen-fuer-unterstuetzer/" class="nav-link">
+                                Für Unterstützer
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    
+
+        
+
+        
+            <a href="/kontakt/" class="nav-link ">
+                Kontakt
+            </a>
+        
+    
+
+        
+
+        
+            <a href="/impressum/" class="nav-link ">
+                Impressum
+            </a>
+        
+    
+
+        
+
+        
+            <a href="/archiv/" class="nav-link ">
+                Archiv
+            </a>
+        
+    
+
+        
+
+        
+            <a href="/freunde/" class="nav-link ">
+                Freunde
+            </a>
+        
+    
+    </div>
+</nav>
+
+
+  </header>
+
+  <main>
+    
+
+    
+    
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jug-main-container">
+
+    
+    <article class="detail-article">
+
+        <div class="eyebrow">
+            <span class="dot"></span>
+
+            
+                Vortrag
+            
+
+        </div>
+
+        <h1 class="event-detail-title">Event Sourcing: Simpler Persistence Without ORMs</h1>
+
+        <div class="detail-meta">
+            <span class="jdetail-chip">
+                    11.10.2026
+                            ·
+                            18:30
+
+            </span>
+            <span class="jdetail-chip">
+                n/a
+            </span>
+            
+                <span class="jdetail-chip">
+                    Ted M. Young
+                </span>
+            
+            <span class="jdetail-chip">
+                Eintritt frei
+            </span>
+
+        </div>
+
+        <p>The Java User Group Berlin-Brandenburg and invites you to the talk <strong>Event Sourcing: Simpler Persistence Without ORMs</strong> by Ted M. Young on <strong>November the 10th, 2026</strong>.</p>
+
+    <h2 id="the-talk">The Talk</h2>
+
+<p><strong>Event Sourcing: Simpler Persistence Without ORMs</strong> (<em>Ted M. Young</em>):</p>
+<p>Event Sourcing is not just a different way to persist data, but a different way of thinking about data.
+With ORMs like Hibernate, we have to consider query performance, fetch strategies, mapping domain models to database schemas, caching, etc.
+With Event Sourcing, we can use a few simple patterns to build our systems:</p>
+<ul>
+<li>Commands: user actions representing an intention, e.g., &ldquo;Buy Concert Ticket&rdquo;</li>
+<li>Events: meaningful changes to state as a result of executing Commands, e.g., &ldquo;Ticket Purchased&rdquo;</li>
+<li>Read Models: up-to-date views of Events, derived specifically for a particular way of looking at the data, e.g., &ldquo;My Tickets&rdquo;, or &ldquo;All Ticket Sales&rdquo;</li>
+</ul>
+<p>Need caching for the ticket sales report?
+That’s a Read Model.
+Display tickets for a Customer?
+That’s another Read Model, using the same principles to derive the desired view of state.
+Performance isn’t an issue, as replaying events is very fast.
+Even in a system with millions or billions of events, we only need to replay events related directly to a specific entity or state view.</p>
+<p>You’ll see what makes Event Sourcing a mindshift rather than just a different persistence mechanism: updates are just appends to a log, mapping objects is no longer needed, and you keep the history of changes to data, so you can always know what happened and ask questions you didn’t expect to have.</p>
+
+    <h2 id="the-speaker">The Speaker</h2>
+
+<div class="speaker">
+    <div class="speaker-avatar">
+        TY
+    </div>
+    <div class="speaker-body">
+        <strong>Ted M. Young</strong> is a Java technical coach and live coder.
+He&rsquo;s been in software development for over 30 years, following eXtreme Programming practices since 2000.
+Ted loves helping folks make their code more testable and teaches Test-Driven Development (TDD), Refactoring, Domain-Driven Design, and Event Sourcing through hands-on, shared experiences.
+Ted created the acclaimed &ldquo;JitterTed&rsquo;s TDD Game&rdquo; used at events and companies worldwide to help people understand the nuances and benefits of TDD in a fun way.
+    </div>
+</div>
+
+
+    <h2 id="the-location">The Location</h2>
+
+<p>We are currently looking for a host for this event.
+If you would like to be the host of this talk, please send a <a href="mailto:hallo@jug-berlin-brandenburg.de">mail</a>.</p>
+
+    <h2 id="the-program">The Program</h2>
+
+
+<div class="agenda">
+    
+        
+            
+        
+        
+            
+
+                
+                
+
+                
+
+                <div class="agenda-row">
+                    <span class="agenda-time">
+                        18:30
+                    </span>
+                    <span class="agenda-label">
+                        Open Doors
+                    </span>
+                </div>
+
+            
+        
+        
+            
+
+                
+                
+
+                
+
+                <div class="agenda-row">
+                    <span class="agenda-time">
+                        19:00
+                    </span>
+                    <span class="agenda-label">
+                        Official Opening
+                    </span>
+                </div>
+
+            
+        
+        
+            
+
+                
+                
+
+                
+
+                <div class="agenda-row">
+                    <span class="agenda-time">
+                        19:05
+                    </span>
+                    <span class="agenda-label">
+                        Talk – Event Sourcing: Simpler Persistence Without ORMs by Ted M. Young
+                    </span>
+                </div>
+
+            
+        
+        
+            
+
+                
+                
+
+                
+
+                <div class="agenda-row">
+                    <span class="agenda-time">
+                        20:00
+                    </span>
+                    <span class="agenda-label">
+                        Q&amp;A
+                    </span>
+                </div>
+
+            
+        
+        
+            
+
+                
+                
+
+                
+
+                <div class="agenda-row">
+                    <span class="agenda-time">
+                        20:30
+                    </span>
+                    <span class="agenda-label">
+                        Doors Close
+                    </span>
+                </div>
+
+            
+        
+        
+            
+        
+
+</div>
+
+<p>Afterward, there will be time for networking and a chat.</p>
+
+    <h2 id="the-registration">The Registration</h2>
+
+<p>We would appreciate it if you could pre-register for the event via the <a href="https://www.meetup.com/jug-bb/">JUG Berlin-Brandenburg Meetup Group</a>, but registration is not mandatory.
+We look forward to seeing everyone.</p>
+
+    </article>
+
+    <aside class="jug-sidebar-container" >
+
+        
+        <div class="register-card">
+            <div class="register-glow"></div>
+            <div class="register-inner">
+                <div class="register-weekday">
+                    Sonntag
+                </div>
+                <div class="register-date">
+                    11. Oktober 2026
+                </div>
+                <div class="register-time">
+                    Einlass
+                    18:30
+                    ·
+                    Beginn
+                    19:00
+                </div>
+
+                <div class="register-facts">
+
+                    <div class="register-fact">
+                        <span>Ort</span>
+                        <span>
+                            n/a
+                        </span>
+                    </div>
+
+                    <div class="register-fact">
+                        <span>Eintritt</span>
+                        <span>
+                            Frei
+                        </span>
+                    </div>
+
+                    
+
+                    <div class="register-fact">
+                        <span>Sprache</span>
+                        <span>
+                            EN
+                        </span>
+                    </div>
+                </div>
+
+                <a href="http://meetup.com/jug-bb/" target="_blank" class="register-btn">
+                    Jetzt anmelden <span>→</span>
+                </a>
+                <p class="register-note">Anmeldung über Meetup — nicht zwingend erforderlich</p>
+            </div>
+        </div>
+
+        <div class="card">
+    <h3 class="card-title">Aktuellste Artikel</h3>
+    <div class="recent-list">
+
+        
+
+            <a href="/blog/2026/event-sourcing-without-orm/" class="recent-item">
+                <span class="recent-num">01</span>
+                <span class="recent-title">Event Sourcing: Simpler Persistence Without ORMs</span>
+            </a>
+
+        
+
+            <a href="/blog/2026/github-copilot-devdays/" class="recent-item">
+                <span class="recent-num">02</span>
+                <span class="recent-title">GitHub Copilot DevDays bei der Deutschen Bank</span>
+            </a>
+
+        
+
+            <a href="/blog/2026/jobrunner/" class="recent-item">
+                <span class="recent-num">03</span>
+                <span class="recent-title">A Java 8 lambda and JobRunr is all you need for distributed (batch) processing!</span>
+            </a>
+
+        
+
+            <a href="/blog/2026/neunter-stammtisch-2026/" class="recent-item">
+                <span class="recent-num">04</span>
+                <span class="recent-title">JUG-Stammtisch im September 2026</span>
+            </a>
+
+        
+
+            <a href="/blog/2026/achter-stammtisch-2026/" class="recent-item">
+                <span class="recent-num">05</span>
+                <span class="recent-title">JUG-Stammtisch im August 2026</span>
+            </a>
+
+        
+    </div>
+</div>
+
+    </aside>
+</div>
+
+    
+
+
+  </main>
+
+
+ <footer class="footer">
+    <div class="footer-grid">
+        <div>
+            <a href="/" class="nav-logo">
+                <span class="nav-logo-mark">{}</span>
+                <span>JUG BB</span>
+            </a>
+
+            <p class="footer-desc">
+                Java User Group Berlin-Brandenburg.
+                Eine offene Community für die JVM-Welt in der Hauptstadtregion.
+            </p>
+        </div>
+        <div>
+            <div class="footer-heading">Navigation</div>
+            <div class="footer-col">
+                <a href="/">Home</a>
+
+                
+
+
+
+
+    
+        
+            
+                
+                    <a href="/informationen_zur_jug/">Informationen</a>
+                    
+                
+            
+                
+            
+                
+            
+        
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                
+
+
+
+
+    
+        
+            
+                
+            
+                
+            
+                
+            
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+        
+            <a href="/archiv/">Archiv</a>
+            
+        
+    
+
+    
+
+
+                
+
+
+
+
+    
+        
+            
+                
+            
+                
+            
+                
+            
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+        
+            <a href="/freunde/">Freunde</a>
+            
+        
+    
+
+
+            </div>
+        </div>
+        <div>
+            <div class="footer-heading">Rechtliches</div>
+            <div class="footer-col">
+                
+
+
+
+
+    
+        
+            
+                
+            
+                
+            
+                
+            
+        
+    
+
+    
+        
+            <a href="/kontakt/">Kontakt</a>
+            
+        
+    
+
+    
+
+    
+
+    
+
+
+                
+
+
+
+
+    
+        
+            
+                
+            
+                
+            
+                
+            
+        
+    
+
+    
+        
+            
+        
+    
+
+    
+        
+            <a href="/impressum/">Impressum</a>
+            
+        
+    
+
+    
+
+    
+
+
+            </div>
+        </div>
+        <div>
+            <div class="footer-heading">Folgen</div>
+            <div class="footer-col">
+                <a href="https://www.linkedin.com/company/jugbb/" target="_blank">LinkedIn</a>
+                <a href="http://meetup.com/jug-bb/" target="_blank">Meetup</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bar">
+        <div class="footer-bar-inner">
+            <span>&copy; 2026 JUG Berlin-Brandenburg</span>
+            <span>Made with Java ☕ and Hugo 🎩 in Berlin</span>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

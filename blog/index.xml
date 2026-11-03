@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on JUG Berlin-Brandenburg</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Fri, 02 Oct 2026 15:26:34 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 22:55:00 +0100</lastBuildDate>
     <atom:link href="https://jug-berlin-brandenburg.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event Sourcing: Simpler Persistence Without ORMs</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/event-sourcing-without-orm/</link>
+      <pubDate>Tue, 03 Nov 2026 22:55:00 +0100</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/event-sourcing-without-orm/</guid>
+      <description>&lt;p&gt;The Java User Group Berlin-Brandenburg and invites you to the talk &lt;strong&gt;Event Sourcing: Simpler Persistence Without ORMs&lt;/strong&gt; by Ted M. Young on &lt;strong&gt;November the 10th, 2026&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>GitHub Copilot DevDays bei der Deutschen Bank</title>
       <link>https://jug-berlin-brandenburg.de/blog/2026/github-copilot-devdays/</link>
