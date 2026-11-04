@@ -3,8 +3,8 @@ title: "Event Sourcing: Simpler Persistence Without ORMs"
 date: 2026-11-03T22:55:00+01:00
 author: 
 event_type: talk
-event_date:  2026-10-11T18:30:00+02:00
-event_start: 2026-10-11T19:00:00+02:00
+event_date:  2026-11-10T18:30:00+02:00
+event_start: 2026-11-10T19:00:00+02:00
 event_host: "n/a"
 event_lang: en
 event_seats: "n/a"
