@@ -10,8 +10,7 @@ event_lang: en
 event_seats: "n/a"
 event_speaker:
   - Ted M. Young
-# todo MeetUp-URL aktualisieren
-meetup_signup_url: http://meetup.com/jug-bb/
+meetup_signup_url: https://www.meetup.com/jug-bb/events/317277437
 ---
 
 <!-- 
