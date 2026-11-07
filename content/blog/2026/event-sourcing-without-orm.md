@@ -1,13 +1,13 @@
 ---
 title: "Event Sourcing: Simpler Persistence Without ORMs"
 date: 2026-11-03T22:55:00+01:00
-author: 
+author: Oliver B. Fischer
 event_type: talk
 event_date:  2026-11-10T18:30:00+02:00
 event_start: 2026-11-10T19:00:00+02:00
-event_host: "n/a"
+event_host: "PRODYNA"
 event_lang: en
-event_seats: "n/a"
+event_seats: 25
 event_speaker:
   - Ted M. Young
 meetup_signup_url: https://www.meetup.com/jug-bb/events/317277437
@@ -55,16 +55,11 @@ Ted created the acclaimed "JitterTed's TDD Game" used at events and companies wo
 
 ## The Location
 
-We are currently looking for a host for this event. 
-If you would like to be the host of this talk, please send a [mail](mailto:hallo@jug-berlin-brandenburg.de).
-
-<!-- todo Location
-{{< location >}} 
-Firma
-Adresse
-Google-Maps-Adresse
+{{< location >}}
+PRODYNA SE
+Jean-Monnet-Straße 2, 10557 Berlin
+https://maps.app.goo.gl/pTxmG6E1kkZfWhBR6
 {{< /location >}}
--->
 
 ## The Program
 
