@@ -6,8 +6,15 @@
     <description>Recent content on JUG Berlin-Brandenburg</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Tue, 03 Nov 2026 22:55:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://jug-berlin-brandenburg.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on (Modern?) Software Development - Observations From a 22-Year Journey</title>
+      <link>https://jug-berlin-brandenburg.de/blog/2026/thoughts-on-modern-software-development/</link>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0100</pubDate>
+      <guid>https://jug-berlin-brandenburg.de/blog/2026/thoughts-on-modern-software-development/</guid>
+      <description>&lt;p&gt;The Java User Group Berlin-Brandenburg and our partner &lt;a href=&#34;https://www.adesso.de/&#34;&gt;adesso SE&lt;/a&gt; invite you to the talk &lt;strong&gt;Thoughts on (Modern?) Software Development - Observations From a 22-Year Journey&lt;/strong&gt; by Alex Thurow on &lt;strong&gt;November the 24th, 2026&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Event Sourcing: Simpler Persistence Without ORMs</title>
       <link>https://jug-berlin-brandenburg.de/blog/2026/event-sourcing-without-orm/</link>
